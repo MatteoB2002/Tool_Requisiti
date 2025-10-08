@@ -64,9 +64,8 @@ Per installare le dipendenze necessarie, esegui:
 
 ```bash
 pip install flashtext
+```
 
-
----
 
 ##  Flusso operativo
 
@@ -103,9 +102,110 @@ python tool.py
 
 Lo script:
 - carica tutti i dizionari di categoria;
-- riconosce **parole singole** e **frasi multi-parola** presenti nei requisiti;
-- associa ogni occorrenza alla categoria di appartenenza;
-- genera un file CSV con le seguenti colonne:
+- Parsing dei requisiti (REQUIREMENT_LINE_PARSE_RX)
+
+#### 1️ Espressione Regolare per la Cattura dei Gruppi
+  ```bash
+  REQUIREMENT_LINE_PARSE_RX = re.compile(r"^(R\d+):\s*(\d+),\s*'(.*?)',\s*([A-Za-z0-9_]+)\s*$")
+  ```
+Questa regex cattura i seguenti gruppi:
+
+* **Gruppo 1 (`(R\d+)`)** → L'ID univoco del requisito (es. `R1`, `R123`).
+* **Gruppo 2 (`(\d+)`)** → L'ID numerico del progetto.
+* **Gruppo 3 (`(.*?)`)** → Il testo effettivo del requisito, racchiuso tra apici singoli.
+
+  > Il `*?` è un quantificatore *non-greedy* per catturare il testo fino al prossimo apice singolo.
+* **Gruppo 4 (`([A-Za-z0-9_]+)`)** → La classe del requisito (es. `PE`, `SE`, `US`).
+
+---
+
+#### 2️ Normalizzazione del Testo (`norm_word`, `norm_phrase`, `WORD_RX`)
+
+Per garantire che la corrispondenza dei termini sia **insensibile alla capitalizzazione** e a leggere variazioni di formattazione, lo script impiega funzioni di normalizzazione:
+
+* **`norm_word(s: str) -> str`**
+  Converte una singola parola in minuscolo e rimuove spazi bianchi all’inizio/fine.
+
+* **`norm_phrase(s: str) -> str`**
+  Per le frasi multi-parola, oltre alla conversione in minuscolo, sostituisce underscore (`_`) e trattini (`-`) con spazi, quindi comprime spazi multipli in un singolo spazio.
+
+  > Questo permette, ad esempio, a `"tempo_di_risposta"` o `"tempo-di-risposta"` di corrispondere a `"tempo di risposta"`.
+
+* La funzione **`get_words_from_text`** estrae tutte le singole parole da un testo utilizzando l’espressione regolare
+
+  ```python
+  WORD_RX = re.compile(r"\b\w+\b", flags=re.UNICODE)
+  ```
+
+  che cattura sequenze di caratteri alfanumerici.
+  Le parole estratte vengono poi normalizzate.
+
+---
+
+#### 3️ Caricamento Ottimizzato dei Dizionari (`load_all_dicts_optimized`)
+
+Questa è una delle aree chiave di ottimizzazione.
+Invece di caricare e confrontare ogni termine manualmente, lo script distingue tra **parole singole** e **frasi multi-parola**, per sfruttare al meglio le capacità di *FlashText*:
+
+* **Parole singole** → caricate in un dizionario Python (`singles_category_map: Dict[str, Set[str]]`).
+
+  * La chiave è la parola normalizzata.
+  * Il valore è un set di categorie a cui appartiene.
+  * L’uso di `set` evita duplicazioni per parole appartenenti a più categorie.
+
+* **Frasi multi-parola** → aggiunte a un oggetto `KeywordProcessor` della libreria **FlashText**.
+  FlashText è estremamente efficiente nella ricerca di molte parole chiave in un testo, molto più veloce delle espressioni regolari, specialmente con grandi dizionari.
+  Ogni frase è associata alla sua categoria.
+
+> Questa separazione e l’uso di FlashText garantiscono un caricamento veloce e una ricerca successiva altamente performante.
+
+---
+
+#### 4️ Tokenizzazione e Corrispondenza (`tokenize_and_match`)
+
+La funzione `tokenize_and_match` è responsabile di trovare tutte le corrispondenze (match) in un dato testo di requisito:
+
+* **Ricerca multi-parola (con FlashText)**
+  Usa
+
+  ```python
+  multi_phrase_processor.extract_keywords(requirement_text, span_info=True)
+  ```
+
+  per trovare tutte le frasi multi-parola presenti nel requisito.
+  L’opzione `span_info=True` restituisce non solo la categoria, ma anche gli indici di inizio e fine del match nel testo originale, consentendo di recuperare la frase esatta.
+
+* **Ricerca parole singole**
+  Vengono estratte tutte le parole singole dal requisito tramite `get_words_from_text`.
+  Ogni parola normalizzata viene confrontata con `singles_category_map`; in caso di corrispondenza, viene aggiunta alla lista dei match.
+
+Il risultato è una lista di tuple nel formato:
+`(parola/frase_trovata_originale, categoria, testo_requisito_originale)`
+La parola o frase viene mantenuta nella forma originale per una migliore leggibilità dell’output.
+
+---
+
+#### 5️ Generazione dell’Output (`Labeled_Dataset.csv`)
+
+Lo script itera su ogni requisito, esegue `tokenize_and_match` e formatta i risultati in un file CSV finale.
+
+* Scrive un’intestazione:
+
+  ```
+  ID;ID progetto;REQUISITO (testo);Classe dei requisiti;CATEGORIA;PAROLA
+  ```
+* Per ogni requisito:
+
+  * Se **non vengono trovate corrispondenze**, scrive una riga con `CATEGORIA` e `PAROLA` come `NULL`.
+  * Se **vengono trovate corrispondenze**, assicura che ogni coppia (termine, categoria) sia unica, evitando duplicati.
+
+Ogni match genera una riga separata nel CSV, consentendo un’analisi dettagliata di **quali termini e categorie** sono stati identificati per ciascun requisito.
+
+> L’uso di `buffering=1000000` nell’apertura del file di output migliora le performance di scrittura, riducendo le operazioni di I/O su disco — particolarmente utile con dataset di grandi dimensioni.
+
+---
+  
+- genera un file CSV con le seguenti colonne delimitate da  `;` :
 
 | ID | ID progetto | REQUISITO (testo) | Classe dei requisiti | CATEGORIA | PAROLA |
 |----|--------------|------------------|----------------------|------------|---------|
