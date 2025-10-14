@@ -1,26 +1,33 @@
-import re
-from pathlib import Path
-from typing import Dict, Set, List, Tuple
-from flashtext import KeywordProcessor
-import spacy
+import re #libreria standard per le espressioni regolari (pattern di testo usati per parsing e normalizzazione )
+from pathlib import Path # libreria standard per gestire i percorsi dei file 
+from typing import Dict, Set, List, Tuple #servono per favorire analisi statica (consentono di tipare variabili e funzioni)
+from flashtext import KeywordProcessor # libreria specializzata nel trovare e sostituire un gran numero di parole chiave all'interno di un testo 
+import spacy #libreria NLP avanzata per l'analisi del linguaggio naturale
 
-# --- Configurazione e Modello spaCy ---
-SPACY_MODEL_NAME = "en_core_web_sm"
+#Configurazione e Modello spaCy
+SPACY_MODEL_NAME = "en_core_web_sm" # Modello spaCy da usare (inglese piccolo, leggero e veloce)
+#per maggiore accuratezza, considerare modelli più grandi come "en_core_web_md" o "en_core_web_lg"
 
 try:
-    nlp = spacy.load(SPACY_MODEL_NAME)
+    nlp = spacy.load(SPACY_MODEL_NAME) #carica il modello spaCy specificato
     print(f"[DEBUG] Modello spaCy '{SPACY_MODEL_NAME}' caricato con successo.")
 except OSError:
     print(f"Errore: Modello spaCy '{SPACY_MODEL_NAME}' non trovato.")
     print(f"Assicurati di averlo installato eseguendo: python -m spacy download {SPACY_MODEL_NAME}")
     exit(1)
 
-# --- Espressioni Regolari e Funzioni di Normalizzazione ---
-WORD_RX = re.compile(r"\b\w+\b", flags=re.UNICODE)
+WORD_RX = re.compile(r"\b\w+\b", flags=re.UNICODE) #regex per identificare le parole singole all'interno di un testo 
+#\b = confine di parola, \w+ = uno o più caratteri di parola (lettere A- Z, numeri  e underscore)
+# re.UNICODE = flag che assicura che l'espressione regolare riconosca caratteri Unicode 
+
 REQUIREMENT_LINE_PARSE_RX = re.compile(r"^(R\d+):\s*(\d+),\s*'(.*?)',\s*([A-Za-z0-9_]+)\s*$")
+#regex per per leggere e interpretare ogni riga del file dei requisiti 
+# ^ = inizio della riga, (R\d+) = cattura ID requisito (es. R1, R2), :\s* = due punti seguiti da spazi,
+# (\d+) = cattura ID progetto (numerico), (.*?) = cattura testo requisito (qualsiasi carattere, non greedy),
+# ([A-Za-z0-9_]+) = cattura classe requisito (caratteri alfanumerici e underscore), \s*$ = spazi finali e fine riga
 
 def norm_word(s: str) -> str:
-    """Normalizza una singola parola (minuscolo, senza spazi)."""
+    # Normalizza una singola parola (minuscolo, senza spazi).
     return s.casefold().strip()
 
 def norm_phrase(s: str) -> str:
@@ -35,11 +42,10 @@ def norm_phrase(s: str) -> str:
     return " ".join(s.split()).casefold()
 
 # --- Mappatura Categorie-POS Tag SPECIFICA PER I  FILE DI DIZIONARIO ---
-# Questa mappa ora converte il nome del tuo file di dizionario (la "categoria")
-# nei POS tag di spaCy che ci aspetteremmo per quella categoria.
-# Ho incluso i POS tag universali di spaCy. Potresti voler affinare con i TAG specifici
-# se necessario (es. token.tag_ per 'NN', 'NNS', 'VBD', ecc.).
-# Per ora, i POS universali sono un buon punto di partenza.
+# Questa mappa converte il nome del file di dizionario nei POS tag di spaCy per quella categoria.
+#  per avere la certezza che una parola venga etichettata correttamente in base al suo contesto grammaticale.
+# sono inclusi i POS tag universali di spaCy che servono 
+
 POS_CATEGORY_MAPPING = {
     "adj": {"ADJ"},                      # Aggettivi
     "adv": {"ADV"},                      # Avverbi
@@ -54,26 +60,21 @@ POS_CATEGORY_MAPPING = {
     "vpastp": {"VERB", "AUX"},           # Verbi Passato Participe (se i tuoi files li dividono per forma)
     "vpastt": {"VERB", "AUX"},           # Verbi Passato (idem)
     "vpresentp": {"VERB", "AUX"},        # Verbi Presente Participe (idem)
-    # Importante: Se un tuo dizionario contiene parole che possono avere più POS tag validi
-    # (es. "display" può essere NOUN o VERB), dovrai decidere come gestire questo.
-    # Con questa mappa, se una parola è in "noun.txt" e anche in "verb.txt", e spaCy la vede come NOUN,
-    # verrà etichettata come "noun". Se spaCy la vede come VERB, verrà etichettata come "verb".
-    # L'ordine in cui i "potential_categories" vengono iterati può influenzare se una parola è in più dizionari.
+   
 }
 
 
-# --- Funzioni di Caricamento Dizionari e Matching ---
+# Funzioni di Caricamento Dizionari e Matching 
 def load_all_dicts_optimized(dir_path: Path):
     """
-    Carica tutti i dizionari da una directory in modo ottimizzato.
+    Carica tutti i dizionari da una directory.
     Usa KeywordProcessor per le frasi multi-parola.
-
     Ritorna:
       singles_category_map: Dict[str, Set[str]] - Mappa lemma normalizzato -> set di categorie
       multi_phrase_processor: KeywordProcessor - Processore per frasi multi-parola
     """
-    singles_category_map: Dict[str, Set[str]] = {}
-    multi_phrase_processor = KeywordProcessor(case_sensitive=False)
+    singles_category_map: Dict[str, Set[str]] = {} # mappa la parola normalizzata al suo set di categorie a cui appartiene
+    multi_phrase_processor = KeywordProcessor(case_sensitive=False) #inizializza un oggetto KeywordProcessor e dice a flasntext di ignorare le la differenza tra maiusc e minusc
 
     print(f"Caricamento dizionari ottimizzato dalla directory: {dir_path}")
     if not dir_path.is_dir():
@@ -102,7 +103,7 @@ def load_all_dicts_optimized(dir_path: Path):
             if not s:
                 continue
 
-            if (" " in s) or ("_" in s) or ("-" in s):
+            if (" " in s) or ("_" in s) or ("-" in s): # controllo se è una frase o una parola singola
                 p_norm = norm_phrase(s)
                 multi_phrase_processor.add_keyword(p_norm, categoria)
                 phrases_added += 1
@@ -129,28 +130,33 @@ def tokenize_and_match_with_spacy(requirement_text: str,
     
     found_matches: List[Tuple[str, str, str]] = []
     
-    # Processa il testo con spaCy
+    # Processa il testo con spaCy per ottenere token, lemmi e POS tag
     doc = nlp(requirement_text)
 
-    # --- DEBUG: Stampa i POS tag per il requisito corrente (solo per R1, da rimuovere dopo debug) ---
-    # Puoi adattare la condizione se vuoi vedere il debug solo per requisiti specifici
+
+    # per il debug 
     # if "R1: 1" in requirement_text: # Condizione per filtrare il requisito R1
     #     print(f"\n--- DEBUG SPAy: Requisito '{requirement_text}' ---")
     #     for token in doc:
     #         print(f"Token: '{token.text}', Lemma: '{token.lemma_}', POS: '{token.pos_}', Tag: '{token.tag_}'")
     #     print("----------------------------------\n")
-    # --- FINE DEBUG ---
+    # FINE
 
     # 1. Ricerca di frasi multi-parola con Flashtext (prioritaria)
-    multi_keywords_with_spans = multi_phrase_processor.extract_keywords(requirement_text, span_info=True)
-    
-    occupied_token_indices: Set[int] = set() 
 
+    multi_keywords_with_spans = multi_phrase_processor.extract_keywords(requirement_text, span_info=True) #ceerca  nei requirement text tutte le keyword che erano stte caricate nel keyword processor
+    # span_info=True fa in modo che ritorni anche gli indici di inizio e fine della keyword trovata
+
+    occupied_token_indices: Set[int] = set() #set per tenere traccia degli indici dei token che fanno gia parte di una frase. 
+
+#itero su ogni frase trovata da flashtext 
     for match_category, start_char, end_char in multi_keywords_with_spans:
         original_matched_text = requirement_text[start_char:end_char]
         found_matches.append((original_matched_text, match_category, requirement_text))
-        
-        for token in doc:
+        #estraggo la porzione di testo origninale che corrisponde alla frase trovata 
+        # e viene aggiunta alla lista dei risultati la tupla (testo originale, categoria, testo requisito)
+
+        for token in doc: #iterazione su token spaCy 
             if (token.idx >= start_char and token.idx < end_char) or \
                ((token.idx + len(token.text)) > start_char and (token.idx + len(token.text)) <= end_char) or \
                (token.idx <= start_char and (token.idx + len(token.text)) >= end_char):
@@ -166,20 +172,15 @@ def tokenize_and_match_with_spacy(requirement_text: str,
         if w_norm in singles_category_map:
             potential_categories = singles_category_map[w_norm]
             
-            # Qui applichiamo la logica di spaCy e la mappa Categoria-POS
+            # Qui uso la logica di spaCy e la mappa Categoria-POS
             matched_with_context = False
             
             # Prova a trovare una categoria che corrisponda al POS tag del token
-            # Itera sulle categorie potenziali in ordine alfabetico per una certa consistenza
+            # Itera sulle categorie potenziali in ordine alfabetico 
             # se una parola è in più dizionari con POS tag compatibili.
             for cat in sorted(list(potential_categories)):
                 expected_pos_tags = POS_CATEGORY_MAPPING.get(cat)
-                
-                # --- DEBUG: per la parola "display" ---
-                # if w_norm == "display" and "R1: 1" in requirement_text:
-                #     print(f"[DEBUG - DISPLAY] Lemma 'display' trovato. POS tag spaCy: '{token.pos_}'")
-                #     print(f"[DEBUG - DISPLAY] Categoria '{cat}': POS attesi nella mappa: {expected_pos_tags}. Il POS '{token.pos_}' è nel set: {token.pos_ in expected_pos_tags}")
-                # --- FINE DEBUG ---
+
 
                 if expected_pos_tags is not None and token.pos_ in expected_pos_tags:
                     found_matches.append((token.text, cat, requirement_text))
@@ -187,12 +188,13 @@ def tokenize_and_match_with_spacy(requirement_text: str,
                     break # Trovata la migliore corrispondenza contestuale, passa al prossimo token
             
             # Se la parola è presente nei dizionari ma non c'è una corrispondenza POS tag specifica
-            # nella mappa, la ignoriamo per essere selettivi. Se vuoi un fallback, dovresti modificare qui.
+            # nella mappa, la ignoriamo.
 
     return found_matches
 
-# --- Main Logic ---
+#  Main Logic
 if __name__ == "__main__":
+    # Configurazione dei percorsi dei file
     DICTIONARIES_DIR = Path("NewDict") 
     REQUIREMENTS_FILE = "Dataset_With_R_ID.txt"  
     OUTPUT_FILE = "Labeled_Dataset.csv" 
@@ -214,7 +216,7 @@ if __name__ == "__main__":
     
     processed_req_count = 0
     matches_found_total = 0
-
+#blocco di lettura e scrittura dei file con gestione delle eccezioni
     try:
         with open(REQUIREMENTS_FILE, 'r', encoding='utf-8') as req_f, \
              open(OUTPUT_FILE, 'w', encoding='utf-8', buffering=1000000) as out_f:
@@ -227,11 +229,11 @@ if __name__ == "__main__":
                 if not stripped_line:
                     continue
 
-                m = REQUIREMENT_LINE_PARSE_RX.match(stripped_line)
+                m = REQUIREMENT_LINE_PARSE_RX.match(stripped_line) #faccio il match della riga con la regex
                 if not m:
                     print(f"Avviso: Riga {line_num} non parsabile (ignorata): {stripped_line}")
                     continue
-
+                # estraggo le porzioni di testo catturate tra parentesi dalla regex 
                 req_id = m.group(1)
                 proj_id = m.group(2)
                 req_text = m.group(3)
@@ -239,15 +241,15 @@ if __name__ == "__main__":
                 
                 matches_for_current_req = tokenize_and_match_with_spacy(req_text, singles_category_map, multi_phrase_processor, nlp)
                 
-                unique_matches_for_this_req: Set[Tuple[str, str]] = set() 
-                output_lines_for_this_req: List[str] = []
+                unique_matches_for_this_req: Set[Tuple[str, str]] = set() # per tenere traccia delle coppie (categoria, parola/frase) già scritte per questo requisito
+                output_lines_for_this_req: List[str] = [] # per accumulare le righe di output per questo requisito
 
-                base_output_parts = [req_id, proj_id, req_text, req_class]
+                base_output_parts = [req_id, proj_id, req_text, req_class] # parti comuni della riga di output
 
-                if not matches_for_current_req:
+                if not matches_for_current_req:#se non ci sono match scrivo NULL nella categoria e nella parola
                     output_line = ";".join(base_output_parts + ["NULL", "NULL"]) + "\n"
                     out_f.write(output_line)
-                else:
+                else: #se ci sono match, scrivo una riga per ogni match unico
                     for original_word_phrase, category, _ in matches_for_current_req:
                         if (category, original_word_phrase) not in unique_matches_for_this_req:
                             output_line = ";".join(base_output_parts + [category, original_word_phrase]) + "\n"
