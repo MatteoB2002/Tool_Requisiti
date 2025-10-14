@@ -60,16 +60,16 @@ Analizza ed etichetta i requisiti usando i dizionari.
 
 ## Prerequisiti e Installazione
 
-### 🐍 Python
+###  Python
 Assicurati di avere **Python 3.7 o superiore** installato.
 
-### 📦 Librerie Necessarie
+###  Librerie Necessarie
 Installa le dipendenze richieste:
 ```bash
 pip install spacy flashtext
 ```
 
-### 💬 Modello spaCy
+###  Modello spaCy
 Scarica il modello linguistico inglese utilizzato da `tool.py`:
 ```bash
 python -m spacy download en_core_web_sm
@@ -81,7 +81,7 @@ python -m spacy download en_core_web_sm
 
 ### Passo 1: Preparazione dei File di Input
 - Inserisci il tuo dataset iniziale nella root del progetto, chiamato `Dataset.arff`.
-- Popola la directory `NewDict/` con i file `.txt` (uno per categoria).  
+- Scarica la directory chiamata NweDict e aggiungila nella root del progetto.  
   - Il nome del file diventa il nome della categoria (es. `noun.txt` → categoria *noun*).  
   - Ogni riga deve contenere una parola o frase.
 
@@ -94,7 +94,7 @@ python AssociazioneID.py
 
 Genera `Dataset_With_R_ID.txt` con righe come:
 ```
-R1: The system shall record user data.
+R1: 1,'The system shall refresh the display every 60 seconds.',PE
 ```
 
 ### Passo 3: Esegui `tool.py`
@@ -125,7 +125,7 @@ Requisito: `"The system must display a warning message."`
 Dizionari: `"display"` in `noun.txt` e `verb.txt`  
 spaCy identifica `"display"` come VERB → lo script assegna categoria `verb`.
 
-Questo approccio riduce drasticamente i falsi positivi grazie al contesto grammaticale.
+Questo approccio riduce drasticamente i match multipli grazie al contesto grammaticale.
 
 ---
 
@@ -153,5 +153,4 @@ Questo approccio riduce drasticamente i falsi positivi grazie al contesto gramma
 
 ---
 
-##  Autore
-Progetto sviluppato per attività di ricerca e analisi automatica dei **requisiti software** tramite NLP e dizionari semantici.
+
