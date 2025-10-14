@@ -38,7 +38,7 @@ Analizza ed etichetta i requisiti usando i dizionari.
 ##  Struttura della Directory
 
 ```bash
-/tuo-progetto/
+/progetto/
 │
 ├── NewDict/
 │   ├── noun.txt
