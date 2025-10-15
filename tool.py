@@ -60,7 +60,12 @@ POS_CATEGORY_MAPPING = {
     "vpastp": {"VERB", "AUX"},           # Verbi Passato Participe (se i tuoi files li dividono per forma)
     "vpastt": {"VERB", "AUX"},           # Verbi Passato (idem)
     "vpresentp": {"VERB", "AUX"},        # Verbi Presente Participe (idem)
-   
+    "Continuance": {"Continuance"}, 
+    "Directive": {"Directive"},
+    "Incompletes": {"Incompletes"},
+    "Optional": {"Optional"},
+    "Plurals": {"Plurals"},
+    "Vague": {"Vague"},
 }
 
 

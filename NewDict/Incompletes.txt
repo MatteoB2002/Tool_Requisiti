@@ -1,0 +1,12 @@
+as_defined
+as_specified
+in_addition
+is_defined
+not_defined
+not_determined
+but_not_limited_to
+to_be_advised
+to_be_defined
+to_be_determined
+to_be_resolved
+to_be_specified
