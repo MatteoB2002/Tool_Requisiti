@@ -1855,7 +1855,7 @@ R135;3;The system shall be able to display a printable summary of the system log
 R135;3;The system shall be able to display a printable summary of the system log.;F;det;the
 R135;3;The system shall be able to display a printable summary of the system log.;F;noun;log
 R136;3;The system shall contain contact information (e-mail and phone number) for all people relevant to the system  including (but not limited to) staff members  students  lecture instructors  clinical lab instructors  and clinical site administrators.;F;noun;phone number
-R136;3;The system shall contain contact information (e-mail and phone number) for all people relevant to the system  including (but not limited to) staff members  students  lecture instructors  clinical lab instructors  and clinical site administrators.;F;Incompletes;but not limited to
+R136;3;The system shall contain contact information (e-mail and phone number) for all people relevant to the system  including (but not limited to) staff members  students  lecture instructors  clinical lab instructors  and clinical site administrators.;F;Vague;but not limited to
 R136;3;The system shall contain contact information (e-mail and phone number) for all people relevant to the system  including (but not limited to) staff members  students  lecture instructors  clinical lab instructors  and clinical site administrators.;F;det;The
 R136;3;The system shall contain contact information (e-mail and phone number) for all people relevant to the system  including (but not limited to) staff members  students  lecture instructors  clinical lab instructors  and clinical site administrators.;F;noun;system
 R136;3;The system shall contain contact information (e-mail and phone number) for all people relevant to the system  including (but not limited to) staff members  students  lecture instructors  clinical lab instructors  and clinical site administrators.;F;mv;shall
@@ -1899,7 +1899,7 @@ R137;3;The system will use the stored e-mail addresses as a primary means of com
 R137;3;The system will use the stored e-mail addresses as a primary means of communicating information to affected parties.;F;preposition;to
 R137;3;The system will use the stored e-mail addresses as a primary means of communicating information to affected parties.;F;adj;affected
 R137;3;The system will use the stored e-mail addresses as a primary means of communicating information to affected parties.;F;noun;parties
-R138;3;The system will notify affected parties for routine communication purposes  including but not limited to informing students of upcoming offered classes (timeline) and what their schedule will be/shall be.;F;Incompletes;but not limited to
+R138;3;The system will notify affected parties for routine communication purposes  including but not limited to informing students of upcoming offered classes (timeline) and what their schedule will be/shall be.;F;Vague;but not limited to
 R138;3;The system will notify affected parties for routine communication purposes  including but not limited to informing students of upcoming offered classes (timeline) and what their schedule will be/shall be.;F;det;The
 R138;3;The system will notify affected parties for routine communication purposes  including but not limited to informing students of upcoming offered classes (timeline) and what their schedule will be/shall be.;F;noun;system
 R138;3;The system will notify affected parties for routine communication purposes  including but not limited to informing students of upcoming offered classes (timeline) and what their schedule will be/shall be.;F;mv;will
@@ -1923,7 +1923,7 @@ R138;3;The system will notify affected parties for routine communication purpose
 R138;3;The system will notify affected parties for routine communication purposes  including but not limited to informing students of upcoming offered classes (timeline) and what their schedule will be/shall be.;F;noun;schedule
 R138;3;The system will notify affected parties for routine communication purposes  including but not limited to informing students of upcoming offered classes (timeline) and what their schedule will be/shall be.;F;verb;be
 R138;3;The system will notify affected parties for routine communication purposes  including but not limited to informing students of upcoming offered classes (timeline) and what their schedule will be/shall be.;F;mv;shall
-R139;3;The system will notify affected parties when changes occur affecting clinicals  including but not limited to clinical section capacity changes  and clinical section cancellations.;F;Incompletes;but not limited to
+R139;3;The system will notify affected parties when changes occur affecting clinicals  including but not limited to clinical section capacity changes  and clinical section cancellations.;F;Vague;but not limited to
 R139;3;The system will notify affected parties when changes occur affecting clinicals  including but not limited to clinical section capacity changes  and clinical section cancellations.;F;det;The
 R139;3;The system will notify affected parties when changes occur affecting clinicals  including but not limited to clinical section capacity changes  and clinical section cancellations.;F;noun;system
 R139;3;The system will notify affected parties when changes occur affecting clinicals  including but not limited to clinical section capacity changes  and clinical section cancellations.;F;mv;will
@@ -1939,7 +1939,7 @@ R139;3;The system will notify affected parties when changes occur affecting clin
 R139;3;The system will notify affected parties when changes occur affecting clinicals  including but not limited to clinical section capacity changes  and clinical section cancellations.;F;noun;capacity
 R139;3;The system will notify affected parties when changes occur affecting clinicals  including but not limited to clinical section capacity changes  and clinical section cancellations.;F;conjunction;and
 R139;3;The system will notify affected parties when changes occur affecting clinicals  including but not limited to clinical section capacity changes  and clinical section cancellations.;F;noun;cancellations
-R140;3;The system will notify affected parties when changes occur affecting classes  including but not limited to class cancellations  class section detail changes  and changes to class offerings for a given quarter.;F;Incompletes;but not limited to
+R140;3;The system will notify affected parties when changes occur affecting classes  including but not limited to class cancellations  class section detail changes  and changes to class offerings for a given quarter.;F;Vague;but not limited to
 R140;3;The system will notify affected parties when changes occur affecting classes  including but not limited to class cancellations  class section detail changes  and changes to class offerings for a given quarter.;F;det;The
 R140;3;The system will notify affected parties when changes occur affecting classes  including but not limited to class cancellations  class section detail changes  and changes to class offerings for a given quarter.;F;noun;system
 R140;3;The system will notify affected parties when changes occur affecting classes  including but not limited to class cancellations  class section detail changes  and changes to class offerings for a given quarter.;F;mv;will
@@ -1962,7 +1962,7 @@ R140;3;The system will notify affected parties when changes occur affecting clas
 R140;3;The system will notify affected parties when changes occur affecting classes  including but not limited to class cancellations  class section detail changes  and changes to class offerings for a given quarter.;F;det;a
 R140;3;The system will notify affected parties when changes occur affecting classes  including but not limited to class cancellations  class section detail changes  and changes to class offerings for a given quarter.;F;verb;given
 R140;3;The system will notify affected parties when changes occur affecting classes  including but not limited to class cancellations  class section detail changes  and changes to class offerings for a given quarter.;F;noun;quarter
-R141;3;The system will notify affected parties when changes occur affecting cohorts  including but not limited to changes to the sequence for a cohort\92s program of study and changes to a given week\92s schedule (lab cancelled this week due to instructor illness).;F;Incompletes;but not limited to
+R141;3;The system will notify affected parties when changes occur affecting cohorts  including but not limited to changes to the sequence for a cohort\92s program of study and changes to a given week\92s schedule (lab cancelled this week due to instructor illness).;F;Vague;but not limited to
 R141;3;The system will notify affected parties when changes occur affecting cohorts  including but not limited to changes to the sequence for a cohort\92s program of study and changes to a given week\92s schedule (lab cancelled this week due to instructor illness).;F;adj;due to
 R141;3;The system will notify affected parties when changes occur affecting cohorts  including but not limited to changes to the sequence for a cohort\92s program of study and changes to a given week\92s schedule (lab cancelled this week due to instructor illness).;F;det;The
 R141;3;The system will notify affected parties when changes occur affecting cohorts  including but not limited to changes to the sequence for a cohort\92s program of study and changes to a given week\92s schedule (lab cancelled this week due to instructor illness).;F;noun;system
@@ -1991,7 +1991,7 @@ R141;3;The system will notify affected parties when changes occur affecting coho
 R141;3;The system will notify affected parties when changes occur affecting cohorts  including but not limited to changes to the sequence for a cohort\92s program of study and changes to a given week\92s schedule (lab cancelled this week due to instructor illness).;F;noun;week
 R141;3;The system will notify affected parties when changes occur affecting cohorts  including but not limited to changes to the sequence for a cohort\92s program of study and changes to a given week\92s schedule (lab cancelled this week due to instructor illness).;F;noun;instructor
 R141;3;The system will notify affected parties when changes occur affecting cohorts  including but not limited to changes to the sequence for a cohort\92s program of study and changes to a given week\92s schedule (lab cancelled this week due to instructor illness).;F;noun;illness
-R142;3;The system will notify affected parties when changes occur affecting specific students  including but not limited to changing a student\92s status from full time to part time and moving a student to a different clinical section.;F;Incompletes;but not limited to
+R142;3;The system will notify affected parties when changes occur affecting specific students  including but not limited to changing a student\92s status from full time to part time and moving a student to a different clinical section.;F;Vague;but not limited to
 R142;3;The system will notify affected parties when changes occur affecting specific students  including but not limited to changing a student\92s status from full time to part time and moving a student to a different clinical section.;F;adv;full time
 R142;3;The system will notify affected parties when changes occur affecting specific students  including but not limited to changing a student\92s status from full time to part time and moving a student to a different clinical section.;F;adv;part time
 R142;3;The system will notify affected parties when changes occur affecting specific students  including but not limited to changing a student\92s status from full time to part time and moving a student to a different clinical section.;F;det;The
@@ -5383,13 +5383,12 @@ R368;7;PME Subsystem shall allow keeping submenus within menus and products with
 R368;7;PME Subsystem shall allow keeping submenus within menus and products within submenus in a managed and persisted order.;F;verb;persisted
 R368;7;PME Subsystem shall allow keeping submenus within menus and products within submenus in a managed and persisted order.;F;noun;order
 R369;7;PME Subsystem shall allow for a product to exist in more than one submenu;F;vpresentp;allow for
+R369;7;PME Subsystem shall allow for a product to exist in more than one submenu;F;Vague;exist in
 R369;7;PME Subsystem shall allow for a product to exist in more than one submenu;F;adv;more than
 R369;7;PME Subsystem shall allow for a product to exist in more than one submenu;F;noun;Subsystem
 R369;7;PME Subsystem shall allow for a product to exist in more than one submenu;F;mv;shall
 R369;7;PME Subsystem shall allow for a product to exist in more than one submenu;F;det;a
 R369;7;PME Subsystem shall allow for a product to exist in more than one submenu;F;noun;product
-R369;7;PME Subsystem shall allow for a product to exist in more than one submenu;F;verb;exist
-R369;7;PME Subsystem shall allow for a product to exist in more than one submenu;F;preposition;in
 R369;7;PME Subsystem shall allow for a product to exist in more than one submenu;F;noun;submenu
 R370;7;The RMS System shall have Windows XP look and feel and use GUI futures making its use intuitive.;F;det;The
 R370;7;The RMS System shall have Windows XP look and feel and use GUI futures making its use intuitive.;F;noun;System
@@ -5847,6 +5846,7 @@ R398;8;When streaming a movie  the buffering time should take no longer than 10 
 R398;8;When streaming a movie  the buffering time should take no longer than 10 seconds (plus any latency on the user\92s connection.);PE;noun;latency
 R398;8;When streaming a movie  the buffering time should take no longer than 10 seconds (plus any latency on the user\92s connection.);PE;preposition;on
 R398;8;When streaming a movie  the buffering time should take no longer than 10 seconds (plus any latency on the user\92s connection.);PE;noun;connection
+R399;8;While streaming a movie  buffering should only occur if there is latency in the user\92s connection.;PE;Vague;there is
 R399;8;While streaming a movie  buffering should only occur if there is latency in the user\92s connection.;PE;verb;streaming
 R399;8;While streaming a movie  buffering should only occur if there is latency in the user\92s connection.;PE;det;a
 R399;8;While streaming a movie  buffering should only occur if there is latency in the user\92s connection.;PE;noun;movie
@@ -5854,7 +5854,6 @@ R399;8;While streaming a movie  buffering should only occur if there is latency 
 R399;8;While streaming a movie  buffering should only occur if there is latency in the user\92s connection.;PE;adv;only
 R399;8;While streaming a movie  buffering should only occur if there is latency in the user\92s connection.;PE;verb;occur
 R399;8;While streaming a movie  buffering should only occur if there is latency in the user\92s connection.;PE;conjunction;if
-R399;8;While streaming a movie  buffering should only occur if there is latency in the user\92s connection.;PE;verb;is
 R399;8;While streaming a movie  buffering should only occur if there is latency in the user\92s connection.;PE;noun;latency
 R399;8;While streaming a movie  buffering should only occur if there is latency in the user\92s connection.;PE;preposition;in
 R399;8;While streaming a movie  buffering should only occur if there is latency in the user\92s connection.;PE;det;the
@@ -9015,6 +9014,7 @@ R617;15;New branches/complexes/districts/regions and revenue/expense accounts ad
 R617;15;New branches/complexes/districts/regions and revenue/expense accounts added to the BDW  must be reflected in the RFS system. 100% of the entities (mentioned above) available as of October month-end  will be loaded into the RFS system  prior to the budget start process.;MN;noun;budget
 R617;15;New branches/complexes/districts/regions and revenue/expense accounts added to the BDW  must be reflected in the RFS system. 100% of the entities (mentioned above) available as of October month-end  will be loaded into the RFS system  prior to the budget start process.;MN;noun;start
 R617;15;New branches/complexes/districts/regions and revenue/expense accounts added to the BDW  must be reflected in the RFS system. 100% of the entities (mentioned above) available as of October month-end  will be loaded into the RFS system  prior to the budget start process.;MN;noun;process
+R618;15;Only authorized user shall access the RFS system. ONLY users that exist in the UAS system  with the RFS system assigned to their role(s)  shall access the RFS system and use it.;SE;Vague;exist in
 R618;15;Only authorized user shall access the RFS system. ONLY users that exist in the UAS system  with the RFS system assigned to their role(s)  shall access the RFS system and use it.;SE;adv;Only
 R618;15;Only authorized user shall access the RFS system. ONLY users that exist in the UAS system  with the RFS system assigned to their role(s)  shall access the RFS system and use it.;SE;verb;authorized
 R618;15;Only authorized user shall access the RFS system. ONLY users that exist in the UAS system  with the RFS system assigned to their role(s)  shall access the RFS system and use it.;SE;noun;user
@@ -9025,8 +9025,6 @@ R618;15;Only authorized user shall access the RFS system. ONLY users that exist 
 R618;15;Only authorized user shall access the RFS system. ONLY users that exist in the UAS system  with the RFS system assigned to their role(s)  shall access the RFS system and use it.;SE;adv;ONLY
 R618;15;Only authorized user shall access the RFS system. ONLY users that exist in the UAS system  with the RFS system assigned to their role(s)  shall access the RFS system and use it.;SE;noun;users
 R618;15;Only authorized user shall access the RFS system. ONLY users that exist in the UAS system  with the RFS system assigned to their role(s)  shall access the RFS system and use it.;SE;pronoun;that
-R618;15;Only authorized user shall access the RFS system. ONLY users that exist in the UAS system  with the RFS system assigned to their role(s)  shall access the RFS system and use it.;SE;verb;exist
-R618;15;Only authorized user shall access the RFS system. ONLY users that exist in the UAS system  with the RFS system assigned to their role(s)  shall access the RFS system and use it.;SE;preposition;in
 R618;15;Only authorized user shall access the RFS system. ONLY users that exist in the UAS system  with the RFS system assigned to their role(s)  shall access the RFS system and use it.;SE;preposition;with
 R618;15;Only authorized user shall access the RFS system. ONLY users that exist in the UAS system  with the RFS system assigned to their role(s)  shall access the RFS system and use it.;SE;verb;assigned
 R618;15;Only authorized user shall access the RFS system. ONLY users that exist in the UAS system  with the RFS system assigned to their role(s)  shall access the RFS system and use it.;SE;preposition;to
@@ -13099,6 +13097,7 @@ R957;48;The application should be able to support 100 concurrent users without a
 R957;48;The application should be able to support 100 concurrent users without any performance degradation.;PE;noun;degradation
 R958;48;The system should be able to scale up to 500 concurrent users (if there is a need in the future) by installing additional hardware components.;SC;Vague;able to
 R958;48;The system should be able to scale up to 500 concurrent users (if there is a need in the future) by installing additional hardware components.;SC;vpresentp;scale up
+R958;48;The system should be able to scale up to 500 concurrent users (if there is a need in the future) by installing additional hardware components.;SC;Vague;there is
 R958;48;The system should be able to scale up to 500 concurrent users (if there is a need in the future) by installing additional hardware components.;SC;det;The
 R958;48;The system should be able to scale up to 500 concurrent users (if there is a need in the future) by installing additional hardware components.;SC;noun;system
 R958;48;The system should be able to scale up to 500 concurrent users (if there is a need in the future) by installing additional hardware components.;SC;mv;should
@@ -13106,7 +13105,6 @@ R958;48;The system should be able to scale up to 500 concurrent users (if there 
 R958;48;The system should be able to scale up to 500 concurrent users (if there is a need in the future) by installing additional hardware components.;SC;adj;concurrent
 R958;48;The system should be able to scale up to 500 concurrent users (if there is a need in the future) by installing additional hardware components.;SC;noun;users
 R958;48;The system should be able to scale up to 500 concurrent users (if there is a need in the future) by installing additional hardware components.;SC;conjunction;if
-R958;48;The system should be able to scale up to 500 concurrent users (if there is a need in the future) by installing additional hardware components.;SC;verb;is
 R958;48;The system should be able to scale up to 500 concurrent users (if there is a need in the future) by installing additional hardware components.;SC;det;a
 R958;48;The system should be able to scale up to 500 concurrent users (if there is a need in the future) by installing additional hardware components.;SC;noun;need
 R958;48;The system should be able to scale up to 500 concurrent users (if there is a need in the future) by installing additional hardware components.;SC;preposition;in
