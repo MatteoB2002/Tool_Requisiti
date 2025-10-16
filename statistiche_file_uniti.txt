@@ -1,0 +1,108 @@
+--- Statistiche di Confronto File ---
+
+File 1: 'Vague_1.txt'
+File 2: 'Vagues_2.txt'
+-------------------------------------
+
+Numero di parole in comune: 95
+Percentuale parole comuni sul totale delle parole uniche: 73.64%
+
+Numero di parole presenti SOLO nel primo file: 6
+Numero di parole presenti SOLO nel secondo file: 28
+
+Elenco parole in comune:
+- /
+- adaptability
+- additionally
+- adequate
+- aggregate
+- also
+- ancillary
+- arbitrary
+- as_appropriate
+- as_far_as
+- as_little_as_possible
+- as_much_as_possible
+- as_required
+- as_well_as
+- at_last
+- bad
+- both
+- but
+- but_also
+- capabiity_of
+- capability_to
+- capable_of
+- capable_to
+- common
+- consistent
+- contemporary
+- correctly
+- credible
+- customary
+- easily
+- easy
+- effective
+- efficient
+- episodic
+- equitable
+- equitably
+- eventually
+- expeditiously
+- fair
+- fairly
+- finally
+- frequently
+- general
+- generic
+- good
+- high-level
+- impartially
+- in_terms_of
+- infrequently
+- insignificant
+- interactive
+- intermediate
+- less
+- lightweight
+- logical
+- low-level
+- maximum
+- minimum
+- more
+- mutually-agreed
+- mutually-exclusive
+- mutually-inclusive
+- near
+- necessary
+- neutral
+- normal
+- not_only
+- only
+- physical
+- powerful
+- practical
+- prompt
+- provided
+- quickly
+- random
+- recent
+- regardless_of
+- relevant
+- robust
+- routine
+- sequential
+- significant
+- simple
+- specific
+- strong
+- sufficiently
+- timely
+- transient
+- transparent
+- understandable
+- unless
+- unnecessary
+- useful
+- various
+- varying
