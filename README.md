@@ -30,7 +30,7 @@ La pipeline produce dapprima un dataset etichettato (CSV) e quindi, tramite pass
 │   ├── verb.txt
 │   ├── adj.txt
 │   └── vague.txt                 # (generato da MergeDict)
-|   └── ...                       # altre categorie
+│   └── ...                       # altre categorie
 │
 ├── Dataset.arff                 # dataset iniziale dei requisiti
 ├── AssociazioneID.py            # step 1: assegna ID e normalizza
@@ -44,8 +44,8 @@ La pipeline produce dapprima un dataset etichettato (CSV) e quindi, tramite pass
 ├── Sorted_by_Categories/        # (generato da Splitter.py)
 │   ├── <categoria>_requirements.csv
 │   └── ...
-|── Vague_1.txt
-|── Vagues_2.txt
+│── Vague_1.txt
+│── Vagues_2.txt
 │
 └── README.md
 ```
