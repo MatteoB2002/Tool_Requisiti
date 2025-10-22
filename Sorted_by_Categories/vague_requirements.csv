@@ -1,0 +1,314 @@
+ID;ID progetto;REQUISITO (testo);Classe dei requisiti;CATEGORIA;PAROLA
+R3;1;If projected  the data must be readable.  On a 10x10 projection screen  90% of viewers must be able to read Event / Activity data from a viewing distance of 30;US;vague;able to
+R4;1;The product shall be available during normal business hours. As long as the user has access to the client PC  the system will be available 99% of the time during the first six months of operation.;A;vague;normal
+R5;1;If projected  the data must be understandable. On a 10x10 projection screen  90% of viewers must be able to determine that Events or Activities are occuring in current time from a viewing distance of 100;US;vague;able to
+R5;1;If projected  the data must be understandable. On a 10x10 projection screen  90% of viewers must be able to determine that Events or Activities are occuring in current time from a viewing distance of 100;US;vague;understandable
+R6;1;The product shall ensure that it can only be accessed by authorized users.  The product will be able to distinguish between authorized and unauthorized users in all access attempts;SE;vague;able to
+R6;1;The product shall ensure that it can only be accessed by authorized users.  The product will be able to distinguish between authorized and unauthorized users in all access attempts;SE;vague;only
+R7;1;The product shall be intuitive and self-explanatory. 90% of new users shall be able to start the display of Events or Activities within 90 minutes of using the product.;US;vague;able to
+R8;1;The product shall respond fast to keep up-to-date data in the display.;PE;vague;fast
+R15;1;The table side of the display shall be split into 2 regions: sequential and temporal.;F;vague;sequential
+R32;2;The product shall have a consistent color scheme and fonts.;LF;vague;consistent
+R35;2;The product shall be easy for a realtor to learn.;US;vague;easy
+R36;2;The product shall use symbols and words that are naturally understandable by the realtor community.;US;vague;understandable
+R49;2;The product shall be able to support multiple remote users;SC;vague;able to
+R51;2;The product shall be capable of handling the existing 1000 users. This number is expected to grow 5 times within the next year.;SC;vague;capable of
+R53;2;90% of untrained realtors shall be able to install the product on their device without printed instructions;US;vague;able to
+R55;2;Only registered realtors shall be able to access the system.;SE;vague;able to
+R55;2;Only registered realtors shall be able to access the system.;SE;vague;Only
+R59;2;The user shall be able to get driving directions to a selected property;F;vague;able to
+R60;2;The user shall be able to download appointments and contact information for clients;F;vague;able to
+R63;2;Realtor shall be able to generate a CMA report based on property criteria;F;vague;able to
+R64;2;The system shall be able to call the seller or buyer to schedule an appointment;F;vague;able to
+R66;2;The realtor shall be able to retrieve a map showing property locations for a specified area;F;vague;able to
+R69;3;The system shall be easy to use by the Program Administrators/Nursing Staff Members.;US;vague;easy
+R70;3;All of the users shall be able to use the system after one day of training.;US;vague;able to
+R74;3;2 out of 3 Program Administrators/Nursing Staff Members shall successfully be able to use the system to manage the scheduling of classes and clinicals.;US;vague;able to
+R75;3;The system shall use symbols and words that are naturally understandable by the user community.;US;vague;understandable
+R76;3;The verbiage used within the system shall be consistent with Standard English and the terminology of the national Nursing Community.;US;vague;consistent
+R77;3;Staff members shall be able to complete a set of tasks in a timely manner.;PE;vague;able to
+R77;3;Staff members shall be able to complete a set of tasks in a timely manner.;PE;vague;timely
+R78;3;The response time of general student management tasks shall take no longer than 5 seconds and the response time of schedule generation shall take no longer than 30 seconds.;PE;vague;general
+R81;3;system shall be able to handle all of the user requests/usage during business hours.;SC;vague;able to
+R83;3;The system shall be capable of processing 100% of nursing students and their classes for the next 10 years.;SC;vague;capable of
+R85;3;The system shall able to operate within a business office environment typical of the Nursing Department at DePaul University.;O;vague;able to
+R91;3;We must be able to interface with any HTML browser.;O;vague;able to
+R92;3;Only authorized users shall have access to clinical site information.;SE;vague;Only
+R93;3;Program Administrators/Nursing Staff Members are the only people who shall have access to clinical site details.;SE;vague;only
+R94;3;Only authorized users shall have access to students\92 personal information.;SE;vague;Only
+R95;3;Dr Susan Poslusny and Dr Julie Donalek are the only people who shall have access to students\92 personal information.;SE;vague;only
+R96;3;Only authorized users shall have access to the portion of the system that interfaces with CampusConnect.;SE;vague;Only
+R97;3;Fit Criterion: Dr Susan Poslusny and Karen Sysol are the only people who shall have access to the final class section scheduling for the system that interfaces with CampusConnect.;SE;vague;only
+R100;3;The system shall be built such that it is as secure as possible from malicious interference.;SE;vague;secure
+R103;3;Program Administrators and Nursing Staff Members shall be able to add a listing of students to a cohort.;F;vague;able to
+R104;3;Program Administrators and Nursing Staff Members shall be able to add a single student to a cohort;F;vague;able to
+R106;3;Program Administrators and Nursing Staff Members shall be able to specify the preferred sequence of classes for a given cohort.;F;vague;able to
+R107;3;For each class within a sequence for a cohort  Program Administrators and Nursing Staff Members shall be able to specify which quarter that class will be offered.;F;vague;able to
+R108;3;Program Administrators and Nursing Staff Members shall be able to add new classes to a sequence of classes;F;vague;able to
+R109;3;Program Administrators and Nursing Staff Members shall be able to add clinical classes or sections to a sequence of classes;F;vague;able to
+R110;3;Program Administrators and Nursing Staff Members shall be able to add a new cohort to the system  identified by start month and year.;F;vague;able to
+R111;3;Program Administrators and Nursing Staff Members shall be able to add new classes for the nursing department into the system.;F;vague;able to
+R115;3;Program Administrators/Nursing Staff Members shall be able to create a new Program of Study.;F;vague;able to
+R118;3;The system shall be able to display a report of needed classes for a given quarter for all cohorts of all programs for Program Administrators/Nursing Staff Members\92 planning purposes.;F;vague;able to
+R121;3;Program Administrators and Nursing Staff Members shall be able to add a new clinical site into the system.;F;vague;able to
+R123;3;Program Administrators and Nursing Staff Members shall be able to add a new clinical lab section for an existing clinical class into the System.;F;vague;able to
+R125;3;Program Administrators and Nursing Staff Members shall be able to add a student who has registered for a clinical class to a clinical lab section for that class.;F;vague;able to
+R128;3;Program Administrators/Nursing Staff Members shall be able to cancel a clinical lab section only if there are no students registered for that clinical lab section.;F;vague;able to
+R129;3;A Program Administrator/Nursing Staff Member shall be able to add a new nursing student to the system.;F;vague;able to
+R131;3;The system shall be able to display a printable summary for individual cohorts  which will include the students enlisted  the Program of study  sequence of classes  cohort progress through the program  and timeline of completion.;F;vague;able to
+R132;3;The system shall be able to display a printable summary for individual clinical sites  which will include information on labs being held at that site for the given quarter (Clinical site  general information on labs held at that location  dates and times of all labs held there).;F;vague;able to
+R132;3;The system shall be able to display a printable summary for individual clinical sites  which will include information on labs being held at that site for the given quarter (Clinical site  general information on labs held at that location  dates and times of all labs held there).;F;vague;general
+R132;3;The system shall be able to display a printable summary for individual clinical sites  which will include information on labs being held at that site for the given quarter (Clinical site  general information on labs held at that location  dates and times of all labs held there).;F;vague;there
+R133;3;The system shall be able to display a printable summary for individual clinical labs  which will include (but not be limited to) class name  class number  lab section  listing of students enrolled  instructor  day(s)  time  and location.;F;vague;able to
+R134;3;The system shall be able to display a printable summary for individual nursing students  which will include (but not be limited to) student name  student ID  admission date  classes  credits  GPA  and the cohort that the student is enrolled in.;F;vague;able to
+R135;3;The system shall be able to display a printable summary of the system log.;F;vague;able to
+R136;3;The system shall contain contact information (e-mail and phone number) for all people relevant to the system  including (but not limited to) staff members  students  lecture instructors  clinical lab instructors  and clinical site administrators.;F;vague;but not limited to
+R136;3;The system shall contain contact information (e-mail and phone number) for all people relevant to the system  including (but not limited to) staff members  students  lecture instructors  clinical lab instructors  and clinical site administrators.;F;vague;relevant
+R138;3;The system will notify affected parties for routine communication purposes  including but not limited to informing students of upcoming offered classes (timeline) and what their schedule will be/shall be.;F;vague;but not limited to
+R138;3;The system will notify affected parties for routine communication purposes  including but not limited to informing students of upcoming offered classes (timeline) and what their schedule will be/shall be.;F;vague;routine
+R139;3;The system will notify affected parties when changes occur affecting clinicals  including but not limited to clinical section capacity changes  and clinical section cancellations.;F;vague;but not limited to
+R140;3;The system will notify affected parties when changes occur affecting classes  including but not limited to class cancellations  class section detail changes  and changes to class offerings for a given quarter.;F;vague;but not limited to
+R141;3;The system will notify affected parties when changes occur affecting cohorts  including but not limited to changes to the sequence for a cohort\92s program of study and changes to a given week\92s schedule (lab cancelled this week due to instructor illness).;F;vague;but not limited to
+R142;3;The system will notify affected parties when changes occur affecting specific students  including but not limited to changing a student\92s status from full time to part time and moving a student to a different clinical section.;F;vague;but not limited to
+R142;3;The system will notify affected parties when changes occur affecting specific students  including but not limited to changing a student\92s status from full time to part time and moving a student to a different clinical section.;F;vague;specific
+R143;3;Program Administrators/Nursing Staff Members shall have the ability to modify information relating to cohorts including cohort identifier  program of study  preferred sequence of classes and quarters that a cohort will be taking specific classes.;F;vague;specific
+R150;4;The list of dispute cases that are displayed after a search is performed must be color coded for easy identification of dispute cases based upon the dispute case status.;US;vague;easy
+R152;4;100% of cardmember services representatives shall be able to successfully create a dispute case on the first encounter after completing the training course.;US;vague;able to
+R153;4;100% of merchant services representatives shall be able to successfully perform a follow up action on a dispute case on the first encounter after completing the training course.;US;vague;able to
+R154;4;The maximum wait time for a user navigating from one screen to another within the Disputes application shall be no more than 5 seconds.;PE;vague;maximum
+R162;4;The Disputes application shall ensure that only users with the appropriate access level are allowed to initiate dispute requests.;SE;vague;only
+R163;4;Only users with Update access must be able to initiate dispute requests.;SE;vague;able to
+R163;4;Only users with Update access must be able to initiate dispute requests.;SE;vague;Only
+R164;4;The Disputes application shall ensure that only authorized users are allowed to logon to the application.;SE;vague;only
+R165;4;All authorized users  once authenticated must be able to logon to the Disputes System;SE;vague;able to
+R168;4;If a user account is revoked  it can only be re-instantiated by the System Administrator.;SE;vague;only
+R169;4;Only the System Administrator shall be able to reset a revoked user logon account;SE;vague;able to
+R169;4;Only the System Administrator shall be able to reset a revoked user logon account;SE;vague;Only
+R176;4;The Disputes application must maintain a detailed history of every action that a user takes on a dispute case.  This ensures a complete audit trail if questions arise later on with regard to a particular dispute case.;L;vague;particular
+R211;5;The product shall be easy to use by Adjusters and Collision Estimators.  95% of Adjusters and Collision Estimators shall find the product easy to use.;US;vague;easy
+R214;5;The product shall be easy to learn by Adjusters and Collision Estimators.  The product shall be learned with two days onsite training;US;vague;easy
+R215;5;The user shall easily locate instructions while using the product.  User help can be found within 90% of the system.;US;vague;easily
+R220;5;The product shall adhere to the corporate online availability schedule.  The application is brought down only within 98% of the scheduled outages per the availability schedule.;A;vague;only
+R222;5;The product shall be able to handle up to 1500 simultaneous users. The system shall perform with 1500 users as a time.;SC;vague;able to
+R224;5;The product shall be able to handle 10 000 concurrent users within 2 years of the initial launch.;SC;vague;able to
+R225;5;For estimators  the product shall be able to be operated in a repair facility during dirty and noisy conditions.;O;vague;able to
+R230;5;Only adjusters can request recycled parts audit reports. No users without an adjuster role shall request recycled parts audits.;SE;vague;Only
+R231;5;Only adjusters with a supervisor role can update preferred repair facility ratings. Users without the supervisor role cannot access the repair facility ratings.;SE;vague;Only
+R232;5;Only collision estimators shall search for recycled parts.  Users without the collision estimator role shall not have access to the search for recycled parts.;SE;vague;Only
+R233;5;Only valid data shall be entered into the system. No invalid data shall be entered into the system.;SE;vague;Only
+R234;5;One insurance company shall not be able to view another insurance companys claim data.;SE;vague;able to
+R247;5;The adjuster shall be able to override the preferred repair facitlity on the estimate assignment.;F;vague;able to
+R281;6;The product\92s Look and Feel shall be able to incorporate aspects of the customer\92s organization such as logo  branding  and identity;LF;vague;able to
+R284;6;The product shall be easy to use. 90% of users will be able to successfully reserve a conference room within 5 minutes of product use.;US;vague;able to
+R284;6;The product shall be easy to use. 90% of users will be able to successfully reserve a conference room within 5 minutes of product use.;US;vague;easy
+R285;6;The product shall give users feedback when necessary. 80% of the users surveyed report that the product accurately confirms their actions.;US;vague;necessary
+R288;6;An employee will be able to successfully use the product within a few minutes.  After informally navigating the product for less than 15 minutes  users shall be able to successfully setup meetings and reserve conference rooms.;US;vague;able to
+R292;6;The response shall be fast enough to avoid interrupting the user\92s flow of thought.  90% of tasks shall complete within 5 seconds.  98% of tasks shall complete within 8 seconds.;PE;vague;fast
+R295;6;The product shall be capable of handling up to 1 000 concurrent requests.  This number will increase to 2 000 by Release 2.  The concurrency capacity must be able to handle peak scheduling times such as early morning and late afternoon hours.;SC;vague;capable of
+R295;6;The product shall be capable of handling up to 1 000 concurrent requests.  This number will increase to 2 000 by Release 2.  The concurrency capacity must be able to handle peak scheduling times such as early morning and late afternoon hours.;SC;vague;able to
+R296;6;The product shall be able to process 10 000 transactions per hour within two years of its launch.  This number will increase to 20 000 by Release 2.;SC;vague;able to
+R299;6;The product must be able to interface with any HTML browser.  The product shall transmit data between the user and the product without problems. The product shall display HTML properly in 80% of all HTML browsers tested (minimum is to test 8 browsers).;O;vague;able to
+R300;6;The product must be able to interface with various database management systems. The product shall communicate successfully with the database management system on 100% of all transactions.;O;vague;able to
+R300;6;The product must be able to interface with various database management systems. The product shall communicate successfully with the database management system on 100% of all transactions.;O;vague;various
+R301;6;The product must be able to interface with various email servers. The product shall be able to send email.;O;vague;able to
+R301;6;The product must be able to interface with various email servers. The product shall be able to send email.;O;vague;various
+R304;6;The product will be available for licensing as a one-server  two-five servers  or five-or-more servers license.;O;vague;more
+R305;6;A new user must be able to be added to the system within 10 minutes. 90% of new users are able to log into the system within 10 minutes.;US;vague;able to
+R306;6;The product must be designed using Design Patterns and coding best practices.  90% of maintenance software developers are able to integrate new functionality into the product with 2 working days.;MN;vague;able to
+R306;6;The product must be designed using Design Patterns and coding best practices.  90% of maintenance software developers are able to integrate new functionality into the product with 2 working days.;MN;vague;best
+R307;6;The product must be highly configurable for use with various database management systems for the end users.  80% of end users are able to integrate new database management systems with the product without changing the product\92s software code.;MN;vague;able to
+R307;6;The product must be highly configurable for use with various database management systems for the end users.  80% of end users are able to integrate new database management systems with the product without changing the product\92s software code.;MN;vague;various
+R310;6;The customer shall be able to easily integrate new building maps with the product throughout the product\92s lifecycle.  Integration of new maps with the product shall be possible with little to no support from product support staff.;MN;vague;able to
+R310;6;The customer shall be able to easily integrate new building maps with the product throughout the product\92s lifecycle.  Integration of new maps with the product shall be possible with little to no support from product support staff.;MN;vague;easily
+R311;6;The product shall be translated into foreign languages other than the target market countries\92 languages in future releases.  For each emerging target market  it shall take no more than 5 days to configure the product for that market\92s language.;US;vague;future
+R313;6;The product shall be able to be installed in any operating environment within 2 days.;O;vague;able to
+R314;6;The product shall ensure that only company employees or external users with company-approved user IDs may have product access.  100% of all logons shall be by either company employees or external users with company-approved user IDs.;SE;vague;only
+R315;6;Only managers are able to perform search queries for reservations by user.  100% of all search queries for reservations by user shall be from logons of only management logons.;SE;vague;able to
+R315;6;Only managers are able to perform search queries for reservations by user.  100% of all search queries for reservations by user shall be from logons of only management logons.;SE;vague;Only
+R315;6;Only managers are able to perform search queries for reservations by user.  100% of all search queries for reservations by user shall be from logons of only management logons.;SE;vague;only
+R319;6;The product shall have the ability to receive automatic software updates as new threats emerge. 100% of customers will be able to receive automatic software updates transmitted to the installed product.;SE;vague;able to
+R321;6;The product shall be able to display calendar dates and times according to the user\92s locale.  90% of survey respondents from each target market country will find that the date and time formatting of the product is correct.;US;vague;able to
+R330;6;The product will be able to delete conference rooms.;F;vague;able to
+R331;6;The product shall be able to store new room equipment.;F;vague;able to
+R333;6;The product shall be able to delete room equipment.;F;vague;able to
+R346;6;The product shall be able to send meeting notifications via different kinds of end-user specified methods.;F;vague;able to
+R353;7;The System shall be able to automatically backup business data and restore them on demand.;O;vague;able to
+R354;7;The System shall maintain consistent security.  Any changes in user passwords and/or permissions should take affect in all parts of the System.;SE;vague;consistent
+R356;7;The System shall meet all applicable accounting standards.  The final version of the System must successfully pass independent audit performed by a certified auditor.;L;vague;applicable
+R357;7;The System shall not require additional third party licenses resulting in royalty fees.;O;vague;additional
+R359;7;The System shall allow on demand generation of all Inventory Quantity Adjustment documents since certain point of time.;F;vague;certain
+R369;7;PME Subsystem shall allow for a product to exist in more than one submenu;F;vague;exist in
+R373;8;Administrator shall be able to activate a pre-paid card via the Administration section in under 5 seconds.;PE;vague;able to
+R374;8; Customer shall be able to check the status of their prepaid card  by entering in the PIN number  in under 5 seconds.;PE;vague;able to
+R378;8;System shall let customers cancel their account  process shall take no longer than 2 minutes.  Database will mark the account as inactive  and user will not be able to log into the website.;PE;vague;able to
+R379;8;System shall let administrator de-activate a customer account in under 1 minute. Customer will no longer be able to access the website.;PE;vague;able to
+R387;8;The product should be able to be used by 90% of novice users on the Internet.;US;vague;able to
+R388;8;Users should only have to navigate through a maximum of 4 pages  to create an account with the website.;US;vague;only
+R389;8;Users should be able to access their streaming movies in under 2 clicks after logging into the website.;US;vague;able to
+R393;8;The product shall be easy for customers with novice skills on the  Internet to purchase and watch streaming movies.  Customers should be able to purchase and watch a pre-determined movie in under 3 minutes.;US;vague;able to
+R393;8;The product shall be easy for customers with novice skills on the  Internet to purchase and watch streaming movies.  Customers should be able to purchase and watch a pre-determined movie in under 3 minutes.;US;vague;easy
+R394;8;The product shall use symbols and words that are naturally understandable by users familiar with websites;US;vague;understandable
+R396;8;Any interface between a user and the automated system shall have a maximum response time of 5 seconds  unless noted by an exception below.;PE;vague;maximum
+R397;8;When purchasing a streaming movie or pre-paid card via credit card  the processing time should have a maximum response time of 15 seconds.;PE;vague;maximum
+R399;8;While streaming a movie  buffering should only occur if there is latency in the user\92s connection.;PE;vague;there is
+R399;8;While streaming a movie  buffering should only occur if there is latency in the user\92s connection.;PE;vague;only
+R400;8;All credit card information will be secured on the server  and only accessible by authorized Izogn administrators.  Information will be encrypted in the database.;SE;vague;only
+R407;8;"The streaming server will support a maximum of 700 movies; new servers can be added to support more movies.";SC;vague;more
+R409;8;The website shall be capable of supporting 100 000 customers.;SC;vague;capable of
+R410;8;The product shall be expected to operate within the maximum maintenance budget for a minimum of 2 years.;MN;vague;maximum
+R413;8;We must be able to interface with the following browsers: IE 5.X  6.0  Netscape 6.x  7.x  8.x and Firefox 1.0.;O;vague;able to
+R419;8;Izogn Administrator must be able to update the category listings on the website within 2 minutes.;PE;vague;able to
+R420;8;Izogn Administrator must be able to add new products to the website within 2 minutes.;PE;vague;able to
+R422;8;The website will provide a help section with answers and solutions to common problems.;US;vague;common
+R424;8;The product shall be able to be installed in the specified environment within 1 working day.;O;vague;able to
+R425;8;Only registered customers can purchase streaming movies.;SE;vague;Only
+R426;8;A customer can only stream a movie if they purchased it  and are within the 2 day viewing period.;SE;vague;only
+R427;8;Only authorized personnel can access customer records in the database.;SE;vague;Only
+R428;8;Only administrators can activate a pre-paid card.;SE;vague;Only
+R429;8;Only authorized personnel can access sales information.;SE;vague;Only
+R435;8;The system shall reveal private information only in compliance with the organization\92s information policy.;SE;vague;only
+R436;8;All customer information will be stored on a secure database  accessible only to authorized personnel.;SE;vague;secure
+R436;8;All customer information will be stored on a secure database  accessible only to authorized personnel.;SE;vague;only
+R441;8;The website should appeal to all Africans  not only Nigerians.;LF;vague;not only
+R449;8;shall be able to stream purchased movie via Windows Media Player  for up to 2 days aftere purchase date.;F;vague;able to
+R459;8;Movies can only be streamed if the customer has purchased a movie  and is within the 2-day time period to stream the movie.;F;vague;only
+R460;8;Website must be able to support free trial periods with various parameters set by the Izogn Manager.;F;vague;able to
+R460;8;Website must be able to support free trial periods with various parameters set by the Izogn Manager.;F;vague;various
+R469;9;The lead washing process will operate within the established physical web service structure.;O;vague;physical
+R470;9;The washing process must use a non binding  neutral data format  such as xml  when receiving and processing lead data.;O;vague;neutral
+R481;9;The leads washing functionality will compile both contact and academic scoring information for a total score.;F;vague;both
+R491;10;The product shall display each type of ship in a grid using an image of the specific type of ship.;LF;vague;specific
+R497;10;The product shall able to handle a large number of games simultaneously.;PE;vague;able to
+R498;10;The response time shall be fast enough to maintain the flow of the game.  The response time shall be no more than 2 seconds for 95% of responses and no more than 4% for the remaining responses.;PE;vague;fast
+R500;10;The product shall be intuitive and self-explanatory.  Nine out ten users shall be able to successfully complete a game with no training.;US;vague;able to
+R503;10;The response time shall be fast enough to maintain the flow of the game. The response time shall be no more than 2 seconds for 95% of responses and no more than 4% for the remaining responses.;PE;vague;fast
+R514;10;Once a game is initiated  the product shall allow each player to position their 5 ships on their respective defensive grids.;F;vague;respective
+R519;10;When both players have positioned their 5 ships on their defensive grids  the product shall define the status of each player for the first turn.;F;vague;both
+R542;11;The system shall be easy to use by callers and supervisors. Callers and supervisors must be able to accomplish any system task within 2 minutes.;US;vague;able to
+R542;11;The system shall be easy to use by callers and supervisors. Callers and supervisors must be able to accomplish any system task within 2 minutes.;US;vague;easy
+R543;11;The system shall be easy to learn by callers and supervisors. Callers and supervisors shall learn how to use the system within 10 minutes.;US;vague;easy
+R546;11;On a 112k connection or faster  the system response time for all operations must be no more than 3 seconds 90% of the time.;PE;vague;faster
+R550;11;The product shall ensure that only supervisors can advertise empty time slots.The product must ensure that supervisors are allowed to access advertise empty time slots.;SE;vague;only
+R551;11;The product shall ensure that only supervisors can enter a caller\92s schedule.The product must ensure that supervisors are allowed to access advertise empty time slots.;SE;vague;only
+R552;11;The product shall ensure that only supervisors can view schedule of all callers.The product must ensure that supervisors are allowed to access advertise empty time slots.;SE;vague;only
+R553;11;The interface shall have a simple look. In the interface and usability survey  90% of beta testers must report that the interface is adequately simple.;LF;vague;simple
+R555;12;The product shall provide GUI based Monitoring Services.System Administrators shall monitor message exchanges will predict and determine problems and will also provide internal and external support.;LF;vague;also
+R557;12;The product shall provide Monitoring Services.The product shall be easy for System Administrators and DBAs to use after two weeks of usage.;US;vague;easy
+R561;12;The product shall provide Multi-threading and Load Balancing.The product shall provide multi-threading technology as well as load balancing to overcome data load spikes and traffic.;PE;vague;as well as
+R562;12;The product shall process messages within 2 seconds.The product shall have a maximum message processing time of 2 seconds;PE;vague;maximum
+R564;12;The product shall provide Dynamic Change Support and Transparent resource addition.The product shall support Transparent Resource addition and Dynamic Change support to provide scalability and avoid service interruptions of more than 1 day.;PE;vague;Transparent
+R566;12;The product shall be robust.The product shall have fault avoidance based on standards adoption.;FT;vague;robust
+R567;12;The product shall be robust with fault tolerance.The product shall have fault tolerance by using recovery technique compensatory transaction and routing around failures.;FT;vague;robust
+R568;12;The product shall be able to process all transactions.The product shall process minimum of 1 million transactions per year.;SC;vague;able to
+R571;12;The product shall continue to operate during upgrade  change or new resource addition.The product shall be able to continue to operate with no interruption in service due to new resource additions.;MN;vague;able to
+R580;13;The interface must summarize the data in a fashion that\92s appealing to CCR management. Every report type must have at least one high level summary shown in the results dashboard/interface;LF;vague;high level
+R581;13;The system must use a point and click interface. 100% of all selection and navigation functionality must be able to be activated/selected by either a mouse or a keyboard;US;vague;able to
+R582;13;The interface shall be easy to use. 90% of users should be able to successfully use the system to generate a report on their first use. The interface should adhere to IBM usability standards.;US;vague;able to
+R582;13;The interface shall be easy to use. 90% of users should be able to successfully use the system to generate a report on their first use. The interface should adhere to IBM usability standards.;US;vague;easy
+R583;13;Reports must be easy to generate. Reports must be generated within one button click and exported within one button click (after selecting the report);US;vague;easy
+R584;13;A user shall be able to use the system without instruction after a short amount of time. After one use a user should understand and remember 90% of the system usage and navigation.;US;vague;able to
+R591;13;The Brio portion of the WCS system must be able to export files in spreadsheet form (Microsoft Excel and Lotus 1-2-3 formats).  Brio will provide buttons in the user interface that produce/export reports in .xls or .123 file formats.;O;vague;able to
+R594;13;The system shall only be accessed by authorized Corporate Community Grants (CCR) employees. Users must be authenticated using their IBM intranet user name and password.;SE;vague;only
+R597;14;The Commissioner will be the only authorized user per league to adjust league settings.;SE;vague;only
+R601;14;A new user shall be able to navigate through the league and team pages within 30 seconds of reaching the start-up page.;US;vague;able to
+R602;14;Users shall be able to reach the \91add\92  \91drop\92  and \91trade player\92 pages with one click from the team owner\92s page.;US;vague;able to
+R603;14;Users shall be able to view at least 25 NFL player statistics and points on each page.;US;vague;able to
+R605;14;The application shall be able to complete every user transaction within one fourth of a second of receiving the request over the network.;PE;vague;able to
+R613;15;98% of the user workstations shall meet the minimum hardware requirements prior to implementation. Minimum Hard Disk Space:  400MB.;O;vague;minimum
+R614;15;98% of the user workstations shall meet the minimum software requirements prior to implementation: Microsoft Internet Explorer 5.0. Microsoft .NET Framework 1.1. Microsoft Internet Explorer Web Controls;O;vague;minimum
+R615;15;The RFS system should be able to easily interface with the BDW environment  in order to load the data. \95	7 data files shall be received from the BDW and loaded into the RFS system within 3 hours one day prior to the start of budgeting process  every year. The data will be as of October month-end. 	Test files (7) shall be loaded up to 5 times throughout the year  from the BDW.;O;vague;able to
+R615;15;The RFS system should be able to easily interface with the BDW environment  in order to load the data. \95	7 data files shall be received from the BDW and loaded into the RFS system within 3 hours one day prior to the start of budgeting process  every year. The data will be as of October month-end. 	Test files (7) shall be loaded up to 5 times throughout the year  from the BDW.;O;vague;easily
+R618;15;Only authorized user shall access the RFS system. ONLY users that exist in the UAS system  with the RFS system assigned to their role(s)  shall access the RFS system and use it.;SE;vague;exist in
+R618;15;Only authorized user shall access the RFS system. ONLY users that exist in the UAS system  with the RFS system assigned to their role(s)  shall access the RFS system and use it.;SE;vague;Only
+R618;15;Only authorized user shall access the RFS system. ONLY users that exist in the UAS system  with the RFS system assigned to their role(s)  shall access the RFS system and use it.;SE;vague;ONLY
+R622;15;The users should be able to easily use the system to successfully complete their budgets  within the stipulated time for completion. With a week of training prior to product implementation  98% of the users shall complete their budgets within the stipulated time.;US;vague;able to
+R622;15;The users should be able to easily use the system to successfully complete their budgets  within the stipulated time for completion. With a week of training prior to product implementation  98% of the users shall complete their budgets within the stipulated time.;US;vague;easily
+R623;15;The product interface should be fast. The response time of the product interface should not exceed 2 seconds 90% of the time. For 10% of the time  the response time should not be more than 10 seconds.not be more than 10 seconds.;PE;vague;fast
+R628;16;The system shall support the ability to perform a send only operation.;F;vague;only
+R629;16;The system shall support the ability to perform a receive only operation.;F;vague;only
+R641;17;The system shall be able to issue a specific amount of money to the user.;F;vague;able to
+R641;17;The system shall be able to issue a specific amount of money to the user.;F;vague;specific
+R642;18;The meeting scheduler system shall be able to select a participant as an important participant.;F;vague;able to
+R648;18;The meeting scheduler system may be able to include an agenda for a meeting proposal.;F;vague;able to
+R650;18;The meeting scheduler system may be able to include a list of required equipment for a meeting proposal.;F;vague;able to
+R653;19;The system must be easy to use by both managers and chefs such that they do not need to read an extensive amount of manuals.;US;vague;easy
+R653;19;The system must be easy to use by both managers and chefs such that they do not need to read an extensive amount of manuals.;US;vague;both
+R654;19;The system must be quickly accessible by both managers and chefs.;US;vague;quickly
+R654;19;The system must be quickly accessible by both managers and chefs.;US;vague;both
+R655;19;The system must be intuitive and simple in the way it displays all relevant data and relationships.;US;vague;simple
+R655;19;The system must be intuitive and simple in the way it displays all relevant data and relationships.;US;vague;relevant
+R656;19;The menus of the system must be easily navigable by the users with buttons that are easy to understand.;US;vague;easily
+R656;19;The menus of the system must be easily navigable by the users with buttons that are easy to understand.;US;vague;easy
+R666;20;The system shall permit only cafeteria staff members who are on the list of authorized Menu Managers to create or edit menus.;F;vague;only
+R667;20;Only users who have been authorized for home access to the corporate Intranet may use the COS from non-company locations.;SE;vague;Only
+R668;21;Programmers and application developers will have access to source code to address bugs or system enhancements as deemed necessary. Network Administrator and DBA support is also required to maintain a 24x7 system uptime.;A;vague;necessary
+R668;21;Programmers and application developers will have access to source code to address bugs or system enhancements as deemed necessary. Network Administrator and DBA support is also required to maintain a 24x7 system uptime.;A;vague;also
+R669;21;System security and access levels are provided in the online system. There are varying levels of system access and functional authority. Each student’s access is limited to his/her own registration records. Only authorized system administrator(s) has access to all student registration records.;SE;vague;varying
+R669;21;System security and access levels are provided in the online system. There are varying levels of system access and functional authority. Each student’s access is limited to his/her own registration records. Only authorized system administrator(s) has access to all student registration records.;SE;vague;Only
+R672;23;95% of users will not need to read the user manual to be able to use the application.;US;vague;able to
+R676;24;The application should be easy to extend. The code should be written in a way that it favors implementation of new functions.;MN;vague;easy
+R687;27;The system shall be capable of restoring itself to its previous state in the event of failure (e.g. a system crash or power loss).;FT;vague;capable of
+R688;27;The system shall be able to display a menu at all times to facilitate manual order taking should the need arise.;LF;vague;able to
+R690;27;The system shall flag tablets that fail to send timely keep-alive messages as non-operational and disassociate the assigned waiter from the tablet.;FT;vague;timely
+R693;27;A waiter shall only be able to log into one tablet at any given instance of time.;SE;vague;able to
+R693;27;A waiter shall only be able to log into one tablet at any given instance of time.;SE;vague;only
+R694;27;A waiter that attempts to log into a second tablet while already logged into another tablet shall be rejected and notified through both tablets.;SE;vague;both
+R702;29;System will use secured database.;SE;vague;secured
+R703;29;Unauthorised users can only read data without modifying anything.;SE;vague;only
+R708;30;Enable a registered user to view his profile. Additional information viz. questions asked by him and answers posted by him are also displayed.;F;vague;Additional
+R708;30;Enable a registered user to view his profile. Additional information viz. questions asked by him and answers posted by him are also displayed.;F;vague;also
+R715;30;Information transmission should be securely transmitted to server without any changes in information.;SE;vague;securely
+R723;31;Detailed documentation of the code and SRS will enable easy maintenance of the Flea Market.;MN;vague;easy
+R726;32;It must be able to download the most recent medical record.;F;vague;able to
+R726;32;It must be able to download the most recent medical record.;F;vague;recent
+R727;32;It must store the most recent copy of information in its application data folder.;F;vague;recent
+R728;32;It must only update the parts that have changed when connecting to the server.;O;vague;only
+R729;32;It must be able to change and update information on the server.;O;vague;able to
+R733;32;The user must be able to set an option to hide information based on who has tagged it.;F;vague;able to
+R734;32;The user must be able to add photos from his/her photo library to his/her medical record.;F;vague;able to
+R742;32;A user must be logged on to be able to view or edit any medical information.;F;vague;able to
+R743;32;Each account must securely store all of its data.;SE;vague;securely
+R759;34;The system’s back-end servers shall only be accessible to authenticated administrators.;SE;vague;only
+R762;34;The reliability of the overall program depends on the reliability of the separate components. The main pillar of reliability of the system is the backup of the database which is continuously maintained and updated to reflect the most recent changes.;FT;vague;recent
+R764;35;The logo and the current basic design of registration system should be displayed. The system should be attractive according to the clients. The design and the color should make users feel comfortable when using the system instead of flashing useless colors on the screen. The design should also reflect the seriousness of the environment.;LF;vague;also
+R765;35;The system should be able to manage all the information incoming from the database and the catalogue.;O;vague;able to
+R768;35;The system should need to be entirely self-supporting since the users would be using it only to register courses.;US;vague;only
+R770;35;Everyone (stakeholders and guests) can have access to the system and the catalogue. Every client must have secure and private access to his/her data. The  and the service man can have access to every part of the system. All these accesses (except the “guest tour” access) require identification through ID and password.;SE;vague;secure
+R774;36;The software system needs a robust security mechanism in place so that unauthorized users are not allowed access to parts of the system.;SE;vague;robust
+R779;37;High level of performance requires high speed network and high level of connectivity.;PE;vague;High level
+R779;37;High level of performance requires high speed network and high level of connectivity.;PE;vague;high level
+R785;38;System will use secured database;SE;vague;secured
+R786;38;Normal users can just read information but they cannot edit or modify anything except their personal and some other information.;SE;vague;Normal
+R797;38;Can only visit the site without registration.;F;vague;only
+R803;38;Responsible for informing administrator when any product item’s stock goes under the minimum level.;F;vague;minimum
+R811;40;The system is expected to have reasonable short time response. The voter should be able to login and should be able to get response for his requests in 2-3 seconds.;PE;vague;able to
+R814;40;To prevent attacks the system should generate random word and ask the user to enter it correctly for multiple tryings.;SE;vague;random
+R814;40;To prevent attacks the system should generate random word and ask the user to enter it correctly for multiple tryings.;SE;vague;correctly
+R816;40;The system should be simple to use;LF;vague;simple
+R825;42;The font will be larger enough for easy reading.;F;vague;easy
+R830;42;The text and time/date of a note that has been entered is displayed starting with most recent.;F;vague;recent
+R832;42;A description and time/date of each prescription that has been ordered or given is displayed starting with most recent.;F;vague;recent
+R834;43;All login attempts shall be done so in a secure manner.;SE;vague;secure
+R837;45;The system shall allow the administrator to install additional distributed location templates.;F;vague;additional
+R838;45;The system shall allow the administrator to remove physical locations.;F;vague;physical
+R868;45;The web application shall add no more than 5 seconds of perceivable overhead time to any necessary web and database transaction time.;PE;vague;necessary
+R878;46;The system shall enable user to add one or more component to the configuration.;F;vague;more
+R887;46;The system shall display only 10 matching result on the current screen.;F;vague;only
+R896;46;The system shall display the most frequently searched items by the user in the profile.;F;vague;frequently
+R941;46;The product shall take initial load time depending on internet connection strength which also depends on the media from which the product is run.;PE;vague;also
+R943;46;The system shall use secure sockets in all transactions that include any confidential customer information.;SE;vague;secure
+R954;47;The system shall use secure socket layer (SSL) technology to ensure all payments made online and user logins are secure.;SE;vague;secure
+R956;48;The system may be throttled or slowed down on heavy loads to ensure service for everybody. By throttling is meant that certain functionality may be unavailable during heavy server load.;PE;vague;certain
+R957;48;The application should be able to support 100 concurrent users without any performance degradation.;PE;vague;able to
+R958;48;The system should be able to scale up to 500 concurrent users (if there is a need in the future) by installing additional hardware components.;SC;vague;able to
+R958;48;The system should be able to scale up to 500 concurrent users (if there is a need in the future) by installing additional hardware components.;SC;vague;there is
+R958;48;The system should be able to scale up to 500 concurrent users (if there is a need in the future) by installing additional hardware components.;SC;vague;additional
+R960;48;A secure server will be required to ensure confidentiality of customer’s credit card and other details.;SE;vague;secure
+R964;48;The system should be easy enough to maintain that someone else could do it with a manual and a few hours training.;MN;vague;easy
+R965;48;The system should be portable to various operating environments.;PO;vague;various
+R966;49;Registered User must be able to maintain his/her session information for at least 60 minutes of inactive session before the system prompts him to log out of the system. The registered user must be provided with all the options of the E-store regardless of the time when he/she logs in.;F;vague;able to
+R966;49;Registered User must be able to maintain his/her session information for at least 60 minutes of inactive session before the system prompts him to log out of the system. The registered user must be provided with all the options of the E-store regardless of the time when he/she logs in.;F;vague;regardless of
+R967;49;The entire website must be user-friendly and easily navigable. The website must be provided with a site map for quick access to a particular link according to the requirement specification. The user must be able to find what he/she wants from the site without any difficulty. The website must adhere to branding schemes and the layout of the web pages must be uniform throughout  ;US;vague;able to
+R967;49;The entire website must be user-friendly and easily navigable. The website must be provided with a site map for quick access to a particular link according to the requirement specification. The user must be able to find what he/she wants from the site without any difficulty. The website must adhere to branding schemes and the layout of the web pages must be uniform throughout  ;US;vague;easily
+R967;49;The entire website must be user-friendly and easily navigable. The website must be provided with a site map for quick access to a particular link according to the requirement specification. The user must be able to find what he/she wants from the site without any difficulty. The website must adhere to branding schemes and the layout of the web pages must be uniform throughout  ;US;vague;particular
+R969;49;The website must provide highest degree of security to the registered users. All the transactions that are made must be secured. The sensitive information passed to and from the website must be secured. Identity theft and other security related issues must be solved. Unauthorized transmission of sensitive information of the user to third party websites for reference must be avoided. On the basis of user agreement the information must be processed. All the information about the registered user must be securely stored in the central database.;SE;vague;securely

@@ -3,7 +3,7 @@ import os
 # Nomi dei file
 file1_path = 'Vague_1.txt'
 file2_path = 'Vagues_2.txt'
-output_unione_path = 'Vague.txt'
+output_unione_path = 'vague.txt'
 output_statistiche_path = 'statistiche_file_uniti.txt'
 
 def leggi_parole_da_file(filepath):

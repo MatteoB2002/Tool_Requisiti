@@ -1,0 +1,202 @@
+ID;ID progetto;REQUISITO (testo);Classe dei requisiti;CATEGORIA;PAROLA
+R4;1;The product shall be available during normal business hours. As long as the user has access to the client PC  the system will be available 99% of the time during the first six months of operation.;A;adv;As
+R4;1;The product shall be available during normal business hours. As long as the user has access to the client PC  the system will be available 99% of the time during the first six months of operation.;A;adv;long
+R6;1;The product shall ensure that it can only be accessed by authorized users.  The product will be able to distinguish between authorized and unauthorized users in all access attempts;SE;adv;in all
+R16;1;The top 1/4 of the table will hold events that are to occur sequentially.;F;adv;sequentially
+R20;1;The system shall link Events back to either the Sync Matrix 1.0 or the Exercise Managment Tool 1.0 applications for modifications.;F;adv;back
+R36;2;The product shall use symbols and words that are naturally understandable by the realtor community.;US;adv;naturally
+R38;2;The search results shall be returned no later 30 seconds  after the user has entered the search criteria;PE;adv;no
+R38;2;The search results shall be returned no later 30 seconds  after the user has entered the search criteria;PE;adv;later
+R40;2;The CMA report shall be returned no later 60 seconds after the user has entered the CMA report criteria.;PE;adv;no
+R40;2;The CMA report shall be returned no later 60 seconds after the user has entered the CMA report criteria.;PE;adv;later
+R43;2;The product shall be available for use 24 hours per day 365 days  per year;A;adv;per year
+R46;2;The product shall allow the user to view previously downloaded search results CMA reports  and appointments.;FT;adv;previously
+R48;2;100% of saved user preferences shall be restored when system comes back online.;FT;adv;back
+R52;2;The product shall be installed by an untrained realtor without recourse to separately-printed instructions.;US;adv;separately
+R74;3;2 out of 3 Program Administrators/Nursing Staff Members shall successfully be able to use the system to manage the scheduling of classes and clinicals.;US;adv;successfully
+R75;3;The system shall use symbols and words that are naturally understandable by the user community.;US;adv;naturally
+R78;3;The response time of general student management tasks shall take no longer than 5 seconds and the response time of schedule generation shall take no longer than 30 seconds.;PE;adv;no longer
+R100;3;The system shall be built such that it is as secure as possible from malicious interference.;SE;adv;as
+R128;3;Program Administrators/Nursing Staff Members shall be able to cancel a clinical lab section only if there are no students registered for that clinical lab section.;F;adv;only if
+R130;3;A staff member shall have the ability to manage the progress of a part time student  which includes modifying their sequence of classes and timeline of classes.;F;adv;part time
+R142;3;The system will notify affected parties when changes occur affecting specific students  including but not limited to changing a student\92s status from full time to part time and moving a student to a different clinical section.;F;adv;full time
+R142;3;The system will notify affected parties when changes occur affecting specific students  including but not limited to changing a student\92s status from full time to part time and moving a student to a different clinical section.;F;adv;part time
+R147;3;Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Nursing Student  including student ID  student name phone number e-mail status (full time or part time) and program of study.;F;adv;full time
+R147;3;Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Nursing Student  including student ID  student name phone number e-mail status (full time or part time) and program of study.;F;adv;part time
+R148;4;The Disputes application shall comply with the corporate standards for user interface creation for internally and externally used applications.;LF;adv;internally
+R148;4;The Disputes application shall comply with the corporate standards for user interface creation for internally and externally used applications.;LF;adv;externally
+R151;4;100% of the cardmember and merchant services representatives shall use the Disputes application regularly after a 2-day training course.;US;adv;regularly
+R152;4;100% of cardmember services representatives shall be able to successfully create a dispute case on the first encounter after completing the training course.;US;adv;successfully
+R153;4;100% of merchant services representatives shall be able to successfully perform a follow up action on a dispute case on the first encounter after completing the training course.;US;adv;successfully
+R154;4;The maximum wait time for a user navigating from one screen to another within the Disputes application shall be no more than 5 seconds.;PE;adv;no more
+R165;4;All authorized users  once authenticated must be able to logon to the Disputes System;SE;adv;once
+R176;4;The Disputes application must maintain a detailed history of every action that a user takes on a dispute case.  This ensures a complete audit trail if questions arise later on with regard to a particular dispute case.;L;adv;later on
+R186;4;The Disputes System will provide the user the ability to create or initiate a ticket retrieval request.   As part of ticket retrieval creation process the system must prompt the user to enter all the required information to create the ticket retrieval request.  The ticket retrieval request is a document that is sent to merchant inquiring the validity of a transaction.;F;adv;that is
+R187;4;The Disputes System must allow the user to create three unique types of ticket retrieval requests.  The three types of ticket retrieval requests are (1) Request for original receipt (2) Request for a copy of the receipt or (3) Request for a portfolio. A portfolio consists of documentation that would provide proof of a purchase such as the documentation that is received from a car rental agency that is more than a sales receipt.;F;adv;that is
+R187;4;The Disputes System must allow the user to create three unique types of ticket retrieval requests.  The three types of ticket retrieval requests are (1) Request for original receipt (2) Request for a copy of the receipt or (3) Request for a portfolio. A portfolio consists of documentation that would provide proof of a purchase such as the documentation that is received from a car rental agency that is more than a sales receipt.;F;adv;more than
+R190;4;The Disputes System shall allow the user to create or initiate a chargeback request.  The system must prompt the user to enter the required information to initiate a chargeback request. The chargeback request results in a printed chargeback notification that is sent to merchant indicating that their account will be charged back if no proof is provided that the disputed transaction is valid.;F;adv;that is
+R190;4;The Disputes System shall allow the user to create or initiate a chargeback request.  The system must prompt the user to enter the required information to initiate a chargeback request. The chargeback request results in a printed chargeback notification that is sent to merchant indicating that their account will be charged back if no proof is provided that the disputed transaction is valid.;F;adv;back
+R193;4;The Disputes System shall accurately provide a list of possible reason codes for a given transaction.  The list of possible reason codes must be derived based on the type of transaction and the industry that the merchant belongs to  according to the business rules defined for the Disputes System.;F;adv;accurately
+R195;4;The Disputes System must provide Search functionality.  The search method must include the ability to search by (1) the dispute case number  (2) the merchant account number  (3) the cardmember account number and (4) the issuer number.  In addition to the above criteria  the search functionality must further allow the user to limit the results of the search by a date range  the type of dispute (ticket retrieval request or chargeback notification)  the case status (open  closed or all) and the dispute reason code.;F;adv;further
+R203;5;The product must support Internet Explorer 5.5 and above.;O;adv;above
+R204;5;The product must support Mozilla Firefox 1.0 and above.;O;adv;above
+R216;5;The search for recycled parts shall take no longer than 15 seconds.  The search results shall be returned in under 15 seconds.;PE;adv;no longer
+R217;5;The search for the preferred repair facility shall take no longer than 8 seconds.  The preferred repair facility is returned within 8 seconds;PE;adv;no longer
+R221;5;The product shall achieve a 98% uptime. The product shall not fail more than 2% of the available online time.;A;adv;more than
+R226;5;The product shall interface with the ChoiceParts system once per day at approximately 1:00 AM.;O;adv;once
+R226;5;The product shall interface with the ChoiceParts system once per day at approximately 1:00 AM.;O;adv;approximately
+R267;5;The audit report shall be available to other adjusters at later points in time.;F;adv;in time
+R270;5;The system will display a blank set of ratings if there are not ratings yet defined.;F;adv;yet
+R283;6;The product shall make the users want to use it. 80% of the users surveyed report they are regularly using the product after the first 2 weeks post-launch.;US;adv;regularly
+R284;6;The product shall be easy to use. 90% of users will be able to successfully reserve a conference room within 5 minutes of product use.;US;adv;successfully
+R285;6;The product shall give users feedback when necessary. 80% of the users surveyed report that the product accurately confirms their actions.;US;adv;accurately
+R288;6;An employee will be able to successfully use the product within a few minutes.  After informally navigating the product for less than 15 minutes  users shall be able to successfully setup meetings and reserve conference rooms.;US;adv;less than
+R288;6;An employee will be able to successfully use the product within a few minutes.  After informally navigating the product for less than 15 minutes  users shall be able to successfully setup meetings and reserve conference rooms.;US;adv;successfully
+R288;6;An employee will be able to successfully use the product within a few minutes.  After informally navigating the product for less than 15 minutes  users shall be able to successfully setup meetings and reserve conference rooms.;US;adv;informally
+R292;6;The response shall be fast enough to avoid interrupting the user\92s flow of thought.  90% of tasks shall complete within 5 seconds.  98% of tasks shall complete within 8 seconds.;PE;adv;enough
+R293;6;Aside from server failure  the software product shall achieve 99.99% up time.;A;adv;Aside
+R297;6;The product shall be expected to operate for at least 5 years for each customer installation.;SC;adv;at least
+R299;6;The product must be able to interface with any HTML browser.  The product shall transmit data between the user and the product without problems. The product shall display HTML properly in 80% of all HTML browsers tested (minimum is to test 8 browsers).;O;adv;properly
+R300;6;The product must be able to interface with various database management systems. The product shall communicate successfully with the database management system on 100% of all transactions.;O;adv;successfully
+R307;6;The product must be highly configurable for use with various database management systems for the end users.  80% of end users are able to integrate new database management systems with the product without changing the product\92s software code.;MN;adv;highly
+R308;6;Maintenance releases will be offered to customers once a year.  The releases shall take no longer than 5 minutes for 80% of the customer base to install.;MN;adv;no longer
+R308;6;Maintenance releases will be offered to customers once a year.  The releases shall take no longer than 5 minutes for 80% of the customer base to install.;MN;adv;once
+R311;6;The product shall be translated into foreign languages other than the target market countries\92 languages in future releases.  For each emerging target market  it shall take no more than 5 days to configure the product for that market\92s language.;US;adv;no more
+R350;7;Recreation of Inventory Quantity Adjustment for the period of previous 30 days shall take no more than 30min.;PE;adv;no more
+R352;7;The System shall utilize currently owned computer equipment.;O;adv;currently
+R353;7;The System shall be able to automatically backup business data and restore them on demand.;O;adv;automatically
+R354;7;The System shall maintain consistent security.  Any changes in user passwords and/or permissions should take affect in all parts of the System.;SE;adv;in all
+R355;7;The System shall granularly control access rights to all major subsystems.  It should be possible to assign access rights to all subsystems independently.;SE;adv;independently
+R356;7;The System shall meet all applicable accounting standards.  The final version of the System must successfully pass independent audit performed by a certified auditor.;L;adv;successfully
+R360;7;The IQA subsystem shall take into account current inventory status and adjust inventory of substitutionary ingredients accordingly.;F;adv;accordingly
+R364;7;Product formula substitutionary ingredients shall be entered automatically by the PFE subsystem.;F;adv;automatically
+R369;7;PME Subsystem shall allow for a product to exist in more than one submenu;F;adv;more than
+R372;7;The System shall generate Inventory Quantity Adjustment document automatically when daily Product Sales data is available.;F;adv;automatically
+R378;8;System shall let customers cancel their account  process shall take no longer than 2 minutes.  Database will mark the account as inactive  and user will not be able to log into the website.;PE;adv;no longer
+R379;8;System shall let administrator de-activate a customer account in under 1 minute. Customer will no longer be able to access the website.;PE;adv;no longer
+R380;8;System shall let administrator add/remove movies on the website in under 5 minutes.  Entered movie information will be stored in the database and will now be available on the website.;PE;adv;now
+R394;8;The product shall use symbols and words that are naturally understandable by users familiar with websites;US;adv;naturally
+R398;8;When streaming a movie  the buffering time should take no longer than 10 seconds (plus any latency on the user\92s connection.);PE;adv;no longer
+R401;8;The website shall be available for use 24 hours per day  365 days per year.;A;adv;per year
+R404;8;The website shall continue to operate if the streaming server goes down.;FT;adv;down
+R405;8;The website shall continue to operate if the payment gateway goes down.;FT;adv;down
+R415;8;Website must be fully operational with MSN TV2.;O;adv;fully
+R431;8;The website shall protect itself from intentional abuse  and notify the administrator at all occurrences.;SE;adv;at all
+R456;8;System shall automatically update the main page of the website every Friday  and show the 4 latest movies that have been added to the website.;F;adv;automatically
+R462;8;All registered customer information shall be stored and maintained in the database  even after the customer cancels their account.;F;adv;even
+R465;9;"Total lead cycle time must be completed in 5 minutes for 90% of lead volume between the business hours of 8AM CST to 8PM CST; then 3 minutes for 99% of lead volume during off business hours.";PE;adv;then
+R467;9;For leads that process longer than 25 seconds the system will record the event and duration;PE;adv;longer
+R478;9;If the leads score falls within the high average score then it will be process by the ARA functionality.;F;adv;then
+R479;9;If the leads score falls within the medium average then it will be set for manual verification by an Enrollment Coordinator through the eleads system.;F;adv;then
+R480;9;If the leads score falls within the low average then it will be returned to the supplying vendor;F;adv;then
+R497;10;The product shall able to handle a large number of games simultaneously.;PE;adv;simultaneously
+R498;10;The response time shall be fast enough to maintain the flow of the game.  The response time shall be no more than 2 seconds for 95% of responses and no more than 4% for the remaining responses.;PE;adv;no more
+R498;10;The response time shall be fast enough to maintain the flow of the game.  The response time shall be no more than 2 seconds for 95% of responses and no more than 4% for the remaining responses.;PE;adv;enough
+R500;10;The product shall be intuitive and self-explanatory.  Nine out ten users shall be able to successfully complete a game with no training.;US;adv;successfully
+R503;10;The response time shall be fast enough to maintain the flow of the game. The response time shall be no more than 2 seconds for 95% of responses and no more than 4% for the remaining responses.;PE;adv;no more
+R503;10;The response time shall be fast enough to maintain the flow of the game. The response time shall be no more than 2 seconds for 95% of responses and no more than 4% for the remaining responses.;PE;adv;enough
+R509;10;The product shall remove players who have been inactive for 24 hours from the list of players.;F;adv;for 24 hours
+R515;10;The product shall allow a player to position ships horizontally on their grid.;F;adv;horizontally
+R516;10;The product shall allow the player to position ships vertically on their grid.;F;adv;vertically
+R517;10;The product shall allow the player to position ships diagonally on their grid;F;adv;diagonally
+R522;10;At the start of each turn  the product shall notify each player of his or her status.;F;adv;At the start
+R536;10;The product shall end a game when a hit by the offensive player results in sinking the last of the defensive player\92s ships  which had not been previously marked as sunk.;F;adv;previously
+R544;11;The system shall be responsive. At the DePaul TeleServices Center  when a supervisor uses the system to view a callers schedule  the system response time must be no more than 2 seconds 90% of the time and no more than 5 seconds the rest of the time.;PE;adv;no more
+R545;11;On a 56k connection  the system response time for all operations must be no more than 6 seconds 90% of the time.;PE;adv;no more
+R546;11;On a 112k connection or faster  the system response time for all operations must be no more than 3 seconds 90% of the time.;PE;adv;no more
+R547;11;The system shall have high availability every day of the year.The system must be available for use between 12:00AM and 6:00PM all days of the year.;A;adv;every day
+R553;11;The interface shall have a simple look. In the interface and usability survey  90% of beta testers must report that the interface is adequately simple.;LF;adv;adequately
+R564;12;The product shall provide Dynamic Change Support and Transparent resource addition.The product shall support Transparent Resource addition and Dynamic Change support to provide scalability and avoid service interruptions of more than 1 day.;PE;adv;more than
+R568;12;The product shall be able to process all transactions.The product shall process minimum of 1 million transactions per year.;SC;adv;per year
+R572;12;The product shall be updated on a regular basis.The product will have a new major feature introduced every six months and quarterly maintenance releases every six months.;MN;adv;on a regular basis
+R580;13;The interface must summarize the data in a fashion that\92s appealing to CCR management. Every report type must have at least one high level summary shown in the results dashboard/interface;LF;adv;at least
+R582;13;The interface shall be easy to use. 90% of users should be able to successfully use the system to generate a report on their first use. The interface should adhere to IBM usability standards.;US;adv;successfully
+R587;13;The WCS system shall be available at all times as long as IBM\92s internal intranet W3 is accessible. The WCS system will be available 95% of the time IBM\92s internal intranet W3 is available.;A;adv;at all
+R587;13;The WCS system shall be available at all times as long as IBM\92s internal intranet W3 is accessible. The WCS system will be available 95% of the time IBM\92s internal intranet W3 is available.;A;adv;as
+R587;13;The WCS system shall be available at all times as long as IBM\92s internal intranet W3 is accessible. The WCS system will be available 95% of the time IBM\92s internal intranet W3 is available.;A;adv;long
+R588;13;The WCS system shall have the ability to connect other designated WCS databases currently not included in the system.;SC;adv;currently
+R592;13;The WCS system must run queries to the WCS databases once again (on a specified day) to update the available data available to CCR users. Queries must be made to external databases for data refresh once a week.;MN;adv;once again
+R592;13;The WCS system must run queries to the WCS databases once again (on a specified day) to update the available data available to CCR users. Queries must be made to external databases for data refresh once a week.;MN;adv;once
+R600;14;The message board shall contain the 5 most recently posted messages on the league page. The messages will contain up to the first 150 characters of the message.;LF;adv;most recently
+R603;14;Users shall be able to view at least 25 NFL player statistics and points on each page.;US;adv;at least
+R606;14;The application shall have a downtime of at most 10 minutes per year.;A;adv;at most
+R606;14;The application shall have a downtime of at most 10 minutes per year.;A;adv;per year
+R612;15;The RFS system should be available 24/7  especially during the budgeting period. The RFS system shall be available 90% of the time all year  and 98% during the budgeting period. 2% of the time  the system will become available within 1 hour of the time that the situation is reported.;A;adv;especially
+R615;15;The RFS system should be able to easily interface with the BDW environment  in order to load the data. \95	7 data files shall be received from the BDW and loaded into the RFS system within 3 hours one day prior to the start of budgeting process  every year. The data will be as of October month-end. 	Test files (7) shall be loaded up to 5 times throughout the year  from the BDW.;O;adv;every year
+R616;15;Changes to revenue and expense formulae must be applied to the RFS system  every year  prior to the budgeting process start. Revenue and expense formulae will be updated within one week of their receipt  after which 2 weeks will be allotted to testing of the budget calculations  to be conducted jointly by the project development team and PCG Finance.;MN;adv;every year
+R616;15;Changes to revenue and expense formulae must be applied to the RFS system  every year  prior to the budgeting process start. Revenue and expense formulae will be updated within one week of their receipt  after which 2 weeks will be allotted to testing of the budget calculations  to be conducted jointly by the project development team and PCG Finance.;MN;adv;jointly
+R621;15;The intranet pages should display appropriately in all resolutions  from 800x600 and higher. The display of all the pages will be correct in 95% of the resolutions  prior to implementation. The remaining 5% will be corrected within a week of notification of the incorrect display.;LF;adv;in all
+R621;15;The intranet pages should display appropriately in all resolutions  from 800x600 and higher. The display of all the pages will be correct in 95% of the resolutions  prior to implementation. The remaining 5% will be corrected within a week of notification of the incorrect display.;LF;adv;appropriately
+R622;15;The users should be able to easily use the system to successfully complete their budgets  within the stipulated time for completion. With a week of training prior to product implementation  98% of the users shall complete their budgets within the stipulated time.;US;adv;successfully
+R623;15;The product interface should be fast. The response time of the product interface should not exceed 2 seconds 90% of the time. For 10% of the time  the response time should not be more than 10 seconds.not be more than 10 seconds.;PE;adv;more than
+R646;18;The meeting scheduler system may (optionally) automatically propose another meeting if current meeting is canceled by an important participant.;F;adv;automatically
+R651;18;A meeting scheduler system will temporarily reserve the “time slots” for the proposed meeting.;F;adv;temporarily
+R658;19;The calculations performed by the system must comply according to the norms set by the user and should not vary unless explicitly changed by the user.;L;adv;explicitly
+R660;20;All Web pages generated by the system shall be fully downloadable in no more than 10 seconds over a 40KBps modem connection.;PE;adv;no more
+R660;20;All Web pages generated by the system shall be fully downloadable in no more than 10 seconds over a 40KBps modem connection.;PE;adv;fully
+R661;20;Responses to queries shall take no longer than 7 seconds to load onto the screen after the user submits the query.;PE;adv;no longer
+R663;20;All network transactions that involve financial information or personally identifiable information shall be encrypted.;SE;adv;personally
+R670;21;The online registration system is “self-service style” system that shall initially address the student registration needs.;F;adv;initially
+R671;22;All data entry forms for the application should match their Microsoft Excel hardcopy counterparts as closely as possible. Hardcopies of these forms were provided to the design team during the second requirements interview.;O;adv;as
+R671;22;All data entry forms for the application should match their Microsoft Excel hardcopy counterparts as closely as possible. Hardcopies of these forms were provided to the design team during the second requirements interview.;O;adv;closely
+R676;24;The application should be easy to extend. The code should be written in a way that it favors implementation of new functions.;MN;adv;in a way
+R679;25;The system shall show a tabbed display (or equivalent functionality) with the campus map on one tab and info on the most recently announced building on the other.;LF;adv;most recently
+R681;25;The campus map shall provide visual clues regarding what areas have prepared audio and therefore may be selected.;LF;adv;therefore
+R687;27;The system shall be capable of restoring itself to its previous state in the event of failure (e.g. a system crash or power loss).;FT;adv;e.g.
+R688;27;The system shall be able to display a menu at all times to facilitate manual order taking should the need arise.;LF;adv;at all
+R691;27;A waiter password used for tablet login must have a bit-strength of at least 64 bits.;SE;adv;a bit
+R691;27;A waiter password used for tablet login must have a bit-strength of at least 64 bits.;SE;adv;at least
+R694;27;A waiter that attempts to log into a second tablet while already logged into another tablet shall be rejected and notified through both tablets.;SE;adv;already
+R698;28;The system will fully function in major browsers.;PO;adv;fully
+R699;28;The system will support mobile users in some way.;PO;adv;in some way
+R700;29;Responses to view information shall take no longer than 5 seconds to appear on the screen.;PE;adv;no longer
+R716;30;Be intuitive even to first time users;LF;adv;even
+R726;32;It must be able to download the most recent medical record.;F;adv;most
+R727;32;It must store the most recent copy of information in its application data folder.;F;adv;most
+R741;32;Full data backups must be created daily.;SE;adv;daily
+R756;34;The system use SSL (secured socket layer) in all transactions that include any confidential customer information.;SE;adv;in all
+R757;34;The system must automatically log out all customers after a period of inactivity.;SE;adv;automatically
+R762;34;The reliability of the overall program depends on the reliability of the separate components. The main pillar of reliability of the system is the backup of the database which is continuously maintained and updated to reflect the most recent changes.;FT;adv;continuously
+R762;34;The reliability of the overall program depends on the reliability of the separate components. The main pillar of reliability of the system is the backup of the database which is continuously maintained and updated to reflect the most recent changes.;FT;adv;most
+R764;35;The logo and the current basic design of registration system should be displayed. The system should be attractive according to the clients. The design and the color should make users feel comfortable when using the system instead of flashing useless colors on the screen. The design should also reflect the seriousness of the environment.;LF;adv;instead
+R766;35;The product is Web based therefore it will be used in any environment that allows Web access.;PO;adv;therefore
+R767;35;For the system to successfully operate the registration system should be integrated with other IT services and the portal.;O;adv;successfully
+R768;35;The system should need to be entirely self-supporting since the users would be using it only to register courses.;US;adv;entirely
+R772;36;The Operational Interface shall have a Mean Time Between Failures of no less than 7 days.;FT;adv;less than
+R774;36;The software system needs a robust security mechanism in place so that unauthorized users are not allowed access to parts of the system.;SE;adv;in place
+R777;36;All source code shall adhere to an agreed upon and well-defined set of coding standards for each development language used.;MN;adv;well
+R786;38;Normal users can just read information but they cannot edit or modify anything except their personal and some other information.;SE;adv;just
+R801;38;Responsible for properly allocating the selected product according to the customer’s choice and delivering product to the customer.;F;adv;properly
+R825;42;The font will be larger enough for easy reading.;F;adv;enough
+R826;42;Icons will clearly illustrate the feature it represents.;F;adv;clearly
+R827;42;Basic Patient information is showed first.;F;adv;first
+R829;42;Each entry is shown in full.;F;adv;in full
+R830;42;The text and time/date of a note that has been entered is displayed starting with most recent.;F;adv;most
+R832;42;A description and time/date of each prescription that has been ordered or given is displayed starting with most recent.;F;adv;most
+R834;43;All login attempts shall be done so in a secure manner.;SE;adv;so
+R854;45;The system shall allow the user to modify the date preference set of an already submitted meeting response.;F;adv;already
+R855;45; The system shall allow the user to modify the location preference set of an already submitted meeting response.;F;adv;already
+R856;45;The system shall allow the user to modify the equipment requirement set of an already submitted meeting response.;F;adv;already
+R857;45;The system shall allow the user to modify the date exclusion set of an already submitted meeting response.;F;adv;already
+R868;45;The web application shall add no more than 5 seconds of perceivable overhead time to any necessary web and database transaction time.;PE;adv;no more
+R874;45;The system shall be compatible with IIS6.0 and above or  Apache 2.0 and above.;PO;adv;above
+R896;46;The system shall display the most frequently searched items by the user in the profile.;F;adv;most
+R943;46;The system shall use secure sockets in all transactions that include any confidential customer information.;SE;adv;in all
+R944;46;The system shall automatically log out all customers after a period of inactivity.;SE;adv;automatically
+R948;46;The customer’s web browser shall never display a customer’s password.  It shall always be echoed with special characters representing typed characters.;SE;adv;never
+R948;46;The customer’s web browser shall never display a customer’s password.  It shall always be echoed with special characters representing typed characters.;SE;adv;always
+R949;46;The customer’s web browser shall never display a customer’s credit card number after retrieving from the database.  It shall always be shown with just the last 4 digits of the credit card number.;SE;adv;never
+R949;46;The customer’s web browser shall never display a customer’s credit card number after retrieving from the database.  It shall always be shown with just the last 4 digits of the credit card number.;SE;adv;always
+R949;46;The customer’s web browser shall never display a customer’s credit card number after retrieving from the database.  It shall always be shown with just the last 4 digits of the credit card number.;SE;adv;just
+R950;46;The system’s back-end servers shall never display a customer’s password.  The customer’s password may be reset but never shown.;SE;adv;never
+R955;48;Any page of the application should not take more than 6 seconds to load on a DSL broadband connection.;PE;adv;more than
+R959;48;The MTBF (if any) should not be less than 2 months.;A;adv;less than
+R961;48;The user interface of the system should be very user friendly. ;US;adv;very
+R962;48;It should not take more than 120 seconds for a new user to register for an account.;US;adv;more than
+R963;48;It should not take more than 90 seconds for a registered user to place an order.;US;adv;more than
+R964;48;The system should be easy enough to maintain that someone else could do it with a manual and a few hours training.;MN;adv;enough
+R964;48;The system should be easy enough to maintain that someone else could do it with a manual and a few hours training.;MN;adv;else
+R966;49;Registered User must be able to maintain his/her session information for at least 60 minutes of inactive session before the system prompts him to log out of the system. The registered user must be provided with all the options of the E-store regardless of the time when he/she logs in.;F;adv;at least
+R968;49;The system shall support up to 10000 simultaneous users against the central database at any given time and up to 5000 simultaneous users against the local servers at any one time. The performance of the website must be optimal incase of huge loads and hence appropriate load balancing must be done to achieve this. There can be any number of mirror servers readily available in case of huge loads without the user getting any delay.;PE;adv;one time
+R968;49;The system shall support up to 10000 simultaneous users against the central database at any given time and up to 5000 simultaneous users against the local servers at any one time. The performance of the website must be optimal incase of huge loads and hence appropriate load balancing must be done to achieve this. There can be any number of mirror servers readily available in case of huge loads without the user getting any delay.;PE;adv;hence
+R968;49;The system shall support up to 10000 simultaneous users against the central database at any given time and up to 5000 simultaneous users against the local servers at any one time. The performance of the website must be optimal incase of huge loads and hence appropriate load balancing must be done to achieve this. There can be any number of mirror servers readily available in case of huge loads without the user getting any delay.;PE;adv;readily

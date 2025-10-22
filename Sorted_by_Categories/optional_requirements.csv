@@ -1,0 +1,81 @@
+ID;ID progetto;REQUISITO (testo);Classe dei requisiti;CATEGORIA;PAROLA
+R5;1;If projected  the data must be understandable. On a 10x10 projection screen  90% of viewers must be able to determine that Events or Activities are occuring in current time from a viewing distance of 100;US;optional;or
+R7;1;The product shall be intuitive and self-explanatory. 90% of new users shall be able to start the display of Events or Activities within 90 minutes of using the product.;US;optional;or
+R12;1;The system shall display Events or Activities.;F;optional;or
+R20;1;The system shall link Events back to either the Sync Matrix 1.0 or the Exercise Managment Tool 1.0 applications for modifications.;F;optional;either
+R20;1;The system shall link Events back to either the Sync Matrix 1.0 or the Exercise Managment Tool 1.0 applications for modifications.;F;optional;or
+R27;1;The system shall provide charts for the Activity or Event actual versus assumed time.;F;optional;or
+R28;1;The system shall provide a history report of changes made to the Activity or Event data;F;optional;or
+R62;2;The system shall update or create new property listings in the MLS;F;optional;or
+R64;2;The system shall be able to call the seller or buyer to schedule an appointment;F;optional;or
+R67;2;The system shall notify the realtor when a seller or buyer responds to an appointment request;F;optional;or
+R98;3;The system shall have basic data integrity checking to reduce the possibility of incorrect or invalid data being introduced.;SE;optional;or
+R109;3;Program Administrators and Nursing Staff Members shall be able to add clinical classes or sections to a sequence of classes;F;optional;or
+R112;3;A class shall be either a non-clinical class or a clinical class.;F;optional;either
+R112;3;A class shall be either a non-clinical class or a clinical class.;F;optional;or
+R126;3;The system shall allow a Program Administrator or Nursing staff member to remove a student from a clinical lab section.;F;optional;or
+R147;3;Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Nursing Student  including student ID  student name phone number e-mail status (full time or part time) and program of study.;F;optional;or
+R170;4;The Disputes application shall manipulate and view business data. Users will not have direct access to data files or databases.;SE;optional;or
+R171;4;All updates to data files or database must be initiated from the Disputes System.;SE;optional;or
+R184;4;The Disputes System must allow the users to select disputable transactions (based on the age of the transaction) from a user interface and initiate a dispute (ticket retrieval request or chargeback notification) on the selected transaction.;F;optional;or
+R186;4;The Disputes System will provide the user the ability to create or initiate a ticket retrieval request.   As part of ticket retrieval creation process the system must prompt the user to enter all the required information to create the ticket retrieval request.  The ticket retrieval request is a document that is sent to merchant inquiring the validity of a transaction.;F;optional;or
+R187;4;The Disputes System must allow the user to create three unique types of ticket retrieval requests.  The three types of ticket retrieval requests are (1) Request for original receipt (2) Request for a copy of the receipt or (3) Request for a portfolio. A portfolio consists of documentation that would provide proof of a purchase such as the documentation that is received from a car rental agency that is more than a sales receipt.;F;optional;or
+R189;4;"The Disputes System must provide a confirmation to the user upon the creation of ticket retrieval request that contains the following information; the dispute case number  the type of retrieval requested (copy  original or portfolio)  and the date that the merchant response is due.";F;optional;or
+R190;4;The Disputes System shall allow the user to create or initiate a chargeback request.  The system must prompt the user to enter the required information to initiate a chargeback request. The chargeback request results in a printed chargeback notification that is sent to merchant indicating that their account will be charged back if no proof is provided that the disputed transaction is valid.;F;optional;or
+R191;4;"The Disputes System must provide a confirmation to the user upon the creation of a chargeback request. The confirmation must contain the following information; the dispute case number  the type of chargeback requested (pending or immediate)  and the date that the merchant response is due.";F;optional;or
+R195;4;The Disputes System must provide Search functionality.  The search method must include the ability to search by (1) the dispute case number  (2) the merchant account number  (3) the cardmember account number and (4) the issuer number.  In addition to the above criteria  the search functionality must further allow the user to limit the results of the search by a date range  the type of dispute (ticket retrieval request or chargeback notification)  the case status (open  closed or all) and the dispute reason code.;F;optional;or
+R199;4;The Disputes System shall record the name of the user and the date for any activity that creates or modifies the disputes case in the system.  A detailed history of the actions taken on the case  including the date and the user that performed the action must be maintained for auditing purposes.;F;optional;or
+R276;6;The product must work with most database management systems (DBMS) on the market  whether the DBMS is colocated with the product on the same machine or is located on a different machine on the computer network.;O;optional;whether
+R276;6;The product must work with most database management systems (DBMS) on the market  whether the DBMS is colocated with the product on the same machine or is located on a different machine on the computer network.;O;optional;or
+R278;6;The product will require collaboration with a database management system (DBMS).  The DBMS may be located on the same machine as the product or on a separate machine residing on the same computer network.;O;optional;or
+R280;6;A database management system such as Oracle  DB2  MySql or HSQL will need to be integrated with the product.;O;optional;or
+R302;6;The product shall be available for distribution via the Internet as a binary or ZIP file.;O;optional;or
+R304;6;The product will be available for licensing as a one-server  two-five servers  or five-or-more servers license.;O;optional;or
+R314;6;The product shall ensure that only company employees or external users with company-approved user IDs may have product access.  100% of all logons shall be by either company employees or external users with company-approved user IDs.;SE;optional;or
+R397;8;When purchasing a streaming movie or pre-paid card via credit card  the processing time should have a maximum response time of 15 seconds.;PE;optional;or
+R440;8;The website shall not be offensive to religious or ethnic groups.;LF;optional;or
+R446;8;The website will allow customers to search for movies by title  actor  or director.;F;optional;or
+R455;8;Website shall allow customers to purchase pre-paid cards of $5  $10  or $20 value either by credit card or mail-in payment option.;F;optional;or
+R455;8;Website shall allow customers to purchase pre-paid cards of $5  $10  or $20 value either by credit card or mail-in payment option.;F;optional;either
+R458;8;Pre-paid cards shall be distributed via email or via a printed paper card.;F;optional;or
+R505;10;The product shall allow a user to identify himself or herself as a player.;F;optional;or
+R507;10;The product shall allow a user to remove himself or herself from the list of players at any time.;F;optional;or
+R513;10;The product shall prevent a player from viewing the offensive or defensive grids of the other player.;F;optional;or
+R521;10;The product shall maintain the status of each player for a turn  either offensive or defensive.;F;optional;either
+R521;10;The product shall maintain the status of each player for a turn  either offensive or defensive.;F;optional;or
+R522;10;At the start of each turn  the product shall notify each player of his or her status.;F;optional;or
+R524;10;For each shot  the product shall examine the defensive grid of the defensive player to determine whether the shot was a hit or miss.;F;optional;whether
+R525;10;For each shot  the product shall notify the players whether the shot was a hit or miss.;F;optional;whether
+R539;10;The notification of the game ending will include the reason the game is ended (i.e.  a player has won the game or a player has ended the game).;F;optional;or
+R540;10;When a game is ended  the product shall allow each player to identify himself or herself as an available player in the list of players.;F;optional;or
+R541;10;When a game is ended  the product shall allow each player to remove himself or herself from the list of players.;F;optional;or
+R546;11;On a 112k connection or faster  the system response time for all operations must be no more than 3 seconds 90% of the time.;PE;optional;or
+R571;12;The product shall continue to operate during upgrade  change or new resource addition.The product shall be able to continue to operate with no interruption in service due to new resource additions.;MN;optional;or
+R581;13;The system must use a point and click interface. 100% of all selection and navigation functionality must be able to be activated/selected by either a mouse or a keyboard;US;optional;either
+R581;13;The system must use a point and click interface. 100% of all selection and navigation functionality must be able to be activated/selected by either a mouse or a keyboard;US;optional;or
+R590;13;The WCS system shall be run in a Windows environment. The WCS shall be accessed by users through the Internet on an IBM computer running a Windows 2000 or above operating system.;O;optional;or
+R591;13;The Brio portion of the WCS system must be able to export files in spreadsheet form (Microsoft Excel and Lotus 1-2-3 formats).  Brio will provide buttons in the user interface that produce/export reports in .xls or .123 file formats.;O;optional;or
+R604;14;The application shall ask the user to confirm dropping a player or trading a player before performing the action.;US;optional;or
+R625;16;The system shall be evoked by typing “pine” into a command or shell prompt.;O;optional;or
+R646;18;The meeting scheduler system may (optionally) automatically propose another meeting if current meeting is canceled by an important participant.;F;optional;optionally
+R649;18;The meeting scheduler system may suggest a “virtual meeting” for available “time slots” if no location is available or feasible for the meeting.;F;optional;or
+R663;20;All network transactions that involve financial information or personally identifiable information shall be encrypted.;SE;optional;or
+R666;20;The system shall permit only cafeteria staff members who are on the list of authorized Menu Managers to create or edit menus.;F;optional;or
+R668;21;Programmers and application developers will have access to source code to address bugs or system enhancements as deemed necessary. Network Administrator and DBA support is also required to maintain a 24x7 system uptime.;A;optional;or
+R679;25;The system shall show a tabbed display (or equivalent functionality) with the campus map on one tab and info on the most recently announced building on the other.;LF;optional;or
+R687;27;The system shall be capable of restoring itself to its previous state in the event of failure (e.g. a system crash or power loss).;FT;optional;or
+R742;32;A user must be logged on to be able to view or edit any medical information.;F;optional;or
+R763;34;"An end-user may use this system on any OS; either it is Windows or Linux.";PO;optional;either
+R763;34;"An end-user may use this system on any OS; either it is Windows or Linux.";PO;optional;or
+R775;36;Each user shall either be trusted or not trusted.;SE;optional;either
+R775;36;Each user shall either be trusted or not trusted.;SE;optional;or
+R786;38;Normal users can just read information but they cannot edit or modify anything except their personal and some other information.;SE;optional;or
+R813;40;All the passwords that are generated or accepted must be stored in database in an encrypted form.;SE;optional;or
+R822;42;Selected or specified patient’s information is loaded.;F;optional;or
+R832;42;A description and time/date of each prescription that has been ordered or given is displayed starting with most recent.;F;optional;or
+R853;45;The system shall request a user response to initiator or mediator messages.;F;optional;or
+R874;45;The system shall be compatible with IIS6.0 and above or  Apache 2.0 and above.;PO;optional;or
+R878;46;The system shall enable user to add one or more component to the configuration.;F;optional;or
+R907;46;The system shall optionally allow user to print the invoice.;F;optional;optionally
+R956;48;The system may be throttled or slowed down on heavy loads to ensure service for everybody. By throttling is meant that certain functionality may be unavailable during heavy server load.;PE;optional;or
+R968;49;The system shall support up to 10000 simultaneous users against the central database at any given time and up to 5000 simultaneous users against the local servers at any one time. The performance of the website must be optimal incase of huge loads and hence appropriate load balancing must be done to achieve this. There can be any number of mirror servers readily available in case of huge loads without the user getting any delay.;PE;optional;in case of
