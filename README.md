@@ -90,7 +90,7 @@ Colonne: `ID;ID progetto;REQUISITO (testo);Classe dei requisiti;CATEGORIA;PAROLA
 
 > Se un requisito ha più match, genera più righe. Se non ha match, `CATEGORIA` e `PAROLA` sono `NULL`.
 
-### 3) Split per categoria — `Splitter.py` ️⃣ (POST‑tool.py)
+### 3) Split per categoria — `Splitter.py` ️  (POST‑tool.py)
 Legge `Labeled_Dataset.csv` e crea **19 file CSV**, uno per ciascuna categoria del dizionario, dentro `Sorted_by_Categories/`.
 
 ```bash
@@ -99,7 +99,7 @@ python Splitter.py
 **Output**: `Sorted_by_Categories/<categoria>_requirements.csv` (con intestazione).  
 Ogni file contiene **tutti i requisiti** etichettati con quella categoria.
 
-### 4) Selezione campione — `Selecter.py` ️⃣ (POST‑split)
+### 4) Selezione campione — `Selecter.py` ️  (POST‑split)
 Per ogni file in `Sorted_by_Categories/`, seleziona **N requisiti casuali** (default **27**, modificabile nello script).  
 Se il file contiene meno di N requisiti, li include **tutti**. Infine consolida tutto in un unico CSV.
 
