@@ -5,7 +5,7 @@ from pathlib import Path
 # --- Configurazione ---
 INPUT_DIR = Path("Sorted_by_Categories")
 OUTPUT_FILE = "Requisiti_Selezionati.csv"
-SAMPLE_SIZE = 27
+SAMPLE_SIZE = 30
 
 def create_final_sample_set():
     """
