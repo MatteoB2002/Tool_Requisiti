@@ -1,156 +1,189 @@
 #  Automated Requirements Labeling Tool
 
-Questo progetto fornisce una pipeline di scripting in **Python** per pre-elaborare, identificare e categorizzare parole e frasi chiave all'interno di un dataset di requisiti software.  
-La pipeline utilizza **dizionari personalizzati** e l'analisi del contesto grammaticale tramite la libreria **spaCy** per etichettare in modo intelligente i termini, producendo un dataset strutturato in formato **CSV** pronto per ulteriori analisi.
+Questo progetto fornisce una pipeline di scripting in **Python** per **pre‑elaborare**, **etichettare** e **selezionare** automaticamente requisiti in linguaggio naturale a partire da un dataset testuale e da dizionari di categorie.  
+La pipeline produce dapprima un dataset etichettato (CSV) e quindi, tramite passi post‑processing, **suddivide per categoria** e **seleziona un sottoinsieme di requisiti** per le analisi successive.
 
 ---
 
 ##  Features
 
-- **Pre-elaborazione Automatica** – Pulisce i file di dataset in formato `.arff`, rimuovendo intestazioni e commenti.  
-- **ID Univoci** – Assegna un ID progressivo e univoco (es. `R1`, `R2`, ...) a ciascun requisito per un facile tracciamento.  
-- **Etichettatura Basata su Dizionari** – Utilizza una directory di file `.txt` come dizionari, dove ogni file rappresenta una categoria semantica (es. `noun.txt`, `verb.txt`, `adj.txt`).  
-- **Matching Contestuale Intelligente** – Sfrutta il modello di **Natural Language Processing (NLP)** di **spaCy** per eseguire il *Part-of-Speech* (POS) tagging, disambiguando parole con ruoli multipli.  
-- **Supporto per Frasi Multi-parola** – Usa la libreria **FlashText** per individuare frasi multi-parola (es. “user interface”, “data base”).  
-- **Output Strutturato** – Genera un file `Labeled_Dataset.csv` ben formattato, ideale per analisi o addestramento di modelli ML.
+- **Pre‑elaborazione automatica** del dataset `.arff` (pulizia intestazioni/commenti).  
+- **ID univoci** dei requisiti (`R1`, `R2`, …) per tracciabilità.  
+- **Etichettatura basata su dizionari** (`NewDict/*.txt`, una categoria per file).  
+- **Matching contestuale (spaCy)** con POS tagging per disambiguare termini polisemici.  
+- **Supporto frasi multi‑parola (FlashText)** ad alte prestazioni.  
+- **Post‑processing completo** dopo l’etichettatura:
+  - **Splitter**: crea 19 file (uno per categoria) con i requisiti etichettati.
+  - **Selecter**: seleziona **N requisiti casuali** per categoria (default 27) e li consolida in un unico CSV finale.
+- **Utility per dizionari**:
+  - **MergeDict**: unisce due file di termini “vaghi” e genera statistiche di overlap.
 
 ---
 
-## Workflow del Progetto
-
-Il processo è composto da due passaggi principali, gestiti da due script separati.
-
-### 1️ Input iniziale: `Dataset.arff`
-Contiene il dataset grezzo dei requisiti.
-
-### 2️ Esecuzione di `AssociazioneID.py`
-Legge `Dataset.arff`, lo pulisce e assegna un ID a ogni requisito.
-
-**Output:** `Dataset_With_R_ID.txt` → requisiti identificati e numerati.
-
-### 3️ Esecuzione di `tool.py` (con la directory `NewDict/`)
-Analizza ed etichetta i requisiti usando i dizionari.
-
-**Output:** `Labeled_Dataset.csv` → dataset finale con parole/frasi etichettate per categoria.
-
----
-
-##  Struttura della Directory
+##  Struttura del Progetto
 
 ```bash
 /progetto/
 │
-├── NewDict/
+├── NewDict/                     # dizionari (una categoria per file .txt)
 │   ├── noun.txt
 │   ├── verb.txt
 │   ├── adj.txt
-│   └── ... (altri dizionari .txt)
+│   └── vague.txt                 # (generato da MergeDict)
+│   └── ...                       # altre categorie
 │
-├── Dataset.arff
-├── AssociazioneID.py
-├── tool.py
+├── Dataset.arff                 # dataset iniziale dei requisiti
+├── AssociazioneID.py            # step 1: assegna ID e normalizza
+├── tool.py                      # step 2: etichetta usando NewDict + spaCy + FlashText
+├── Splitter.py                  # step 3: split per categoria (post-tool.py)
+├── Selecter.py                  # step 4: selezione casuale per categoria (post-split)
+├── MergeDict.py                 # utility: merge di due dizionari “vaghi”
 │
-├── Dataset_With_R_ID.txt
-│── Labeled_Dataset.csv
+├── Dataset_With_R_ID.txt        # (generato)
+├── Labeled_Dataset.csv          # (generato)
+├── Sorted_by_Categories/        # (generato da Splitter.py)
+│   ├── <categoria>_requirements.csv
+│   └── ...
+│── Vague_1.txt
+│── Vagues_2.txt
 │
 └── README.md
 ```
 
 ---
 
-## Prerequisiti e Installazione
+##  Requisiti e Installazione
 
-###  Python
-Assicurati di avere **Python 3.7 o superiore** installato.
-
-###  Librerie Necessarie
-Installa le dipendenze richieste:
+- **Python** 3.7+
+- Dipendenze:
 ```bash
 pip install spacy flashtext
-```
-
-###  Modello spaCy
-Scarica il modello linguistico inglese utilizzato da `tool.py`:
-```bash
 python -m spacy download en_core_web_sm
 ```
 
 ---
 
-##  Guida all'Uso
+##  Workflow End‑to‑End
 
-### Passo 1: Preparazione dei File di Input
-- Inserisci il tuo dataset iniziale nella root del progetto, chiamato `Dataset.arff`.
-- Scarica la directory chiamata NweDict e aggiungila nella root del progetto.  
-  - Il nome del file diventa il nome della categoria (es. `noun.txt` → categoria *noun*).  
-  - Ogni riga deve contenere una parola o frase.
+Di seguito il flusso operativo **completo**, con i passi “post‑tool.py” **integrati** perché necessari alla fase di **selezione** dei requisiti per l’analisi.
 
-### Passo 2: Esegui `AssociazioneID.py`
-Esegue la pulizia e crea il file con ID univoci.
+### 1) Pre‑elaborazione & ID — `AssociazioneID.py`
+Legge `Dataset.arff`, rimuove intestazioni/commenti e assegna un ID univoco a ogni requisito.
 
 ```bash
 python AssociazioneID.py
 ```
-
-Genera `Dataset_With_R_ID.txt` con righe come:
+**Output**: `Dataset_With_R_ID.txt`  
+Esempio riga:
 ```
 R1: 1,'The system shall refresh the display every 60 seconds.',PE
 ```
 
-### Passo 3: Esegui `tool.py`
-Analizza e etichetta i requisiti.
+### 2) Etichettatura — `tool.py`
+Analizza ed etichetta ogni requisito utilizzando i dizionari in `NewDict/`, spaCy (POS) e FlashText (frasi).
 
 ```bash
 python tool.py
 ```
+**Output**: `Labeled_Dataset.csv` (delimitatore `;`)  
+Colonne: `ID;ID progetto;REQUISITO (testo);Classe dei requisiti;CATEGORIA;PAROLA`
 
-Genera `Labeled_Dataset.csv`, contenente le etichette per parole/frasi trovate.
+> Se un requisito ha più match, genera più righe. Se non ha match, `CATEGORIA` e `PAROLA` sono `NULL`.
 
----
+### 3) Split per categoria — `Splitter.py` ️  (POST‑tool.py)
+Legge `Labeled_Dataset.csv` e crea **19 file CSV**, uno per ciascuna categoria del dizionario, dentro `Sorted_by_Categories/`.
 
-##  Logica di `tool.py`
+```bash
+python Splitter.py
+```
+**Output**: `Sorted_by_Categories/<categoria>_requirements.csv` (con intestazione).  
+Ogni file contiene **tutti i requisiti** etichettati con quella categoria.
 
-### 1. Caricamento e Ottimizzazione dei Dizionari (`load_all_dicts_optimized`)
-- **Parole Singole** → normalizzate e salvate in `singles_category_map` (parola → set categorie).  
-- **Frasi Multi-parola** → caricate in un `KeywordProcessor` di FlashText per una ricerca veloce.  
+### 4) Selezione campione — `Selecter.py` ️  (POST‑split)
+Per ogni file in `Sorted_by_Categories/`, seleziona **N requisiti casuali** (default **27**, modificabile nello script).  
+Se il file contiene meno di N requisiti, li include **tutti**. Infine consolida tutto in un unico CSV.
 
-### 2. Processamento dei Requisiti (`tokenize_and_match_with_spacy`)
-Per ogni requisito:
-1. **Ricerca Frasi Multi-parola** con FlashText (prioritaria).  
-2. **Analisi POS con spaCy** per token rimanenti.  
-3. **Matching Contestuale** con la mappa `POS_CATEGORY_MAPPING`.
-
-#### Esempio
-Requisito: `"The system must display a warning message."`  
-Dizionari: `"display"` in `noun.txt` e `verb.txt`  
-spaCy identifica `"display"` come VERB → lo script assegna categoria `verb`.
-
-Questo approccio riduce drasticamente i match multipli grazie al contesto grammaticale.
-
----
-
-##  Formato del File di Output (`Labeled_Dataset.csv`)
-
-| Colonna | Descrizione | Esempio |
-|----------|-------------|----------|
-| **ID** | Identificatore univoco del requisito | R42 |
-| **ID progetto** | ID del progetto dal file di input | 1 |
-| **REQUISITO (testo)** | Testo completo del requisito | The application shall provide a search function |
-| **Classe dei requisiti** | Classe estratta dal file di input | Functional_Requirement |
-| **CATEGORIA** | Categoria derivata dal dizionario | noun |
-| **PAROLA** | Parola/frase trovata nel requisito | application |
-
-> Se un requisito contiene più corrispondenze, vengono create più righe.  
-> Se nessuna parola/frase viene trovata, le colonne `CATEGORIA` e `PAROLA` contengono `NULL`.
+```bash
+python Selecter.py
+```
+**Output**: `Requisiti_Selezionati.csv`  
+**Randomicità**: la selezione è **casuale** → **non è garantito** ottenere lo stesso output finale a esecuzioni differenti.  
+Per riproducibilità, imposta un seed all’inizio dello script (es. `random.seed(42)`).
 
 ---
 
-##  Personalizzazione
+##  Logica di Etichettatura (`tool.py`)
 
-- **Percorsi File** → modifica le costanti `DICTIONARIES_DIR`, `REQUIREMENTS_FILE`, `OUTPUT_FILE` in `tool.py`.  
-- **Nuove Categorie** → aggiungi un file `.txt` in `NewDict/` e aggiorna `POS_CATEGORY_MAPPING` in base ai POS tag appropriati.  
-- **Parsing dell’Input** → l’espressione regolare `REQUIREMENT_LINE_PARSE_RX` in `tool.py` definisce il formato di parsing delle righe di input.
+### Caricamento dizionari (`load_all_dicts_optimized`)
+- **Parole singole** → normalizzate e mappate in `singles_category_map` (parola → set categorie).  
+- **Frasi multi‑parola** → caricate in `KeywordProcessor` (FlashText) per matching veloce e scalabile.
+
+### Tokenizzazione & Matching (`tokenize_and_match_with_spacy`)
+1. **Frasi multi‑parola**: prioritarie (FlashText, con `span_info=True` per recupero esatto).  
+2. **Token singoli**: analizzati con **spaCy** (lemma, POS).  
+3. **Disambiguazione**: il lemma del token viene confrontato con `singles_category_map` e validato tramite `POS_CATEGORY_MAPPING` (es. `noun` → {`NOUN`,`PROPN`}).
+
+**Esempio**  
+Testo: “The system must display a warning message.”  
+Se `display` è in `noun.txt` e `verb.txt`, spaCy lo marca **VERB** → categoria finale `verb` (riduzione falsi positivi).
 
 ---
+
+##  Utility Dizionari — `MergeDict.py` (opzionale ma utile)
+
+**Scopo**: unire due elenchi di termini “vaghi” in un unico file senza duplicati e generare statistiche di overlap. Utile per **curare/aggiornare** i dizionari prima di lanciare la pipeline.
+
+**Input**: `Vague_1.txt`, `Vagues_2.txt`  
+**Output**:
+- `vague.txt` — unione **ordinata** di tutte le parole uniche dei due file.  
+- `statistiche_file_uniti.txt` — contiene:
+  - conteggio parole **solo** nel primo file;
+  - conteggio parole **solo** nel secondo;
+  - conteggio ed **elenco** parole **comuni**;
+  - percentuali riepilogative.
+
+**Esecuzione**:
+```bash
+python MergeDict.py
+```
+
+---
+
+## 🛠️ Personalizzazione Rapida
+
+- **Percorsi file**: modifica `DICTIONARIES_DIR`, `REQUIREMENTS_FILE`, `OUTPUT_FILE` in `tool.py`.  
+- **Nuove categorie**: aggiungi un file `.txt` in `NewDict/` e aggiorna `POS_CATEGORY_MAPPING` (mappa categoria → POS spaCy).  
+- **Parsing input**: la regex `REQUIREMENT_LINE_PARSE_RX` in `tool.py` definisce il formato di parsing delle righe di `Dataset_With_R_ID.txt`.  
+- **Campione Selecter**: in `Selecter.py` cambia il numero N di requisiti da selezionare (default 27). Per risultati ripetibili, imposta un seed casuale.
+
+---
+
+##  Quick Start (tutto in fila)
+
+```bash
+# 1) Pre-elaborazione & ID
+python AssociazioneID.py
+
+# 2) Etichettatura
+python tool.py
+
+# 3) Split per categoria
+python Splitter.py
+
+# 4) Selezione campione (random)
+python Selecter.py
+```
+
+Output principali:
+- `Labeled_Dataset.csv` → dataset etichettato completo  
+- `Sorted_by_Categories/` → 19 file, uno per categoria  
+- `Requisiti_Selezionati.csv` → campione finale per l’analisi
+
+---
+
+## Autore
+
+Progetto per la **qualità e l’analisi dei requisiti** tramite NLP, dizionari semantici e pipeline di post‑processing (split & selezione).
+
 
 
