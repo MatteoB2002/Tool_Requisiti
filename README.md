@@ -154,7 +154,7 @@ python MergeDict.py
 - **Percorsi file**: modifica `DICTIONARIES_DIR`, `REQUIREMENTS_FILE`, `OUTPUT_FILE` in `tool.py`.  
 - **Nuove categorie**: aggiungi un file `.txt` in `NewDict/` e aggiorna `POS_CATEGORY_MAPPING` (mappa categoria → POS spaCy).  
 - **Parsing input**: la regex `REQUIREMENT_LINE_PARSE_RX` in `tool.py` definisce il formato di parsing delle righe di `Dataset_With_R_ID.txt`.  
-- **Campione Selecter**: in `Selecter.py` cambia il numero N di requisiti da selezionare (default 27). Per risultati ripetibili, imposta un seed casuale.
+- **Campione Selecter**: in `Selecter.py` cambia il numero N di requisiti da selezionare (default 30). Per risultati ripetibili, imposta un seed casuale.
 
 ---
 
