@@ -32,6 +32,7 @@ R280;6;A database management system such as Oracle  DB2  MySql or HSQL will need
 R302;6;The product shall be available for distribution via the Internet as a binary or ZIP file.;O;optional;or
 R304;6;The product will be available for licensing as a one-server  two-five servers  or five-or-more servers license.;O;optional;or
 R314;6;The product shall ensure that only company employees or external users with company-approved user IDs may have product access.  100% of all logons shall be by either company employees or external users with company-approved user IDs.;SE;optional;or
+R314;6;The product shall ensure that only company employees or external users with company-approved user IDs may have product access.  100% of all logons shall be by either company employees or external users with company-approved user IDs.;SE;optional;either
 R397;8;When purchasing a streaming movie or pre-paid card via credit card  the processing time should have a maximum response time of 15 seconds.;PE;optional;or
 R440;8;The website shall not be offensive to religious or ethnic groups.;LF;optional;or
 R446;8;The website will allow customers to search for movies by title  actor  or director.;F;optional;or
@@ -45,7 +46,11 @@ R521;10;The product shall maintain the status of each player for a turn  either 
 R521;10;The product shall maintain the status of each player for a turn  either offensive or defensive.;F;optional;or
 R522;10;At the start of each turn  the product shall notify each player of his or her status.;F;optional;or
 R524;10;For each shot  the product shall examine the defensive grid of the defensive player to determine whether the shot was a hit or miss.;F;optional;whether
+R524;10;For each shot  the product shall examine the defensive grid of the defensive player to determine whether the shot was a hit or miss.;F;optional;or
 R525;10;For each shot  the product shall notify the players whether the shot was a hit or miss.;F;optional;whether
+R525;10;For each shot  the product shall notify the players whether the shot was a hit or miss.;F;optional;or
+R526;10;For each shot  the product shall mark the shot as a hit or miss on the defensive grid of the defensive player.;F;optional;or
+R527;10;For each shot  the product shall mark the shot as a hit or miss on the offensive grid of the offensive player.;F;optional;or
 R539;10;The notification of the game ending will include the reason the game is ended (i.e.  a player has won the game or a player has ended the game).;F;optional;or
 R540;10;When a game is ended  the product shall allow each player to identify himself or herself as an available player in the list of players.;F;optional;or
 R541;10;When a game is ended  the product shall allow each player to remove himself or herself from the list of players.;F;optional;or

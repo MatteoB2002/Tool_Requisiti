@@ -1,0 +1,169 @@
+ID;ID progetto;REQUISITO (testo);Classe dei requisiti;CATEGORIA;PAROLA
+R6;1;The product shall ensure that it can only be accessed by authorized users.  The product will be able to distinguish between authorized and unauthorized users in all access attempts;SE;qualifier;all
+R22;1;The system shall offer a display of all the Events in the exercise.;F;qualifier;all
+R70;3;All of the users shall be able to use the system after one day of training.;US;qualifier;All
+R81;3;system shall be able to handle all of the user requests/usage during business hours.;SC;qualifier;all
+R91;3;We must be able to interface with any HTML browser.;O;qualifier;any
+R118;3;The system shall be able to display a report of needed classes for a given quarter for all cohorts of all programs for Program Administrators/Nursing Staff Members\92 planning purposes.;F;qualifier;all
+R132;3;The system shall be able to display a printable summary for individual clinical sites  which will include information on labs being held at that site for the given quarter (Clinical site  general information on labs held at that location  dates and times of all labs held there).;F;qualifier;all
+R136;3;The system shall contain contact information (e-mail and phone number) for all people relevant to the system  including (but not limited to) staff members  students  lecture instructors  clinical lab instructors  and clinical site administrators.;F;qualifier;all
+R149;4;All screens created as part of the Disputes application must comply with corporate standards for interface creation.;LF;qualifier;All
+R155;4;The Disputes application shall support 350 concurrent users without any degradation of performance in the application.;PE;qualifier;any
+R157;4;The Disputes application shall interface with the Statement Database. The Statement Database provides the transaction details to the Disputes System. All transaction details must be obtained from the Statement Database;O;qualifier;All
+R158;4;The Disputes application shall interface with the Cardmember Information Database. The Cardmember Information Database provides detailed information with regard to a cardmember. All cardmember detail information must be obtained from the Cardmember Information Database.;O;qualifier;All
+R159;4;The Disputes applications shall interface with the Merchant Information Database. The Merchant Information Database provides detailed information with regard to the merchant. All merchant detail information shall be obtained from the Merchant Information Database.;O;qualifier;All
+R160;4;The Disputes application shall interface with the Letters application.  This will allow the Disputes application to request letters as part of the dispute initiation and dispute follow up process. All letter requests must be sent to the Print Letter Utility application.;O;qualifier;All
+R161;4;The Disputes application shall interface with the Cardmember Posting and Billing System.  This will allow the Disputes application to request adjustments to cardmember and merchant\92s accounts. All adjustment requests must be sent to the Cardmember Posting and Billing System.;O;qualifier;All
+R165;4;All authorized users  once authenticated must be able to logon to the Disputes System;SE;qualifier;All
+R166;4;The Disputes System shall generate a User Report that details any new users that have been added and any changes to an existing user\92s access level. The report will be reviewed for auditing purposes.;SE;qualifier;any
+R167;4;All additions of new users and modifications to user\92s access shall be recorded on the User Report.;SE;qualifier;All
+R171;4;All updates to data files or database must be initiated from the Disputes System.;SE;qualifier;All
+R173;4;All business rules specified in the Disputes System shall be in compliance with the Merchant Operating Regulations.;L;qualifier;All
+R175;4;All business rules specified in the Disputes System shall be in compliance to the guidelines of Regulation E and Regulation Z.;L;qualifier;All
+R177;4;All actions that modify an existing dispute case must be recorded in the case history.;L;qualifier;All
+R179;4;The Disputes System must prevent users from accessing any dispute cases that do not belong to their cardholder base.;F;qualifier;any
+R186;4;The Disputes System will provide the user the ability to create or initiate a ticket retrieval request.   As part of ticket retrieval creation process the system must prompt the user to enter all the required information to create the ticket retrieval request.  The ticket retrieval request is a document that is sent to merchant inquiring the validity of a transaction.;F;qualifier;all
+R195;4;The Disputes System must provide Search functionality.  The search method must include the ability to search by (1) the dispute case number  (2) the merchant account number  (3) the cardmember account number and (4) the issuer number.  In addition to the above criteria  the search functionality must further allow the user to limit the results of the search by a date range  the type of dispute (ticket retrieval request or chargeback notification)  the case status (open  closed or all) and the dispute reason code.;F;qualifier;all
+R196;4;A list of all disputes cases that meet the entered search criteria must be provided to the user.  The list of cases must differentiate the type and/or status of the case by color -coding the line item in the list.  For example all open cases will be yellow and all closed cases will be gray.;F;qualifier;all
+R197;4;The Disputes System shall provide the users the ability to view the history of all activities that have occurred on the dispute case.;F;qualifier;all
+R199;4;The Disputes System shall record the name of the user and the date for any activity that creates or modifies the disputes case in the system.  A detailed history of the actions taken on the case  including the date and the user that performed the action must be maintained for auditing purposes.;F;qualifier;any
+R200;4;For any systematic (non-user initiated) action that occurs on a case such as the disputes aging process  a case activity will be generated.  Upon the next logon the user that initiated the dispute case must be notified that a systematic action has occurred on the dispute case.;F;qualifier;any
+R201;4;All letter requests must be formatted according to guidelines specified by the Print Letter Utility system.;F;qualifier;All
+R202;4;Any disputes cases that have been closed for over 6 months must be purged from the online disputes database.;F;qualifier;Any
+R206;5;The product shall run on the existing hardware for all environments.;O;qualifier;all
+R213;5;Users shall feel satisfied using the product.  85% of all users will be satisfied with the product.;US;qualifier;all
+R277;6;The product will function alongside server software on any operating system where the Java runtime can be installed.;O;qualifier;any
+R288;6;An employee will be able to successfully use the product within a few minutes.  After informally navigating the product for less than 15 minutes  users shall be able to successfully setup meetings and reserve conference rooms.;US;qualifier;few
+R299;6;The product must be able to interface with any HTML browser.  The product shall transmit data between the user and the product without problems. The product shall display HTML properly in 80% of all HTML browsers tested (minimum is to test 8 browsers).;O;qualifier;any
+R299;6;The product must be able to interface with any HTML browser.  The product shall transmit data between the user and the product without problems. The product shall display HTML properly in 80% of all HTML browsers tested (minimum is to test 8 browsers).;O;qualifier;all
+R300;6;The product must be able to interface with various database management systems. The product shall communicate successfully with the database management system on 100% of all transactions.;O;qualifier;all
+R310;6;The customer shall be able to easily integrate new building maps with the product throughout the product\92s lifecycle.  Integration of new maps with the product shall be possible with little to no support from product support staff.;MN;qualifier;little
+R313;6;The product shall be able to be installed in any operating environment within 2 days.;O;qualifier;any
+R314;6;The product shall ensure that only company employees or external users with company-approved user IDs may have product access.  100% of all logons shall be by either company employees or external users with company-approved user IDs.;SE;qualifier;all
+R315;6;Only managers are able to perform search queries for reservations by user.  100% of all search queries for reservations by user shall be from logons of only management logons.;SE;qualifier;all
+R320;6;The language of the product shall accommodate all of the target market countries. 90% of survey respondents from each target market country will find that the language of the product is acceptable.;SC;qualifier;all
+R343;6;The product shall record all the equipment that has been reserved.;F;qualifier;all
+R354;7;The System shall maintain consistent security.  Any changes in user passwords and/or permissions should take affect in all parts of the System.;SE;qualifier;Any
+R354;7;The System shall maintain consistent security.  Any changes in user passwords and/or permissions should take affect in all parts of the System.;SE;qualifier;all
+R355;7;The System shall granularly control access rights to all major subsystems.  It should be possible to assign access rights to all subsystems independently.;SE;qualifier;all
+R356;7;The System shall meet all applicable accounting standards.  The final version of the System must successfully pass independent audit performed by a certified auditor.;L;qualifier;all
+R359;7;The System shall allow on demand generation of all Inventory Quantity Adjustment documents since certain point of time.;F;qualifier;all
+R384;8;The website shall be attractive to all audiences.  The website shall appear to be fun and the colors should be bright and vibrant.;LF;qualifier;all
+R396;8;Any interface between a user and the automated system shall have a maximum response time of 5 seconds  unless noted by an exception below.;PE;qualifier;Any
+R398;8;When streaming a movie  the buffering time should take no longer than 10 seconds (plus any latency on the user\92s connection.);PE;qualifier;any
+R400;8;All credit card information will be secured on the server  and only accessible by authorized Izogn administrators.  Information will be encrypted in the database.;SE;qualifier;All
+R403;8;All movies shall be streamed on demand  at any time of the day.;A;qualifier;All
+R403;8;All movies shall be streamed on demand  at any time of the day.;A;qualifier;any
+R411;8;All aspects of the website shall be accessed by a web browser over the Internet.;O;qualifier;All
+R431;8;The website shall protect itself from intentional abuse  and notify the administrator at all occurrences.;SE;qualifier;all
+R433;8;The website shall make its user aware of its information practices before collection data from them via a Privacy Policy  accessible on all pages of the website.;SE;qualifier;all
+R436;8;All customer information will be stored on a secure database  accessible only to authorized personnel.;SE;qualifier;All
+R437;8;All credit card information will be encrypted in the database.;SE;qualifier;All
+R439;8;The website should cater to all tribes in Nigeria.;LF;qualifier;all
+R441;8;The website should appeal to all Africans  not only Nigerians.;LF;qualifier;all
+R461;8;All streaming movie sales will be logged in the database  and accessible by the administrator.;F;qualifier;All
+R462;8;All registered customer information shall be stored and maintained in the database  even after the customer cancels their account.;F;qualifier;All
+R464;8;The owner shall have free access to all of the streaming movies.;F;qualifier;all
+R466;9;No lead evaluation will complete in a time period longer than 25 seconds for 97% of all leads processed.;PE;qualifier;all
+R476;9;The leads washing functionality will validate all leads received by the web service for valid data;F;qualifier;all
+R477;9;The leads washing functionality will insert all leads captured by the web service.;F;qualifier;all
+R486;9;The leads washing functionality will store any potential lead duplicates returned by the enterprise system.;F;qualifier;any
+R507;10;The product shall allow a user to remove himself or herself from the list of players at any time.;F;qualifier;any
+R537;10;The product shall allow a player to end a game at any time during the game.;F;qualifier;any
+R542;11;The system shall be easy to use by callers and supervisors. Callers and supervisors must be able to accomplish any system task within 2 minutes.;US;qualifier;any
+R545;11;On a 56k connection  the system response time for all operations must be no more than 6 seconds 90% of the time.;PE;qualifier;all
+R546;11;On a 112k connection or faster  the system response time for all operations must be no more than 3 seconds 90% of the time.;PE;qualifier;all
+R547;11;The system shall have high availability every day of the year.The system must be available for use between 12:00AM and 6:00PM all days of the year.;A;qualifier;all
+R548;11;The system must be available for use between 7:00AM and 11:59PM all days of the year.;A;qualifier;all
+R552;11;The product shall ensure that only supervisors can view schedule of all callers.The product must ensure that supervisors are allowed to access advertise empty time slots.;SE;qualifier;all
+R568;12;The product shall be able to process all transactions.The product shall process minimum of 1 million transactions per year.;SC;qualifier;all
+R569;12;The product shall be platform independent.The product shall enable access to any type of development environment and platform.;O;qualifier;any
+R570;12;The product shall interface CSR and Datastream.The product shall exchange messages between CSR and EAM on a real time basis without any direct interfaces between two systems.;O;qualifier;any
+R573;12;The product shall operate with every platform.The product shall accommodate any new technology without any change in its architecture.;MN;qualifier;any
+R578;13;The system shall be displayable on any work computer a CCR user may have. The system interface shall be formatted to display at 800 by 600 pixel resolution.;LF;qualifier;any
+R581;13;The system must use a point and click interface. 100% of all selection and navigation functionality must be able to be activated/selected by either a mouse or a keyboard;US;qualifier;all
+R585;13;All CCR users shall receive training before the WCS system is deployed. One training session will be held for 100% of CCR users before system deployment (based on a CCR user being available);US;qualifier;All
+R586;13;The WCS system shall use appropriate nomenclature and terminology as defined by the Corporate Community Grants organization. All interfaces and reports will undergo usability tests by CCR users.;US;qualifier;All
+R587;13;The WCS system shall be available at all times as long as IBM\92s internal intranet W3 is accessible. The WCS system will be available 95% of the time IBM\92s internal intranet W3 is available.;A;qualifier;all
+R593;13;All changes  updates  and additions to the WCS system shall be updated in the WCS Developer and WCS User Guides. Every change must be reflected in WCS system documentation;MN;qualifier;All
+R595;13;The WCS system shall not allow automatic logins by any user. Cookies containing WCS login information about a user will not be stored on a user\92s computer.;SE;qualifier;any
+R612;15;The RFS system should be available 24/7  especially during the budgeting period. The RFS system shall be available 90% of the time all year  and 98% during the budgeting period. 2% of the time  the system will become available within 1 hour of the time that the situation is reported.;A;qualifier;all
+R621;15;The intranet pages should display appropriately in all resolutions  from 800x600 and higher. The display of all the pages will be correct in 95% of the resolutions  prior to implementation. The remaining 5% will be corrected within a week of notification of the incorrect display.;LF;qualifier;all
+R655;19;The system must be intuitive and simple in the way it displays all relevant data and relationships.;US;qualifier;all
+R657;19;All the functions of the system must be available to the user every time the system is turned on.;A;qualifier;All
+R660;20;All Web pages generated by the system shall be fully downloadable in no more than 10 seconds over a 40KBps modem connection.;PE;qualifier;All
+R663;20;All network transactions that involve financial information or personally identifiable information shall be encrypted.;SE;qualifier;All
+R664;20;Users shall be required to log in to the Cafeteria Ordering System for all operations except viewing a menu.;F;qualifier;all
+R669;21;System security and access levels are provided in the online system. There are varying levels of system access and functional authority. Each student’s access is limited to his/her own registration records. Only authorized system administrator(s) has access to all student registration records.;SE;qualifier;all
+R671;22;All data entry forms for the application should match their Microsoft Excel hardcopy counterparts as closely as possible. Hardcopies of these forms were provided to the design team during the second requirements interview.;O;qualifier;All
+R685;26;The system should maintain correct schedules of labs and the documentation of all the lab equipment.;F;qualifier;all
+R688;27;The system shall be able to display a menu at all times to facilitate manual order taking should the need arise.;LF;qualifier;all
+R693;27;A waiter shall only be able to log into one tablet at any given instance of time.;SE;qualifier;any
+R699;28;The system will support mobile users in some way.;PO;qualifier;some
+R704;29;ABS shall handle all expected and unexpected errors in ways that prevent loss in information and long downtime period.;FT;qualifier;all
+R714;30;Enable the admin to generate reports which contains all the posts and their corresponding replies.;F;qualifier;all
+R715;30;Information transmission should be securely transmitted to server without any changes in information.;SE;qualifier;any
+R718;31;All transactions at the Flea Market require a valid user ID and password.;SE;qualifier;All
+R732;32;It should give a drill-down view of all data in the medical record after logging in.;LF;qualifier;all
+R737;32;All information must be viewable on the website.;F;qualifier;All
+R738;32;All information must be updatable on the website.;F;qualifier;All
+R742;32;A user must be logged on to be able to view or edit any medical information.;F;qualifier;any
+R743;32;Each account must securely store all of its data.;SE;qualifier;all
+R756;34;The system use SSL (secured socket layer) in all transactions that include any confidential customer information.;SE;qualifier;all
+R756;34;The system use SSL (secured socket layer) in all transactions that include any confidential customer information.;SE;qualifier;any
+R757;34;The system must automatically log out all customers after a period of inactivity.;SE;qualifier;all
+R758;34;The system should not leave any cookies on the customer’s computer containing the user’s password.;SE;qualifier;any
+R761;34;The system provides storage of all databases on redundant computers with automatic switchover.;O;qualifier;all
+R763;34;"An end-user may use this system on any OS; either it is Windows or Linux.";PO;qualifier;any
+R765;35;The system should be able to manage all the information incoming from the database and the catalogue.;O;qualifier;all
+R766;35;The product is Web based therefore it will be used in any environment that allows Web access.;PO;qualifier;any
+R769;35;The Web interface should be compatible with standards in order to be usable via all major Web browsers in a wide variety of environments.;PO;qualifier;all
+R770;35;Everyone (stakeholders and guests) can have access to the system and the catalogue. Every client must have secure and private access to his/her data. The  and the service man can have access to every part of the system. All these accesses (except the “guest tour” access) require identification through ID and password.;SE;qualifier;All
+R776;36;All source code and development related documents shall be controlled under a version control system.;MN;qualifier;All
+R777;36;All source code shall adhere to an agreed upon and well-defined set of coding standards for each development language used.;MN;qualifier;All
+R778;36;Since the software must run on several popular hardware platforms and the goal is to achieve a reasonable level of platform independence.;PO;qualifier;several
+R780;37;The available server must be reliable and the network connectivity in the supermarket should be proper for smooth flow of all operations and data.;O;qualifier;all
+R783;38;The system shall accommodate high number of items and users without any fault.;FT;qualifier;any
+R784;38;System use shall not cause any harm to human users.;SE;qualifier;any
+R786;38;Normal users can just read information but they cannot edit or modify anything except their personal and some other information.;SE;qualifier;some
+R788;38;Control the database and keep track of all records of customers and employee details.;F;qualifier;all
+R790;38;View the details of all employees and control the whole site.;F;qualifier;all
+R793;38;Can view all available products and can compare them and make a choice for purchasing products.;F;qualifier;all
+R794;38;Can purchase any product through valid credit card.;F;qualifier;any
+R803;38;Responsible for informing administrator when any product item’s stock goes under the minimum level.;F;qualifier;any
+R806;38;Keep track of all the payment transactions made by the customers and update the payment information.;F;qualifier;all
+R813;40;All the passwords that are generated or accepted must be stored in database in an encrypted form.;SE;qualifier;All
+R833;43;All users of the system shall login using some form of unique identification.;SE;qualifier;All
+R833;43;All users of the system shall login using some form of unique identification.;SE;qualifier;some
+R834;43;All login attempts shall be done so in a secure manner.;SE;qualifier;All
+R846;45;The system shall allow the initiator to view the information of any meetings which they initiated.;F;qualifier;any
+R847;45;The system shall allow the initiator to cancel any meetings which they initiated.;F;qualifier;any
+R851;45;The system shall notify the user of any schedule changes.;F;qualifier;any
+R866;45;The system shall allow users to search  for available distributed location templates(if any).;F;qualifier;any
+R867;45;The system shall allow users to view information concerning the available distributed location templates(if any).;F;qualifier;any
+R868;45;The web application shall add no more than 5 seconds of perceivable overhead time to any necessary web and database transaction time.;PE;qualifier;any
+R872;45;Users shall be required to log into the system for all operations except the operations on the login page.;SE;qualifier;all
+R875;46;The system shall display all the products that can be configured.;F;qualifier;all
+R877;46;The system shall display all the available components of the product to configure.;F;qualifier;all
+R879;46;The system shall notify the user about any conflict in the current configuration.;F;qualifier;any
+R886;46;The system shall display all the matching products based on the search.;F;qualifier;all
+R923;46;The system shall notify the user about any changes made to the order.;F;qualifier;any
+R925;46;The system shall display all the available financing options.;F;qualifier;all
+R929;46;The system shall display all the available promotions to the user.;F;qualifier;all
+R933;46;The system shall provide a uniform look and feel between all the web pages.;LF;qualifier;all
+R943;46;The system shall use secure sockets in all transactions that include any confidential customer information.;SE;qualifier;all
+R943;46;The system shall use secure sockets in all transactions that include any confidential customer information.;SE;qualifier;any
+R944;46;The system shall automatically log out all customers after a period of inactivity.;SE;qualifier;all
+R945;46;The system shall confirm all transactions with the customer’s web browser.;US;qualifier;all
+R946;46;The system shall not leave any cookies on the customer’s computer containing the user’s password.;SE;qualifier;any
+R947;46;The system shall not leave any cookies on the customer’s computer containing any of the user’s confidential information.;SE;qualifier;any
+R952;47;The system shall allow the user to register for an account from any page in the system.;F;qualifier;any
+R954;47;The system shall use secure socket layer (SSL) technology to ensure all payments made online and user logins are secure.;SE;qualifier;all
+R955;48;Any page of the application should not take more than 6 seconds to load on a DSL broadband connection.;PE;qualifier;Any
+R957;48;The application should be able to support 100 concurrent users without any performance degradation.;PE;qualifier;any
+R959;48;The MTBF (if any) should not be less than 2 months.;A;qualifier;any
+R964;48;The system should be easy enough to maintain that someone else could do it with a manual and a few hours training.;MN;qualifier;few
+R966;49;Registered User must be able to maintain his/her session information for at least 60 minutes of inactive session before the system prompts him to log out of the system. The registered user must be provided with all the options of the E-store regardless of the time when he/she logs in.;F;qualifier;all
+R967;49;The entire website must be user-friendly and easily navigable. The website must be provided with a site map for quick access to a particular link according to the requirement specification. The user must be able to find what he/she wants from the site without any difficulty. The website must adhere to branding schemes and the layout of the web pages must be uniform throughout  ;US;qualifier;any
+R968;49;The system shall support up to 10000 simultaneous users against the central database at any given time and up to 5000 simultaneous users against the local servers at any one time. The performance of the website must be optimal incase of huge loads and hence appropriate load balancing must be done to achieve this. There can be any number of mirror servers readily available in case of huge loads without the user getting any delay.;PE;qualifier;any
+R969;49;The website must provide highest degree of security to the registered users. All the transactions that are made must be secured. The sensitive information passed to and from the website must be secured. Identity theft and other security related issues must be solved. Unauthorized transmission of sensitive information of the user to third party websites for reference must be avoided. On the basis of user agreement the information must be processed. All the information about the registered user must be securely stored in the central database.;SE;qualifier;All

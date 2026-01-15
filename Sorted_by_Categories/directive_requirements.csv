@@ -1,2 +1,14 @@
 ID;ID progetto;REQUISITO (testo);Classe dei requisiti;CATEGORIA;PAROLA
+R9;1;The system shall have a MDI form that allows for the viewing of the graph and the data table.;F;directive;table.
+R10;1;The system shall display Events in a vertical table by time.;F;directive;table
+R13;1;The display shall have two regions:  left 2/3 of the display is graphical  right 1/3 of the display is a data table;F;directive;table
+R14;1;The data displayed in both the nodes within the graph and the rows in the table are MSEL Summary data;F;directive;table
+R15;1;The table side of the display shall be split into 2 regions: sequential and temporal.;F;directive;table
+R16;1;The top 1/4 of the table will hold events that are to occur sequentially.;F;directive;table
+R17;1;The bottom 3/4 of the table will hold events that occur according to its relevance to current time.;F;directive;table
+R72;3;The number of mistakes noted by the students shall be decreased by 50% in the first year.;US;directive;noted
 R196;4;A list of all disputes cases that meet the entered search criteria must be provided to the user.  The list of cases must differentiate the type and/or status of the case by color -coding the line item in the list.  For example all open cases will be yellow and all closed cases will be gray.;F;directive;For example
+R396;8;Any interface between a user and the automated system shall have a maximum response time of 5 seconds  unless noted by an exception below.;PE;directive;noted
+R539;10;The notification of the game ending will include the reason the game is ended (i.e.  a player has won the game or a player has ended the game).;F;directive;i.e.
+R687;27;The system shall be capable of restoring itself to its previous state in the event of failure (e.g. a system crash or power loss).;FT;directive;e.g.
+R830;42;The text and time/date of a note that has been entered is displayed starting with most recent.;F;directive;note

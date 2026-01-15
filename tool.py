@@ -6,7 +6,7 @@ import spacy
 import csv
 import traceback 
 
-#Configurazione e Modello spaCy
+# Configurazione e Modello spaCy
 SPACY_MODEL_NAME = "en_core_web_sm"
 
 try:
@@ -17,152 +17,140 @@ except OSError:
     print(f"Assicurati di averlo installato eseguendo: python -m spacy download {SPACY_MODEL_NAME}")
     exit(1)
 
-WORD_RX = re.compile(r"\b\w+\b", flags=re.UNICODE) 
 REQUIREMENT_LINE_PARSE_RX = re.compile(r"^(R\d+):\s*(\d+),\s*'(.*?)',\s*([A-Za-z0-9_]+)\s*$")
 
 def norm_word(s: str) -> str:
     return s.casefold().strip()
 
 def norm_phrase(s: str) -> str:
+    # Normalizza spazi e trattini
     s = s.replace("_", " ").replace("-", " ")
     return " ".join(s.split()).casefold()
 
-# --- Mappatura Categorie-POS Tag SPECIFICA PER I  FILE DI DIZIONARIO ---
-POS_CATEGORY_MAPPING = {
-    "adj": {"pos": {"ADJ"}},
-    "adv": {"pos": {"ADV"}},
-    "conjunction": {"pos": {"CCONJ", "SCONJ"}},
-    "det": {"pos": {"DET", "PRON"}},
-    "noun": {"pos": {"NOUN", "PROPN"}},
-    "preposition": {"pos": {"ADP"}},
-    "pronoun": {"pos": {"PRON"}},
-    "plurals": {"pos": {"NOUN"}},
-    "continuance": {"pos": {"ADV","ADJ" "SCONJ", "CCONJ"}},
-    "incompletes": {"pos": {"ADJ", "NOUN", "ADV"}},
-    "vague": {"pos": {"ADJ", "DET", "ADV"}},
-    "mv": {"tag": {"MD"}},
-    "pv": {"tag": {"VB", "VBP", "VBZ"}},
-    "vpastp": {"tag": {"VBN"}},
-    "vpastt": {"tag": {"VBD"}},
-    "vpresentp": {"tag": {"VBG"}},
-    "directive": {"tag": {"MD", "VB"}},
-    # --- MODIFICA CHIAVE: La regola per "optional" è ora molto più completa ---
-    "optional": {"pos": {"ADV", "CCONJ", "SCONJ"}, "tag": {"MD"}},
-    "verb": {"tag": {"VB", "VBP", "VBZ", "VBD", "VBN", "VBG"}}
-}
-
-# --- Lista di Priorità delle Categorie ---
+# --- Lista di Priorità delle Categorie (determina quale vince se una parola è in più file) ---
 CATEGORY_PRIORITY = [
     "vpastp", "vpastt", "vpresentp",
-    "pv", "mv",
+    "pv", "mv", "weak",
     "plurals", "continuance", "directive", "incompletes", "optional", "vague",
+    "coordinator", "qualifier",
     "verb", "noun", "adj", "adv", "pronoun", "det", "preposition", "conjunction"
 ]
 
-# Funzioni di Caricamento Dizionari e Matching 
+def get_priority_index(category: str) -> int:
+    """Restituisce l'indice di priorità (più basso = più importante)"""
+    cat_lower = category.lower()
+    try:
+        return CATEGORY_PRIORITY.index(cat_lower)
+    except ValueError:
+        return 999  # Priorità bassa se non in lista
+
+# Funzioni di Caricamento Dizionari
 def load_all_dicts_optimized(dir_path: Path):
+    """
+    Carica i dizionari.
+    - Se una stringa ha spazi O punteggiatura (es. 'i.e.'), va in FlashText (multi_phrase_processor).
+    - Se è una parola alfanumerica pulita, va nella mappa per lemmatizzazione (singles_category_map).
+    """
     singles_category_map: Dict[str, Set[str]] = {}
     multi_phrase_processor = KeywordProcessor(case_sensitive=False)
 
     print(f"Caricamento dizionari ottimizzato dalla directory: {dir_path}")
     if not dir_path.is_dir():
-        print(f"[ERRORE] La directory dei dizionari '{dir_path}' non esiste o non è una directory valida.")
+        print(f"[ERRORE] La directory '{dir_path}' non esiste.")
         return singles_category_map, multi_phrase_processor
 
     dict_files_found = list(dir_path.glob("*.txt"))
-    if not dict_files_found:
-        print(f"[AVVISO] Nessun file .txt trovato nella directory dizionari: {dir_path}.")
-
+    
     for path in sorted(dict_files_found):
         categoria = path.stem.lower()
-        print(f"  Caricamento categoria: '{categoria}' da '{path.name}'")
-
+        
         if not path.is_file():
-            print(f"    [ERRORE] Il file '{path.name}' non è un file valido.")
             continue
         
-        lines_read, phrases_added, words_added = 0, 0, 0
-        for line in path.read_text(encoding="utf-8").splitlines():
-            lines_read += 1
+        phrases_added, words_added = 0, 0
+        try:
+            content = path.read_text(encoding="utf-8").splitlines()
+        except UnicodeDecodeError:
+            # Fallback per encoding diversi
+            content = path.read_text(encoding="latin-1").splitlines()
+
+        for line in content:
             s = line.strip()
-            if not s:
+            if not s or s.startswith("---"): # Salta intestazioni o righe vuote
                 continue
 
-            if (" " in s) or ("_" in s) or ("-" in s):
+            # Logica migliorata:
+            # Se contiene spazi O caratteri non alfanumerici (es. punti in 'i.e.'), usa FlashText
+            # FlashText gestisce meglio la punteggiatura rispetto al tokenizer di singole parole.
+            if " " in s or "_" in s or "-" in s or "." in s or "/" in s:
                 p_norm = norm_phrase(s)
+                # FlashText non permette di assegnare liste, quindi se c'è duplicato sovrascrive.
+                # Per gestire priorità in FlashText, dovremmo aggiungere keywords multiple, 
+                # ma qui semplifichiamo assegnando la categoria corrente.
+                # (FlashText preferisce la stringa più lunga, quindi 'as well as' vince su 'as')
                 multi_phrase_processor.add_keyword(p_norm, categoria)
                 phrases_added += 1
             else:
+                # Parole singole alfanumeriche (es. 'table', 'test')
                 w_norm = norm_word(s)
                 singles_category_map.setdefault(w_norm, set()).add(categoria)
                 words_added += 1
-        print(f"    [DEBUG] Lette {lines_read} righe. Aggiunte {phrases_added} frasi e {words_added} parole singole per la categoria '{categoria}'.")
+                
+        print(f"    Cat '{categoria}': {phrases_added} frasi/speciali, {words_added} parole semplici.")
     
-    print(f"  Caricate {len(singles_category_map)} parole singole e {len(multi_phrase_processor.get_all_keywords())} frasi multi-parola.")
     return singles_category_map, multi_phrase_processor
 
 
-
-def tokenize_and_match_with_spacy(requirement_text: str,
-                                   singles_category_map: Dict[str, Set[str]],
-                                   multi_phrase_processor: KeywordProcessor,
-                                   nlp) -> List[Tuple[str, str, str]]:
+def tokenize_and_match_robust(requirement_text: str,
+                              singles_category_map: Dict[str, Set[str]],
+                              multi_phrase_processor: KeywordProcessor,
+                              nlp) -> List[Tuple[str, str, str]]:
+    
     found_matches: List[Tuple[str, str, str]] = []
-    doc = nlp(requirement_text)
-    occupied_token_indices: Set[int] = set()
-
-    # 1. Ricerca di frasi multi-parola (prioritaria)
+    
+    # 1. FlashText: Trova frasi multi-parola E parole speciali con punteggiatura (es. "i.e.")
+    # span_info=True ci dà (start, end)
     multi_keywords_with_spans = multi_phrase_processor.extract_keywords(requirement_text, span_info=True)
+    
+    # Set per tracciare le posizioni dei caratteri già occupati da FlashText
+    occupied_char_indices = set()
+    
     for match_category, start_char, end_char in multi_keywords_with_spans:
         original_matched_text = requirement_text[start_char:end_char]
         found_matches.append((original_matched_text, match_category, requirement_text))
         
-        for token in doc:
-            if (token.idx < end_char and token.idx + len(token.text) > start_char):
-                occupied_token_indices.add(token.i)
+        # Marcare gli indici come occupati per non sovrapporre con spaCy
+        for i in range(start_char, end_char):
+            occupied_char_indices.add(i)
 
-    # 2. Ricerca di parole singole con NUOVA STRATEGIA A DUE PASSATE
+    # 2. spaCy: Trova parole singole e lemmi (es. "tables" -> match con "table")
+    doc = nlp(requirement_text)
+    
     for token in doc:
-        if token.i in occupied_token_indices:
+        # Se il token cade in un'area già trovata da FlashText (es. parte di "i.e." o "as well as"), saltalo
+        if token.idx in occupied_char_indices:
             continue
-
-        # --- FASE 1: Ricerca della PAROLA ORIGINALE (token.text) ---
-        # Questa ha la priorità perché è più specifica (es. cerca "allowed")
-        w_original = norm_word(token.text)
-        potential_categories = singles_category_map.get(w_original, set())
         
-        # --- FASE 2: Ricerca del LEMMA (token.lemma_) ---
-        # Se non troviamo la parola originale, o per coprire varianti (es. plurale), cerchiamo il lemma.
-        w_lemma = norm_word(token.lemma_)
-        if w_original != w_lemma:
-            potential_categories.update(singles_category_map.get(w_lemma, set()))
-
-        # Se abbiamo trovato delle categorie candidate (o dalla parola originale o dal lemma)
-        if potential_categories:
+        # Candidati per il match
+        potential_categories = set()
+        
+        # A) Match esatto parola (priority alta)
+        w_original = norm_word(token.text)
+        if w_original in singles_category_map:
+            potential_categories.update(singles_category_map[w_original])
             
-            def get_priority(category):
-                try:
-                    return CATEGORY_PRIORITY.index(category.lower())
-                except ValueError:
-                    return len(CATEGORY_PRIORITY)
+        # B) Match lemma (es. "running" -> "run", "tables" -> "table")
+        w_lemma = norm_word(token.lemma_)
+        if w_lemma in singles_category_map:
+            potential_categories.update(singles_category_map[w_lemma])
 
-            sorted_categories = sorted(list(potential_categories), key=get_priority)
-
-            for cat in sorted_categories:
-                rule = POS_CATEGORY_MAPPING.get(cat.lower())
-
-                if rule is None:
-                    continue
-
-                match_found = False
-                if "pos" in rule and token.pos_ in rule["pos"]:
-                    match_found = True
-                elif "tag" in rule and token.tag_ in rule["tag"]:
-                    match_found = True
-                
-                if match_found:
-                    found_matches.append((token.text, cat, requirement_text))
-                    break # Trovata la migliore corrispondenza, esci
+        if potential_categories:
+            # Abbiamo trovato la parola nei dizionari.
+            # ORA NON FILTRIAMO PIÙ PER POS TAG.
+            # Selezioniamo solo la categoria con la priorità più alta.
+            
+            best_category = sorted(list(potential_categories), key=get_priority_index)[0]
+            found_matches.append((token.text, best_category, requirement_text))
 
     return found_matches
 
@@ -175,11 +163,11 @@ if __name__ == "__main__":
     singles_category_map, multi_phrase_processor = load_all_dicts_optimized(DICTIONARIES_DIR)
     
     if not (singles_category_map or multi_phrase_processor.get_all_keywords()):
-        print("Attenzione: Nessuna parola o frase è stata caricata dai dizionari.")
+        print("Attenzione: Nessuna parola caricata. Controlla il percorso 'NewDict'.")
         exit(0)
 
     print(f"\nProcessamento requisiti dal file: {REQUIREMENTS_FILE}")
-    processed_req_count = 0
+    
     matches_found_total = 0
 
     try:
@@ -190,43 +178,38 @@ if __name__ == "__main__":
             header = ["ID", "ID progetto", "REQUISITO (testo)", "Classe dei requisiti", "CATEGORIA", "PAROLA"]
             csv_writer.writerow(header)
             
-            for line_num, line in enumerate(req_f, 1): 
+            for line in req_f: 
                 stripped_line = line.strip()
                 if not stripped_line:
                     continue
 
                 m = REQUIREMENT_LINE_PARSE_RX.match(stripped_line)
                 if not m:
-                    print(f"Avviso: Riga {line_num} non parsabile (ignorata): {stripped_line}")
+                    # Gestione righe che non matchano la regex (opzionale)
                     continue
 
                 req_id, proj_id, req_text, req_class = m.groups()
                 
-                matches_for_current_req = tokenize_and_match_with_spacy(req_text, singles_category_map, multi_phrase_processor, nlp)
+                matches = tokenize_and_match_robust(req_text, singles_category_map, multi_phrase_processor, nlp)
                 
-                base_output_parts = [req_id, proj_id, req_text, req_class]
+                base_row = [req_id, proj_id, req_text, req_class]
 
-                if not matches_for_current_req:
-                    csv_writer.writerow(base_output_parts + ["NULL", "NULL"])
+                if not matches:
+                    csv_writer.writerow(base_row + ["NULL", "NULL"])
                 else:
-                    unique_matches_for_this_req: Set[Tuple[str, str]] = set() 
-                    for original_word_phrase, category, _ in matches_for_current_req:
-                        if (category, original_word_phrase) not in unique_matches_for_this_req:
-                            csv_writer.writerow(base_output_parts + [category, original_word_phrase])
-                            unique_matches_for_this_req.add((category, original_word_phrase))
+                    # Usiamo un set per evitare duplicati identici nella stessa riga (es. due volte la stessa parola)
+                    # O rimuovere il set se vuoi una riga per ogni singola occorrenza anche se ripetuta
+                    unique_matches = set()
+                    for word_found, category, _ in matches:
+                        # Chiave univoca: Categoria + Parola Trovata
+                        if (category, word_found) not in unique_matches:
+                            csv_writer.writerow(base_row + [category, word_found])
+                            unique_matches.add((category, word_found))
                             matches_found_total += 1
                 
-                processed_req_count += 1
-                if processed_req_count % 100 == 0:
-                    print(f"  [PROGRESSO] Processati {processed_req_count} requisiti...")
-
     except FileNotFoundError:
-        print(f"Errore: Il file dei requisiti '{REQUIREMENTS_FILE}' non trovato.")
-        exit(1)
+        print(f"Errore: File '{REQUIREMENTS_FILE}' non trovato.")
     except Exception as e:
-        print(f"Si è verificato un errore inaspettato durante l'elaborazione: {e}")
         traceback.print_exc()
-        exit(1)
-        
-    print(f"\nElaborazione completata. I risultati sono stati scritti in '{OUTPUT_FILE}'.")
-    print(f"Match totali univoci trovati e scritti: {matches_found_total}")
+
+    print(f"\nFinito. Match totali scritti: {matches_found_total}")

@@ -1,0 +1,20 @@
+--- Statistiche di Confronto File ---
+
+File 1: 'Weak_1.txt'
+File 2: 'mv.txt'
+-------------------------------------
+
+Numero di parole in comune: 7
+Percentuale parole comuni sul totale delle parole uniche: 58.33%
+
+Numero di parole presenti SOLO nel primo file: 2
+Numero di parole presenti SOLO nel secondo file: 3
+
+Elenco parole in comune:
+- can
+- could
+- may
+- might
+- should
+- will
+- would

@@ -1,10 +1,10 @@
 import os
 
 # Nomi dei file
-file1_path = 'Optional_1.txt'
-file2_path = 'Optional_2.txt'
-output_unione_path = 'Optional.txt'
-output_statistiche_path = 'statistiche_Optional_uniti.txt'
+file1_path = 'Weak_1.txt'
+file2_path = 'mv.txt'
+output_unione_path = 'Weak.txt'
+output_statistiche_path = 'statistiche_Weak_uniti.txt'
 
 def leggi_parole_da_file(filepath):
     """
@@ -14,7 +14,7 @@ def leggi_parole_da_file(filepath):
     try:
         with open(filepath, 'r', encoding='utf-8') as f:
             # .strip() rimuove spazi e a capo all'inizio/fine di ogni riga
-            # il costrutto { ... for ... } crea un set direttamente
+            # il costrutto crea un set direttamente
             # if riga.strip() serve a ignorare le righe vuote
             parole = {riga.strip().lower() for riga in f if riga.strip()} #le inserisce in un set per evitare duplicati
         return parole

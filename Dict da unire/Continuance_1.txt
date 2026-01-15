@@ -1,5 +1,3 @@
-:
-and_whereas
 as_follows
 below
 following
@@ -10,4 +8,4 @@ meantime
 meanwhile
 on_one_hand
 on_the_other_hand
-whereas
+and_whereas

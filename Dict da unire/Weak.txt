@@ -1,0 +1,12 @@
+can
+could
+may
+might
+must
+ought
+ought_to
+preferred
+shall
+should
+will
+would

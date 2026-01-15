@@ -1,488 +1,242 @@
 ID;ID progetto;REQUISITO (testo);Classe dei requisiti;CATEGORIA;PAROLA
-R612;15;The RFS system should be available 24/7  especially during the budgeting period. The RFS system shall be available 90% of the time all year  and 98% during the budgeting period. 2% of the time  the system will become available within 1 hour of the time that the situation is reported.;A;adj;available
-R207;5;The product shall adhere to the corporate Architecture guidelines;O;adj;corporate
-R240;5;The user shall search for the preferred repair facility using vehicle  vehicle location  and radius in miles;F;adj;preferred
-R649;18;The meeting scheduler system may suggest a “virtual meeting” for available “time slots” if no location is available or feasible for the meeting.;F;adj;feasible
-R464;8;The owner shall have free access to all of the streaming movies.;F;adj;free
-R183;4;The Disputes System shall provide update access capability for authorized users of the application.;F;adj;authorized
-R649;18;The meeting scheduler system may suggest a “virtual meeting” for available “time slots” if no location is available or feasible for the meeting.;F;adj;virtual
-R276;6;The product must work with most database management systems (DBMS) on the market  whether the DBMS is colocated with the product on the same machine or is located on a different machine on the computer network.;O;adj;same
-R762;34;The reliability of the overall program depends on the reliability of the separate components. The main pillar of reliability of the system is the backup of the database which is continuously maintained and updated to reflect the most recent changes.;FT;adj;separate
-R108;3;Program Administrators and Nursing Staff Members shall be able to add new classes to a sequence of classes;F;adj;new
-R571;12;The product shall continue to operate during upgrade  change or new resource addition.The product shall be able to continue to operate with no interruption in service due to new resource additions.;MN;adj;in service
-R413;8;We must be able to interface with the following browsers: IE 5.X  6.0  Netscape 6.x  7.x  8.x and Firefox 1.0.;O;adj;following
-R141;3;The system will notify affected parties when changes occur affecting cohorts  including but not limited to changes to the sequence for a cohort\92s program of study and changes to a given week\92s schedule (lab cancelled this week due to instructor illness).;F;adj;affected
-R809;38;Provide feasible solutions to the customers on their complaints and queries.;F;adj;feasible
-R133;3;The system shall be able to display a printable summary for individual clinical labs  which will include (but not be limited to) class name  class number  lab section  listing of students enrolled  instructor  day(s)  time  and location.;F;adj;printable
-R72;3;The number of mistakes noted by the students shall be decreased by 50% in the first year.;US;adj;first year
-R617;15;New branches/complexes/districts/regions and revenue/expense accounts added to the BDW  must be reflected in the RFS system. 100% of the entities (mentioned above) available as of October month-end  will be loaded into the RFS system  prior to the budget start process.;MN;adj;available
-R646;18;The meeting scheduler system may (optionally) automatically propose another meeting if current meeting is canceled by an important participant.;F;adj;important
-R805;38;Responsible for managing stocks of each product items.;F;adj;Responsible for
-R709;30;Enable a user to view questions and their corresponding answers.;F;adj;corresponding
-R582;13;The interface shall be easy to use. 90% of users should be able to successfully use the system to generate a report on their first use. The interface should adhere to IBM usability standards.;US;adj;first
-R690;27;The system shall flag tablets that fail to send timely keep-alive messages as non-operational and disassociate the assigned waiter from the tablet.;FT;adj;alive
-R236;5;The system shall prevent malicious attacks including denial of service.;SE;adj;malicious
-R523;10;For each turn  the product shall allow the offensive player to define a shot.;F;adj;offensive
-R482;9;The leads washing functionality will use the parameters supplied by corporate and schools to score part of the lead.;F;adj;corporate
-R88;3;The system shall interface with CampusConnect\92s central server;O;adj;central
-R225;5;For estimators  the product shall be able to be operated in a repair facility during dirty and noisy conditions.;O;adj;noisy
-R536;10;The product shall end a game when a hit by the offensive player results in sinking the last of the defensive player\92s ships  which had not been previously marked as sunk.;F;adj;last
-R123;3;Program Administrators and Nursing Staff Members shall be able to add a new clinical lab section for an existing clinical class into the System.;F;adj;new
-R930;46;The system shall allow user to select available promotion.;F;adj;available
-R6;1;The product shall ensure that it can only be accessed by authorized users.  The product will be able to distinguish between authorized and unauthorized users in all access attempts;SE;adv;in all
-R292;6;The response shall be fast enough to avoid interrupting the user\92s flow of thought.  90% of tasks shall complete within 5 seconds.  98% of tasks shall complete within 8 seconds.;PE;adv;enough
-R497;10;The product shall able to handle a large number of games simultaneously.;PE;adv;simultaneously
-R216;5;The search for recycled parts shall take no longer than 15 seconds.  The search results shall be returned in under 15 seconds.;PE;adv;no longer
-R74;3;2 out of 3 Program Administrators/Nursing Staff Members shall successfully be able to use the system to manage the scheduling of classes and clinicals.;US;adv;successfully
-R612;15;The RFS system should be available 24/7  especially during the budgeting period. The RFS system shall be available 90% of the time all year  and 98% during the budgeting period. 2% of the time  the system will become available within 1 hour of the time that the situation is reported.;A;adv;especially
-R350;7;Recreation of Inventory Quantity Adjustment for the period of previous 30 days shall take no more than 30min.;PE;adv;no more
-R616;15;Changes to revenue and expense formulae must be applied to the RFS system  every year  prior to the budgeting process start. Revenue and expense formulae will be updated within one week of their receipt  after which 2 weeks will be allotted to testing of the budget calculations  to be conducted jointly by the project development team and PCG Finance.;MN;adv;jointly
-R148;4;The Disputes application shall comply with the corporate standards for user interface creation for internally and externally used applications.;LF;adv;externally
-R38;2;The search results shall be returned no later 30 seconds  after the user has entered the search criteria;PE;adv;no
-R293;6;Aside from server failure  the software product shall achieve 99.99% up time.;A;adv;Aside
-R204;5;The product must support Mozilla Firefox 1.0 and above.;O;adv;above
-R741;32;Full data backups must be created daily.;SE;adv;daily
-R187;4;The Disputes System must allow the user to create three unique types of ticket retrieval requests.  The three types of ticket retrieval requests are (1) Request for original receipt (2) Request for a copy of the receipt or (3) Request for a portfolio. A portfolio consists of documentation that would provide proof of a purchase such as the documentation that is received from a car rental agency that is more than a sales receipt.;F;adv;more than
-R355;7;The System shall granularly control access rights to all major subsystems.  It should be possible to assign access rights to all subsystems independently.;SE;adv;independently
-R670;21;The online registration system is “self-service style” system that shall initially address the student registration needs.;F;adv;initially
-R148;4;The Disputes application shall comply with the corporate standards for user interface creation for internally and externally used applications.;LF;adv;internally
-R651;18;A meeting scheduler system will temporarily reserve the “time slots” for the proposed meeting.;F;adv;temporarily
-R284;6;The product shall be easy to use. 90% of users will be able to successfully reserve a conference room within 5 minutes of product use.;US;adv;successfully
-R151;4;100% of the cardmember and merchant services representatives shall use the Disputes application regularly after a 2-day training course.;US;adv;regularly
-R515;10;The product shall allow a player to position ships horizontally on their grid.;F;adv;horizontally
-R623;15;The product interface should be fast. The response time of the product interface should not exceed 2 seconds 90% of the time. For 10% of the time  the response time should not be more than 10 seconds.not be more than 10 seconds.;PE;adv;more than
-R300;6;The product must be able to interface with various database management systems. The product shall communicate successfully with the database management system on 100% of all transactions.;O;adv;successfully
-R676;24;The application should be easy to extend. The code should be written in a way that it favors implementation of new functions.;MN;adv;in a way
-R615;15;The RFS system should be able to easily interface with the BDW environment  in order to load the data. \95	7 data files shall be received from the BDW and loaded into the RFS system within 3 hours one day prior to the start of budgeting process  every year. The data will be as of October month-end. 	Test files (7) shall be loaded up to 5 times throughout the year  from the BDW.;O;adv;every year
-R372;7;The System shall generate Inventory Quantity Adjustment document automatically when daily Product Sales data is available.;F;adv;automatically
-R580;13;The interface must summarize the data in a fashion that\92s appealing to CCR management. Every report type must have at least one high level summary shown in the results dashboard/interface;LF;adv;at least
-R854;45;The system shall allow the user to modify the date preference set of an already submitted meeting response.;F;adv;already
-R691;27;A waiter password used for tablet login must have a bit-strength of at least 64 bits.;SE;adv;at least
-R153;4;100% of merchant services representatives shall be able to successfully perform a follow up action on a dispute case on the first encounter after completing the training course.;US;adv;successfully
-R254;5;The system shall retain the available recycled parts and suppliers returned from the search.;F;conjunction;and
-R770;35;Everyone (stakeholders and guests) can have access to the system and the catalogue. Every client must have secure and private access to his/her data. The  and the service man can have access to every part of the system. All these accesses (except the “guest tour” access) require identification through ID and password.;SE;conjunction;and
-R287;6;The product shall allow for customization of start page and views preferences.;US;conjunction;and
-R609;14;A secondary database will be used to store historical statistics and data.;O;conjunction;and
-R103;3;Program Administrators and Nursing Staff Members shall be able to add a listing of students to a cohort.;F;conjunction;and
-R586;13;The WCS system shall use appropriate nomenclature and terminology as defined by the Corporate Community Grants organization. All interfaces and reports will undergo usability tests by CCR users.;US;conjunction;and
-R618;15;Only authorized user shall access the RFS system. ONLY users that exist in the UAS system  with the RFS system assigned to their role(s)  shall access the RFS system and use it.;SE;conjunction;and
-R583;13;Reports must be easy to generate. Reports must be generated within one button click and exported within one button click (after selecting the report);US;conjunction;and
-R765;35;The system should be able to manage all the information incoming from the database and the catalogue.;O;conjunction;and
-R377;8;System shall let existing customers log into the website with their email address and password in under 5 seconds.;PE;conjunction;and
-R417;8;Movies shall be encoded for 56k and 256k streams.;O;conjunction;and
-R572;12;The product shall be updated on a regular basis.The product will have a new major feature introduced every six months and quarterly maintenance releases every six months.;MN;conjunction;and
-R396;8;Any interface between a user and the automated system shall have a maximum response time of 5 seconds  unless noted by an exception below.;PE;conjunction;unless
-R470;9;The washing process must use a non binding  neutral data format  such as xml  when receiving and processing lead data.;O;conjunction;and
-R717;31;Flea Market system will interface with the web server and RDBMS software using APIs provided by the implementation language;O;conjunction;and
-R178;4;The Disputes System must be accessible by both internal and external users.;F;conjunction;and
-R574;12;The product shall have security.The product shall provide authentication  and authorization.;SE;conjunction;and
-R288;6;An employee will be able to successfully use the product within a few minutes.  After informally navigating the product for less than 15 minutes  users shall be able to successfully setup meetings and reserve conference rooms.;US;conjunction;and
-R121;3;Program Administrators and Nursing Staff Members shall be able to add a new clinical site into the system.;F;conjunction;and
-R111;3;Program Administrators and Nursing Staff Members shall be able to add new classes for the nursing department into the system.;F;conjunction;and
-R532;10;If the shot was marked as a hit  the product shall allow the offensive player to define a shot.;F;conjunction;If
-R799;38;Can consult with the Administrator regarding product’s quality and advertisements.;F;conjunction;and
-R139;3;The system will notify affected parties when changes occur affecting clinicals  including but not limited to clinical section capacity changes  and clinical section cancellations.;F;conjunction;and
-R788;38;Control the database and keep track of all records of customers and employee details.;F;conjunction;and
-R385;8;The website should have an African feel  but should not alienate non-Africans.  The website should use animation on pages which are describing the services  to grab the users attention and encourage them to sign up.;LF;conjunction;and
-R764;35;The logo and the current basic design of registration system should be displayed. The system should be attractive according to the clients. The design and the color should make users feel comfortable when using the system instead of flashing useless colors on the screen. The design should also reflect the seriousness of the environment.;LF;conjunction;and
-R141;3;The system will notify affected parties when changes occur affecting cohorts  including but not limited to changes to the sequence for a cohort\92s program of study and changes to a given week\92s schedule (lab cancelled this week due to instructor illness).;F;conjunction;and
-R195;4;The Disputes System must provide Search functionality.  The search method must include the ability to search by (1) the dispute case number  (2) the merchant account number  (3) the cardmember account number and (4) the issuer number.  In addition to the above criteria  the search functionality must further allow the user to limit the results of the search by a date range  the type of dispute (ticket retrieval request or chargeback notification)  the case status (open  closed or all) and the dispute reason code.;F;conjunction;and
-R181;4;The Disputes System must provide different levels of access with regard to disputes case initiation and follow-up actions.;F;conjunction;and
-R778;36;Since the software must run on several popular hardware platforms and the goal is to achieve a reasonable level of platform independence.;PO;conjunction;and
+R251;5;The estimator shall search for available recycled parts using a list of preferred parts suppliers.;F;conjunction;for
+R480;9;If the leads score falls within the low average then it will be returned to the supplying vendor;F;conjunction;then
+R585;13;All CCR users shall receive training before the WCS system is deployed. One training session will be held for 100% of CCR users before system deployment (based on a CCR user being available);US;conjunction;for
+R240;5;The user shall search for the preferred repair facility using vehicle  vehicle location  and radius in miles;F;conjunction;for
+R71;3;The system shall help the user avoid making mistakes while scheduling classes and clinicals for the nursing students.;US;conjunction;for
+R154;4;The maximum wait time for a user navigating from one screen to another within the Disputes application shall be no more than 5 seconds.;PE;conjunction;for
+R287;6;The product shall allow for customization of start page and views preferences.;US;conjunction;for
+R393;8;The product shall be easy for customers with novice skills on the  Internet to purchase and watch streaming movies.  Customers should be able to purchase and watch a pre-determined movie in under 3 minutes.;US;conjunction;for
+R134;3;The system shall be able to display a printable summary for individual nursing students  which will include (but not be limited to) student name  student ID  admission date  classes  credits  GPA  and the cohort that the student is enrolled in.;F;conjunction;for
+R934;46;The system shall provide a digital image for each product in the product catalog.;US;conjunction;for
+R527;10;For each shot  the product shall mark the shot as a hit or miss on the offensive grid of the offensive player.;F;conjunction;For
+R958;48;The system should be able to scale up to 500 concurrent users (if there is a need in the future) by installing additional hardware components.;SC;conjunction;if
+R967;49;The entire website must be user-friendly and easily navigable. The website must be provided with a site map for quick access to a particular link according to the requirement specification. The user must be able to find what he/she wants from the site without any difficulty. The website must adhere to branding schemes and the layout of the web pages must be uniform throughout  ;US;conjunction;for
+R793;38;Can view all available products and can compare them and make a choice for purchasing products.;F;conjunction;for
+R454;8;System will allow customers to pay for a streaming movie with a pre-paid card.;F;conjunction;for
+R664;20;Users shall be required to log in to the Cafeteria Ordering System for all operations except viewing a menu.;F;conjunction;for
+R308;6;Maintenance releases will be offered to customers once a year.  The releases shall take no longer than 5 minutes for 80% of the customer base to install.;MN;conjunction;for
+R866;45;The system shall allow users to search  for available distributed location templates(if any).;F;conjunction;for
+R811;40;The system is expected to have reasonable short time response. The voter should be able to login and should be able to get response for his requests in 2-3 seconds.;PE;conjunction;for
+R914;46;The system shall allow user to enter the order information for tracking.;F;conjunction;for
+R188;4;The Disputes System must prevent external users from requesting original receipts. Requests for original receipts are restricted to internal users.;F;conjunction;for
+R288;6;An employee will be able to successfully use the product within a few minutes.  After informally navigating the product for less than 15 minutes  users shall be able to successfully setup meetings and reserve conference rooms.;US;conjunction;for
+R766;35;The product is Web based therefore it will be used in any environment that allows Web access.;PO;conjunction;therefore
+R821;42;Backspace/reset capability is implemented for typing errors.;F;conjunction;for
+R959;48;The MTBF (if any) should not be less than 2 months.;A;conjunction;if
+R913;46;The system shall display tentative duration for shipping.;F;conjunction;for
+R918;46;The system shall display available payment methods for payment.;F;conjunction;for
+R731;32;A correct combination of username and password is required for a user to login.;SE;conjunction;for
+R399;8;While streaming a movie  buffering should only occur if there is latency in the user\92s connection.;PE;conjunction;if
+R546;11;On a 112k connection or faster  the system response time for all operations must be no more than 3 seconds 90% of the time.;PE;conjunction;for
+R13;1;The display shall have two regions:  left 2/3 of the display is graphical  right 1/3 of the display is a data table;F;continuance;:
+R15;1;The table side of the display shall be split into 2 regions: sequential and temporal.;F;continuance;:
+R23;1;The system shall filter data by: Venues and Key Events.;F;continuance;:
+R97;3;Fit Criterion: Dr Susan Poslusny and Karen Sysol are the only people who shall have access to the final class section scheduling for the system that interfaces with CampusConnect.;SE;continuance;:
+R156;4; The Disputes application shall be available 24x7x365  with the exception of the following scheduled maintenance windows.  Monday \96 Saturday 3:00am to 4:00am EST Sunday 1:00amd to 5:00am EST;O;continuance;following
+R189;4;"The Disputes System must provide a confirmation to the user upon the creation of ticket retrieval request that contains the following information; the dispute case number  the type of retrieval requested (copy  original or portfolio)  and the date that the merchant response is due.";F;continuance;following
+R191;4;"The Disputes System must provide a confirmation to the user upon the creation of a chargeback request. The confirmation must contain the following information; the dispute case number  the type of chargeback requested (pending or immediate)  and the date that the merchant response is due.";F;continuance;following
 R396;8;Any interface between a user and the automated system shall have a maximum response time of 5 seconds  unless noted by an exception below.;PE;continuance;below
-R98;3;The system shall have basic data integrity checking to reduce the possibility of incorrect or invalid data being introduced.;SE;det;the
-R832;42;A description and time/date of each prescription that has been ordered or given is displayed starting with most recent.;F;det;each
-R316;6;The product shall ensure that the database\92s data corresponds to the data entered by the user.  Each conference room reservation in the system will contain the same information as was entered by the user.;SE;det;the
-R796;38;Customer must logout of the site after purchasing products.;F;det;the
-R948;46;The customer’s web browser shall never display a customer’s password.  It shall always be echoed with special characters representing typed characters.;SE;det;a
-R116;3;A Program of Study shall consist of a program name and listing of required classes (both clinical and non-clinical) that must be completed.;F;det;a
-R383;8;System shall let administrators generate unique pre-paid pins in under 2 minutes and generate an Excel file with the generated PINs.;PE;det;an
-R848;45;The system shall allow the initiator to send and receive messages from users.;F;det;The
-R297;6;The product shall be expected to operate for at least 5 years for each customer installation.;SC;det;each
-R235;5;The product shall free of computer viruses.;SE;det;The
-R129;3;A Program Administrator/Nursing Staff Member shall be able to add a new nursing student to the system.;F;det;the
-R207;5;The product shall adhere to the corporate Architecture guidelines;O;det;the
-R51;2;The product shall be capable of handling the existing 1000 users. This number is expected to grow 5 times within the next year.;SC;det;the
-R310;6;The customer shall be able to easily integrate new building maps with the product throughout the product\92s lifecycle.  Integration of new maps with the product shall be possible with little to no support from product support staff.;MN;det;The
-R626;16;The system shall use the SMTP mail protocol.;O;det;The
-R499;10;The product shall protect the identity of the players. The product shall provide players no access to information that might reveal the identity of another player.;PE;det;another
-R102;3;A cohort shall be associated to one Program of Study offered by the department.;F;det;the
-R223;5;The average number of recycled parts records per day shall be 50 000.;SC;det;The
-R276;6;The product must work with most database management systems (DBMS) on the market  whether the DBMS is colocated with the product on the same machine or is located on a different machine on the computer network.;O;det;a
-R852;45;The system shall allow users to send and receive messages.;F;det;The
-R635;17;The system shall provide an option to withdraw money.;F;det;an
-R180;4;The Disputes System will facilitate direct data entry of a dispute case via a user interface that supports real time responses to the users.;F;det;The
-R316;6;The product shall ensure that the database\92s data corresponds to the data entered by the user.  Each conference room reservation in the system will contain the same information as was entered by the user.;SE;det;The
-R508;10;The product shall make inactive players unavailable for selection from the list of players.;F;det;the
-R683;25;The system shall provide a way to return to the startup screen.;US;det;The
-R281;6;The product\92s Look and Feel shall be able to incorporate aspects of the customer\92s organization such as logo  branding  and identity;LF;det;The
-R401;8;The website shall be available for use 24 hours per day  365 days per year.;A;det;The
-R135;3;The system shall be able to display a printable summary of the system log.;F;det;a
-R349;6;The product will display an available status for unreserved conference rooms.;F;det;The
-R968;49;The system shall support up to 10000 simultaneous users against the central database at any given time and up to 5000 simultaneous users against the local servers at any one time. The performance of the website must be optimal incase of huge loads and hence appropriate load balancing must be done to achieve this. There can be any number of mirror servers readily available in case of huge loads without the user getting any delay.;PE;det;the
+R413;8;We must be able to interface with the following browsers: IE 5.X  6.0  Netscape 6.x  7.x  8.x and Firefox 1.0.;O;continuance;following
+R413;8;We must be able to interface with the following browsers: IE 5.X  6.0  Netscape 6.x  7.x  8.x and Firefox 1.0.;O;continuance;:
+R565;12;The product shall be available 99% of the time. Rationale: To avoid service interruption during busiest customer service response periods. The product shall be available 99.99% of the time for regular business days.;A;continuance;:
+R613;15;98% of the user workstations shall meet the minimum hardware requirements prior to implementation. Minimum Hard Disk Space:  400MB.;O;continuance;:
+R614;15;98% of the user workstations shall meet the minimum software requirements prior to implementation: Microsoft Internet Explorer 5.0. Microsoft .NET Framework 1.1. Microsoft Internet Explorer Web Controls;O;continuance;:
+R9;1;The system shall have a MDI form that allows for the viewing of the graph and the data table.;F;directive;table.
+R10;1;The system shall display Events in a vertical table by time.;F;directive;table
+R13;1;The display shall have two regions:  left 2/3 of the display is graphical  right 1/3 of the display is a data table;F;directive;table
+R14;1;The data displayed in both the nodes within the graph and the rows in the table are MSEL Summary data;F;directive;table
+R15;1;The table side of the display shall be split into 2 regions: sequential and temporal.;F;directive;table
+R16;1;The top 1/4 of the table will hold events that are to occur sequentially.;F;directive;table
+R17;1;The bottom 3/4 of the table will hold events that occur according to its relevance to current time.;F;directive;table
+R72;3;The number of mistakes noted by the students shall be decreased by 50% in the first year.;US;directive;noted
 R196;4;A list of all disputes cases that meet the entered search criteria must be provided to the user.  The list of cases must differentiate the type and/or status of the case by color -coding the line item in the list.  For example all open cases will be yellow and all closed cases will be gray.;F;directive;For example
+R396;8;Any interface between a user and the automated system shall have a maximum response time of 5 seconds  unless noted by an exception below.;PE;directive;noted
+R539;10;The notification of the game ending will include the reason the game is ended (i.e.  a player has won the game or a player has ended the game).;F;directive;i.e.
+R687;27;The system shall be capable of restoring itself to its previous state in the event of failure (e.g. a system crash or power loss).;FT;directive;e.g.
+R830;42;The text and time/date of a note that has been entered is displayed starting with most recent.;F;directive;note
 R172;4;The Disputes application must conform to the legal requirements as specified by the Merchant Operating Regulations.;L;incompletes;as specified
 R174;4;The Disputes application must conform to the legal requirements as specified by Regulation E and Regulation Z that govern credit card disputes processing.;L;incompletes;as specified
 R195;4;The Disputes System must provide Search functionality.  The search method must include the ability to search by (1) the dispute case number  (2) the merchant account number  (3) the cardmember account number and (4) the issuer number.  In addition to the above criteria  the search functionality must further allow the user to limit the results of the search by a date range  the type of dispute (ticket retrieval request or chargeback notification)  the case status (open  closed or all) and the dispute reason code.;F;incompletes;In addition
 R586;13;The WCS system shall use appropriate nomenclature and terminology as defined by the Corporate Community Grants organization. All interfaces and reports will undergo usability tests by CCR users.;US;incompletes;as defined
 R871;45;Personal information security is defined outside the scope of the SDMS by the database server.;SE;incompletes;is defined
-R908;46;The system shall provide shopping cart during online purchase.;F;mv;shall
-R343;6;The product shall record all the equipment that has been reserved.;F;mv;shall
-R810;39;The system should require the user to state time when should the doughnut be delivered;F;mv;should
-R484;9;The leads washing functionality will have an interface in which lead data parameters can be maintained.;F;mv;will
-R530;10;When the hit results in sinking a ship  the product shall indicate the type of ship sunk on the defensive grid of the defensive player.;F;mv;shall
-R207;5;The product shall adhere to the corporate Architecture guidelines;O;mv;shall
-R844;45;The system shall allow the mediator to solve a location conflict.;F;mv;shall
-R752;33;The system should ask the user to key in the pickup date.;F;mv;should
-R369;7;PME Subsystem shall allow for a product to exist in more than one submenu;F;mv;shall
-R912;46;The system shall display the shipping charges.;F;mv;shall
-R939;46;The system shall provide a contractual agreement with an internet service provider who can provide 99.999% availability through their network facilities onto the internet.;A;mv;can
-R334;6;The product shall allow an organizer to invite other employees to meetings.;F;mv;shall
-R659;19;The client should agree to EULA before using our software.;L;mv;should
-R938;46;The system shall provide a contractual agreement with an internet service provider for T3 access with 99.9999% availability.;A;mv;shall
-R332;6;The product will update existing room equipment.;F;mv;will
-R153;4;100% of merchant services representatives shall be able to successfully perform a follow up action on a dispute case on the first encounter after completing the training course.;US;mv;shall
-R104;3;Program Administrators and Nursing Staff Members shall be able to add a single student to a cohort;F;mv;shall
-R468;9;The process must fit within the processing time conditions set forth by the Auto Rep Assignment process in which a lead is assigned within 3 minutes of the total life cycle.;PE;mv;must
-R244;5;The search radius shall be between 1 and 30 miles;F;mv;shall
-R288;6;An employee will be able to successfully use the product within a few minutes.  After informally navigating the product for less than 15 minutes  users shall be able to successfully setup meetings and reserve conference rooms.;US;mv;will
-R251;5;The estimator shall search for available recycled parts using a list of preferred parts suppliers.;F;mv;shall
-R481;9;The leads washing functionality will compile both contact and academic scoring information for a total score.;F;mv;will
-R551;11;The product shall ensure that only supervisors can enter a caller\92s schedule.The product must ensure that supervisors are allowed to access advertise empty time slots.;SE;mv;can
-R619;15;User access should be limited to the permissions granted to their role(s) Each level in the PCG hierarchy will be assigned a role and users will be assigned to these roles. Access to functionality within RFS system is dependent on the privileges/permission assigned to the role..;SE;mv;should
-R171;4;All updates to data files or database must be initiated from the Disputes System.;SE;mv;must
-R758;34;The system should not leave any cookies on the customer’s computer containing the user’s password.;SE;mv;should
-R682;25;The campus map shall have a pause/resume button. The pause and resume button will allow the user to scroll and select other buildings without being interrupted by the automatic search and announce feature.;LF;mv;shall
-R161;4;The Disputes application shall interface with the Cardmember Posting and Billing System.  This will allow the Disputes application to request adjustments to cardmember and merchant\92s accounts. All adjustment requests must be sent to the Cardmember Posting and Billing System.;O;mv;must
-R217;5;The search for the preferred repair facility shall take no longer than 8 seconds.  The preferred repair facility is returned within 8 seconds;PE;mv;shall
-R854;45;The system shall allow the user to modify the date preference set of an already submitted meeting response.;F;mv;shall
-R946;46;The system shall not leave any cookies on the customer’s computer containing the user’s password.;SE;noun;user
-R263;5;The audit report shall include the number of available recycled parts from the original search results.;F;noun;search
-R67;2;The system shall notify the realtor when a seller or buyer responds to an appointment request;F;noun;system
-R863;45;The system shall allow users to view other users’ information.;F;noun;system
-R459;8;Movies can only be streamed if the customer has purchased a movie  and is within the 2-day time period to stream the movie.;F;noun;time period
-R564;12;The product shall provide Dynamic Change Support and Transparent resource addition.The product shall support Transparent Resource addition and Dynamic Change support to provide scalability and avoid service interruptions of more than 1 day.;PE;noun;addition
-R339;6;The product shall send a meeting confirmation to the meeting organizer.;F;noun;meeting
-R146;3;Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Clinical Lab Section  including the clinical site name the department/section for the lab  the class instructor day and time of lab and contact information.;F;noun;site
-R110;3;Program Administrators and Nursing Staff Members shall be able to add a new cohort to the system  identified by start month and year.;F;noun;year
-R873;45;The system shall run on Windows Server 2003.;PO;noun;Server
-R283;6;The product shall make the users want to use it. 80% of the users surveyed report they are regularly using the product after the first 2 weeks post-launch.;US;noun;post
-R795;38;Can give feedback to the 24X7 Customer Care Service center about their impression for the site and services.;F;noun;center
-R571;12;The product shall continue to operate during upgrade  change or new resource addition.The product shall be able to continue to operate with no interruption in service due to new resource additions.;MN;noun;product
-R48;2;100% of saved user preferences shall be restored when system comes back online.;FT;noun;system
-R960;48;A secure server will be required to ensure confidentiality of customer’s credit card and other details.;SE;noun;credit card
-R578;13;The system shall be displayable on any work computer a CCR user may have. The system interface shall be formatted to display at 800 by 600 pixel resolution.;LF;noun;computer
-R66;2;The realtor shall be able to retrieve a map showing property locations for a specified area;F;noun;property
-R30;2;The user interface shall have standard menus buttons for navigation;LF;noun;navigation
-R460;8;Website must be able to support free trial periods with various parameters set by the Izogn Manager.;F;noun;periods
-R468;9;The process must fit within the processing time conditions set forth by the Auto Rep Assignment process in which a lead is assigned within 3 minutes of the total life cycle.;PE;noun;lead
-R74;3;2 out of 3 Program Administrators/Nursing Staff Members shall successfully be able to use the system to manage the scheduling of classes and clinicals.;US;noun;scheduling
-R131;3;The system shall be able to display a printable summary for individual cohorts  which will include the students enlisted  the Program of study  sequence of classes  cohort progress through the program  and timeline of completion.;F;noun;program
-R171;4;All updates to data files or database must be initiated from the Disputes System.;SE;noun;database
-R483;9;The leads washing functionality will return the lead data supplied to the vendor along with the reason of rejection.;F;noun;reason
-R161;4;The Disputes application shall interface with the Cardmember Posting and Billing System.  This will allow the Disputes application to request adjustments to cardmember and merchant\92s accounts. All adjustment requests must be sent to the Cardmember Posting and Billing System.;O;noun;application
-R73;3;The system shall be intuitive to the Program Administrators/Nursing Staff Members.;US;noun;Staff
-R63;2;Realtor shall be able to generate a CMA report based on property criteria;F;noun;property
-R817;42;The physician/pharmacist must have a valid user login to access the system.;F;noun;user
-R145;3;Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Clinical Site  including the clinical site name  site contact person  contact information  and address.;F;noun;ability
-R146;3;Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Clinical Lab Section  including the clinical site name the department/section for the lab  the class instructor day and time of lab and contact information.;F;noun;time
-R126;3;The system shall allow a Program Administrator or Nursing staff member to remove a student from a clinical lab section.;F;optional;or
-R522;10;At the start of each turn  the product shall notify each player of his or her status.;F;optional;or
-R112;3;A class shall be either a non-clinical class or a clinical class.;F;optional;or
-R541;10;When a game is ended  the product shall allow each player to remove himself or herself from the list of players.;F;optional;or
-R513;10;The product shall prevent a player from viewing the offensive or defensive grids of the other player.;F;optional;or
-R304;6;The product will be available for licensing as a one-server  two-five servers  or five-or-more servers license.;O;optional;or
-R546;11;On a 112k connection or faster  the system response time for all operations must be no more than 3 seconds 90% of the time.;PE;optional;or
-R98;3;The system shall have basic data integrity checking to reduce the possibility of incorrect or invalid data being introduced.;SE;optional;or
-R742;32;A user must be logged on to be able to view or edit any medical information.;F;optional;or
-R458;8;Pre-paid cards shall be distributed via email or via a printed paper card.;F;optional;or
-R590;13;The WCS system shall be run in a Windows environment. The WCS shall be accessed by users through the Internet on an IBM computer running a Windows 2000 or above operating system.;O;optional;or
-R581;13;The system must use a point and click interface. 100% of all selection and navigation functionality must be able to be activated/selected by either a mouse or a keyboard;US;optional;either
-R878;46;The system shall enable user to add one or more component to the configuration.;F;optional;or
-R832;42;A description and time/date of each prescription that has been ordered or given is displayed starting with most recent.;F;optional;or
-R190;4;The Disputes System shall allow the user to create or initiate a chargeback request.  The system must prompt the user to enter the required information to initiate a chargeback request. The chargeback request results in a printed chargeback notification that is sent to merchant indicating that their account will be charged back if no proof is provided that the disputed transaction is valid.;F;optional;or
-R189;4;"The Disputes System must provide a confirmation to the user upon the creation of ticket retrieval request that contains the following information; the dispute case number  the type of retrieval requested (copy  original or portfolio)  and the date that the merchant response is due.";F;optional;or
-R67;2;The system shall notify the realtor when a seller or buyer responds to an appointment request;F;optional;or
-R455;8;Website shall allow customers to purchase pre-paid cards of $5  $10  or $20 value either by credit card or mail-in payment option.;F;optional;either
-R397;8;When purchasing a streaming movie or pre-paid card via credit card  the processing time should have a maximum response time of 15 seconds.;PE;optional;or
-R186;4;The Disputes System will provide the user the ability to create or initiate a ticket retrieval request.   As part of ticket retrieval creation process the system must prompt the user to enter all the required information to create the ticket retrieval request.  The ticket retrieval request is a document that is sent to merchant inquiring the validity of a transaction.;F;optional;or
-R109;3;Program Administrators and Nursing Staff Members shall be able to add clinical classes or sections to a sequence of classes;F;optional;or
-R591;13;The Brio portion of the WCS system must be able to export files in spreadsheet form (Microsoft Excel and Lotus 1-2-3 formats).  Brio will provide buttons in the user interface that produce/export reports in .xls or .123 file formats.;O;optional;or
-R822;42;Selected or specified patient’s information is loaded.;F;optional;or
-R64;2;The system shall be able to call the seller or buyer to schedule an appointment;F;optional;or
+R763;34;"An end-user may use this system on any OS; either it is Windows or Linux.";PO;optional;either
 R446;8;The website will allow customers to search for movies by title  actor  or director.;F;optional;or
-R20;1;The system shall link Events back to either the Sync Matrix 1.0 or the Exercise Managment Tool 1.0 applications for modifications.;F;optional;or
+R112;3;A class shall be either a non-clinical class or a clinical class.;F;optional;either
 R687;27;The system shall be capable of restoring itself to its previous state in the event of failure (e.g. a system crash or power loss).;FT;optional;or
+R20;1;The system shall link Events back to either the Sync Matrix 1.0 or the Exercise Managment Tool 1.0 applications for modifications.;F;optional;or
+R646;18;The meeting scheduler system may (optionally) automatically propose another meeting if current meeting is canceled by an important participant.;F;optional;optionally
+R170;4;The Disputes application shall manipulate and view business data. Users will not have direct access to data files or databases.;SE;optional;or
+R12;1;The system shall display Events or Activities.;F;optional;or
+R525;10;For each shot  the product shall notify the players whether the shot was a hit or miss.;F;optional;or
+R832;42;A description and time/date of each prescription that has been ordered or given is displayed starting with most recent.;F;optional;or
+R581;13;The system must use a point and click interface. 100% of all selection and navigation functionality must be able to be activated/selected by either a mouse or a keyboard;US;optional;either
+R20;1;The system shall link Events back to either the Sync Matrix 1.0 or the Exercise Managment Tool 1.0 applications for modifications.;F;optional;either
+R604;14;The application shall ask the user to confirm dropping a player or trading a player before performing the action.;US;optional;or
+R907;46;The system shall optionally allow user to print the invoice.;F;optional;optionally
+R666;20;The system shall permit only cafeteria staff members who are on the list of authorized Menu Managers to create or edit menus.;F;optional;or
+R28;1;The system shall provide a history report of changes made to the Activity or Event data;F;optional;or
+R27;1;The system shall provide charts for the Activity or Event actual versus assumed time.;F;optional;or
+R276;6;The product must work with most database management systems (DBMS) on the market  whether the DBMS is colocated with the product on the same machine or is located on a different machine on the computer network.;O;optional;or
+R191;4;"The Disputes System must provide a confirmation to the user upon the creation of a chargeback request. The confirmation must contain the following information; the dispute case number  the type of chargeback requested (pending or immediate)  and the date that the merchant response is due.";F;optional;or
+R190;4;The Disputes System shall allow the user to create or initiate a chargeback request.  The system must prompt the user to enter the required information to initiate a chargeback request. The chargeback request results in a printed chargeback notification that is sent to merchant indicating that their account will be charged back if no proof is provided that the disputed transaction is valid.;F;optional;or
+R513;10;The product shall prevent a player from viewing the offensive or defensive grids of the other player.;F;optional;or
+R440;8;The website shall not be offensive to religious or ethnic groups.;LF;optional;or
+R507;10;The product shall allow a user to remove himself or herself from the list of players at any time.;F;optional;or
+R521;10;The product shall maintain the status of each player for a turn  either offensive or defensive.;F;optional;or
 R505;10;The product shall allow a user to identify himself or herself as a player.;F;optional;or
-R199;4;The Disputes System shall record the name of the user and the date for any activity that creates or modifies the disputes case in the system.  A detailed history of the actions taken on the case  including the date and the user that performed the action must be maintained for auditing purposes.;F;optional;or
-R7;1;The product shall be intuitive and self-explanatory. 90% of new users shall be able to start the display of Events or Activities within 90 minutes of using the product.;US;optional;or
-R172;4;The Disputes application must conform to the legal requirements as specified by the Merchant Operating Regulations.;L;plurals;requirements
-R240;5;The user shall search for the preferred repair facility using vehicle  vehicle location  and radius in miles;F;plurals;miles
-R570;12;The product shall interface CSR and Datastream.The product shall exchange messages between CSR and EAM on a real time basis without any direct interfaces between two systems.;O;plurals;systems
-R591;13;The Brio portion of the WCS system must be able to export files in spreadsheet form (Microsoft Excel and Lotus 1-2-3 formats).  Brio will provide buttons in the user interface that produce/export reports in .xls or .123 file formats.;O;plurals;reports
-R10;1;The system shall display Events in a vertical table by time.;F;plurals;Events
-R97;3;Fit Criterion: Dr Susan Poslusny and Karen Sysol are the only people who shall have access to the final class section scheduling for the system that interfaces with CampusConnect.;SE;plurals;people
-R46;2;The product shall allow the user to view previously downloaded search results CMA reports  and appointments.;FT;plurals;results
-R833;43;All users of the system shall login using some form of unique identification.;SE;plurals;users
-R30;2;The user interface shall have standard menus buttons for navigation;LF;plurals;buttons
-R37;2;The product shall produce search results in an acceptable time;PE;plurals;results
-R268;5;The user shall select to view the preferred repair facility ratings.;F;plurals;ratings
-R238;5;The product shall comply with the estimatics laws relating to recycled parts usage.;L;plurals;parts
-R354;7;The System shall maintain consistent security.  Any changes in user passwords and/or permissions should take affect in all parts of the System.;SE;plurals;passwords
-R864;45;The system shall allow user to specify custom meeting locations.;F;plurals;locations
-R286;6;The product shall allow the user to select a chosen language from one of the target market countries.;US;plurals;countries
-R662;20;The system shall display confirmation messages to users within 4 seconds after the user submits information to the system.;PE;plurals;users
-R216;5;The search for recycled parts shall take no longer than 15 seconds.  The search results shall be returned in under 15 seconds.;PE;plurals;parts
-R289;6;The product shall use a standard navigation menu familiar to most web users.;US;plurals;users
-R162;4;The Disputes application shall ensure that only users with the appropriate access level are allowed to initiate dispute requests.;SE;plurals;users
-R48;2;100% of saved user preferences shall be restored when system comes back online.;FT;plurals;preferences
-R422;8;The website will provide a help section with answers and solutions to common problems.;US;plurals;problems
-R667;20;Only users who have been authorized for home access to the corporate Intranet may use the COS from non-company locations.;SE;plurals;users
-R390;8;An anonymous survey will show that 70% of customers are comfortable purchasing streaming movies after 2 weeks using the website.;US;plurals;customers
-R780;37;The available server must be reliable and the network connectivity in the supermarket should be proper for smooth flow of all operations and data.;O;plurals;operations
-R536;10;The product shall end a game when a hit by the offensive player results in sinking the last of the defensive player\92s ships  which had not been previously marked as sunk.;F;plurals;ships
-R416;8;Movies shall be encoded and streamed via Windows Media Player 9.0.;O;plurals;Movies
-R75;3;The system shall use symbols and words that are naturally understandable by the user community.;US;plurals;words
-R489;10;The product shall simulate the look of ships at sea.;LF;plurals;ships
-R506;10;Once a game has been initiated  the product shall make the players assigned to the game unavailable for selection from the list of players.;F;plurals;players
-R384;8;The website shall be attractive to all audiences.  The website shall appear to be fun and the colors should be bright and vibrant.;LF;plurals;audiences
-R134;3;The system shall be able to display a printable summary for individual nursing students  which will include (but not be limited to) student name  student ID  admission date  classes  credits  GPA  and the cohort that the student is enrolled in.;F;preposition;in
-R650;18;The meeting scheduler system may be able to include a list of required equipment for a meeting proposal.;F;preposition;of
-R193;4;The Disputes System shall accurately provide a list of possible reason codes for a given transaction.  The list of possible reason codes must be derived based on the type of transaction and the industry that the merchant belongs to  according to the business rules defined for the Disputes System.;F;preposition;to
-R883;46;The system shall display detailed product categorization to the user.;F;preposition;to
-R303;6;The product shall be available for distribution as a packaged CD.;O;preposition;for
-R396;8;Any interface between a user and the automated system shall have a maximum response time of 5 seconds  unless noted by an exception below.;PE;preposition;of
-R84;3;The system shall be expected to manage the nursing program curriculum and class/clinical scheduling for a minimum of 5 years.;SC;preposition;for
-R447;8;viewing a movie details the website will display the movies description actor and director entered in by the administrator.;F;preposition;by
-R617;15;New branches/complexes/districts/regions and revenue/expense accounts added to the BDW  must be reflected in the RFS system. 100% of the entities (mentioned above) available as of October month-end  will be loaded into the RFS system  prior to the budget start process.;MN;preposition;into
-R642;18;The meeting scheduler system shall be able to select a participant as an important participant.;F;preposition;as
-R801;38;Responsible for properly allocating the selected product according to the customer’s choice and delivering product to the customer.;F;preposition;to
-R52;2;The product shall be installed by an untrained realtor without recourse to separately-printed instructions.;US;preposition;without
-R367;7;PME Subsystem shall allow building product menus based on the list of products kept in the accounting system.;F;preposition;of
-R502;10;The product shall provide players no access to information that might reveal the identity of another player;SE;preposition;to
-R656;19;The menus of the system must be easily navigable by the users with buttons that are easy to understand.;US;preposition;of
-R202;4;Any disputes cases that have been closed for over 6 months must be purged from the online disputes database.;F;preposition;over
-R590;13;The WCS system shall be run in a Windows environment. The WCS shall be accessed by users through the Internet on an IBM computer running a Windows 2000 or above operating system.;O;preposition;above
-R732;32;It should give a drill-down view of all data in the medical record after logging in.;LF;preposition;of
-R225;5;For estimators  the product shall be able to be operated in a repair facility during dirty and noisy conditions.;O;preposition;in
-R668;21;Programmers and application developers will have access to source code to address bugs or system enhancements as deemed necessary. Network Administrator and DBA support is also required to maintain a 24x7 system uptime.;A;preposition;to
-R374;8; Customer shall be able to check the status of their prepaid card  by entering in the PIN number  in under 5 seconds.;PE;preposition;under
-R403;8;All movies shall be streamed on demand  at any time of the day.;A;preposition;on
-R155;4;The Disputes application shall support 350 concurrent users without any degradation of performance in the application.;PE;preposition;of
-R188;4;The Disputes System must prevent external users from requesting original receipts. Requests for original receipts are restricted to internal users.;F;preposition;from
-R106;3;Program Administrators and Nursing Staff Members shall be able to specify the preferred sequence of classes for a given cohort.;F;preposition;for
-R198;4;The Dispute System shall provide the users with the ability to follow up on a dispute case via follow-up actions.  The list of available follow up actions for a given dispute case must be filtered by the status of the case and the access level of the user.;F;preposition;by
-R110;3;Program Administrators and Nursing Staff Members shall be able to add a new cohort to the system  identified by start month and year.;F;preposition;by
-R91;3;We must be able to interface with any HTML browser.;O;preposition;with
-R67;2;The system shall notify the realtor when a seller or buyer responds to an appointment request;F;preposition;to
-R620;15;The product must comply with the intranet page standards and requirements of ENET Securities. 95% of the product look & feel will be approved by the Architecture group  prior to implementation. The remaining 5% will be corrected and approved within one month of product release.;LF;preposition;by
-R430;8;The website shall prevent its data from being corrupted when incorrect data is entered in.;SE;pronoun;its
-R138;3;The system will notify affected parties for routine communication purposes  including but not limited to informing students of upcoming offered classes (timeline) and what their schedule will be/shall be.;F;pronoun;what
-R670;21;The online registration system is “self-service style” system that shall initially address the student registration needs.;F;pronoun;that
-R726;32;It must be able to download the most recent medical record.;F;pronoun;It
-R967;49;The entire website must be user-friendly and easily navigable. The website must be provided with a site map for quick access to a particular link according to the requirement specification. The user must be able to find what he/she wants from the site without any difficulty. The website must adhere to branding schemes and the layout of the web pages must be uniform throughout  ;US;pronoun;she
-R789;38;Contact with the vendors and give permission to sell their product under the site after testing the product’s quality.;F;pronoun;their
-R687;27;The system shall be capable of restoring itself to its previous state in the event of failure (e.g. a system crash or power loss).;FT;pronoun;its
-R939;46;The system shall provide a contractual agreement with an internet service provider who can provide 99.999% availability through their network facilities onto the internet.;A;pronoun;who
-R375;8;System shall let customers register on the website as a \93pay as you go\94 user in under 5 minutes.;PE;pronoun;you
-R598;14;Each page shall contain a navigation menu which shows the index into which the current page is contained.;LF;pronoun;which
-R541;10;When a game is ended  the product shall allow each player to remove himself or herself from the list of players.;F;pronoun;herself
-R616;15;Changes to revenue and expense formulae must be applied to the RFS system  every year  prior to the budgeting process start. Revenue and expense formulae will be updated within one week of their receipt  after which 2 weeks will be allotted to testing of the budget calculations  to be conducted jointly by the project development team and PCG Finance.;MN;pronoun;which
-R962;48;It should not take more than 120 seconds for a new user to register for an account.;US;pronoun;It
-R130;3;A staff member shall have the ability to manage the progress of a part time student  which includes modifying their sequence of classes and timeline of classes.;F;pronoun;which
-R703;29;Unauthorised users can only read data without modifying anything.;SE;pronoun;anything
-R755;33;The website is available whenever the users want to use it.;A;pronoun;it
-R786;38;Normal users can just read information but they cannot edit or modify anything except their personal and some other information.;SE;pronoun;anything
-R433;8;The website shall make its user aware of its information practices before collection data from them via a Privacy Policy  accessible on all pages of the website.;SE;pronoun;them
-R456;8;System shall automatically update the main page of the website every Friday  and show the 4 latest movies that have been added to the website.;F;pronoun;that
-R966;49;Registered User must be able to maintain his/her session information for at least 60 minutes of inactive session before the system prompts him to log out of the system. The registered user must be provided with all the options of the E-store regardless of the time when he/she logs in.;F;pronoun;her
-R191;4;"The Disputes System must provide a confirmation to the user upon the creation of a chargeback request. The confirmation must contain the following information; the dispute case number  the type of chargeback requested (pending or immediate)  and the date that the merchant response is due.";F;pronoun;that
-R939;46;The system shall provide a contractual agreement with an internet service provider who can provide 99.999% availability through their network facilities onto the internet.;A;pronoun;their
-R734;32;The user must be able to add photos from his/her photo library to his/her medical record.;F;pronoun;her
-R811;40;The system is expected to have reasonable short time response. The voter should be able to login and should be able to get response for his requests in 2-3 seconds.;PE;pronoun;his
+R786;38;Normal users can just read information but they cannot edit or modify anything except their personal and some other information.;SE;optional;or
+R187;4;The Disputes System must allow the user to create three unique types of ticket retrieval requests.  The three types of ticket retrieval requests are (1) Request for original receipt (2) Request for a copy of the receipt or (3) Request for a portfolio. A portfolio consists of documentation that would provide proof of a purchase such as the documentation that is received from a car rental agency that is more than a sales receipt.;F;optional;or
+R276;6;The product must work with most database management systems (DBMS) on the market  whether the DBMS is colocated with the product on the same machine or is located on a different machine on the computer network.;O;optional;whether
+R62;2;The system shall update or create new property listings in the MLS;F;optional;or
+R455;8;Website shall allow customers to purchase pre-paid cards of $5  $10  or $20 value either by credit card or mail-in payment option.;F;optional;or
+R406;8;The streaming server will support 50 simultaneous streaming connections.;SC;plurals;connections
+R172;4;The Disputes application must conform to the legal requirements as specified by the Merchant Operating Regulations.;L;plurals;Disputes
+R160;4;The Disputes application shall interface with the Letters application.  This will allow the Disputes application to request letters as part of the dispute initiation and dispute follow up process. All letter requests must be sent to the Print Letter Utility application.;O;plurals;Letters
+R166;4;The Disputes System shall generate a User Report that details any new users that have been added and any changes to an existing user\92s access level. The report will be reviewed for auditing purposes.;SE;plurals;purposes
+R802;38;Keep track of each product item’s stocks for selling purpose.;F;plurals;stocks
+R73;3;The system shall be intuitive to the Program Administrators/Nursing Staff Members.;US;plurals;Members
+R662;20;The system shall display confirmation messages to users within 4 seconds after the user submits information to the system.;PE;plurals;messages
+R441;8;The website should appeal to all Africans  not only Nigerians.;LF;plurals;Africans
+R328;6;The product shall store new conference rooms.;F;plurals;rooms
+R164;4;The Disputes application shall ensure that only authorized users are allowed to logon to the application.;SE;plurals;users
+R466;9;No lead evaluation will complete in a time period longer than 25 seconds for 97% of all leads processed.;PE;plurals;leads
+R969;49;The website must provide highest degree of security to the registered users. All the transactions that are made must be secured. The sensitive information passed to and from the website must be secured. Identity theft and other security related issues must be solved. Unauthorized transmission of sensitive information of the user to third party websites for reference must be avoided. On the basis of user agreement the information must be processed. All the information about the registered user must be securely stored in the central database.;SE;plurals;transactions
+R131;3;The system shall be able to display a printable summary for individual cohorts  which will include the students enlisted  the Program of study  sequence of classes  cohort progress through the program  and timeline of completion.;F;plurals;students
+R114;3;A clinical class shall specify the course name  lecture room requirements  clinical site needs  lecture instructor needs  and clinical lab instructor needs.;F;plurals;requirements
+R621;15;The intranet pages should display appropriately in all resolutions  from 800x600 and higher. The display of all the pages will be correct in 95% of the resolutions  prior to implementation. The remaining 5% will be corrected within a week of notification of the incorrect display.;LF;plurals;pages
+R647;18;The meeting scheduler system may provide the “meeting initiator” a summary of the scan of “potential meeting participants” showing available “time slots” and schedule conflicts as a means of informing the “meeting initiator” of the overall results of the system.;F;plurals;participants
+R188;4;The Disputes System must prevent external users from requesting original receipts. Requests for original receipts are restricted to internal users.;F;plurals;Disputes
+R377;8;System shall let existing customers log into the website with their email address and password in under 5 seconds.;PE;plurals;customers
+R482;9;The leads washing functionality will use the parameters supplied by corporate and schools to score part of the lead.;F;plurals;leads
+R147;3;Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Nursing Student  including student ID  student name phone number e-mail status (full time or part time) and program of study.;F;plurals;Members
+R686;27;The system should use the company colors and logos.;LF;plurals;colors
+R455;8;Website shall allow customers to purchase pre-paid cards of $5  $10  or $20 value either by credit card or mail-in payment option.;F;plurals;customers
+R178;4;The Disputes System must be accessible by both internal and external users.;F;plurals;users
+R123;3;Program Administrators and Nursing Staff Members shall be able to add a new clinical lab section for an existing clinical class into the System.;F;plurals;Members
+R370;7;The RMS System shall have Windows XP look and feel and use GUI futures making its use intuitive.;F;plurals;futures
+R681;25;The campus map shall provide visual clues regarding what areas have prepared audio and therefore may be selected.;LF;plurals;areas
+R25;1;The system shall display the local and exercise time in separate clocks;F;plurals;clocks
+R485;9;The leads washing functionality will verify the users authentication and rights to make parameter updates.;F;plurals;leads
+R227;5;The maintenance of the product will fall within the established corporate maintenance windows.;O;plurals;windows
+R555;12;The product shall provide GUI based Monitoring Services.System Administrators shall monitor message exchanges will predict and determine problems and will also provide internal and external support.;LF;plurals;exchanges
+R160;4;The Disputes application shall interface with the Letters application.  This will allow the Disputes application to request letters as part of the dispute initiation and dispute follow up process. All letter requests must be sent to the Print Letter Utility application.;O;pronoun;This
+R653;19;The system must be easy to use by both managers and chefs such that they do not need to read an extensive amount of manuals.;US;pronoun;they
+R763;34;"An end-user may use this system on any OS; either it is Windows or Linux.";PO;pronoun;it
+R786;38;Normal users can just read information but they cannot edit or modify anything except their personal and some other information.;SE;pronoun;they
+R117;3;Program Administrators and Nursing Staff Members shall have the ability to specify which classes are required for a Program of Study;F;pronoun;which
+R713;30;Provide an interface for the admin to approve posts so that posts are not visible without admin approval.;F;pronoun;that
+R739;32;It must allow a user to download a backup of their medical information.;F;pronoun;their
 R898;46;The system shall allow user to select the support type he wants.;F;pronoun;he
-R866;45;The system shall allow users to search  for available distributed location templates(if any).;F;pronoun;any
-R478;9;If the leads score falls within the high average score then it will be process by the ARA functionality.;F;pronoun;it
-R212;5;The product shall increase productivity of Collision Estimators. 80% of the Collision Estimators shall agree their productivity has increase within 1 month of using the product.;US;pronoun;their
-R101;3;The system shall use the organization\92s standard virus protection software to help monitor threats to itself.;SE;pronoun;itself
-R798;38;Vendors must take permission from the Administrator for selling their products under the site. Administrator will test product’s quality according to its market price to permit vendor for selling purpose.;F;pronoun;its
-R394;8;The product shall use symbols and words that are naturally understandable by users familiar with websites;US;pv;are
-R713;30;Provide an interface for the admin to approve posts so that posts are not visible without admin approval.;F;pv;are
-R40;2;The CMA report shall be returned no later 60 seconds after the user has entered the CMA report criteria.;PE;pv;has
-R653;19;The system must be easy to use by both managers and chefs such that they do not need to read an extensive amount of manuals.;US;pv;do
-R150;4;The list of dispute cases that are displayed after a search is performed must be color coded for easy identification of dispute cases based upon the dispute case status.;US;pv;are
-R553;11;The interface shall have a simple look. In the interface and usability survey  90% of beta testers must report that the interface is adequately simple.;LF;pv;have
-R631;16;The system shall have a help system that offers tips and explanation for each screen and each item on the screens upon demand.;US;pv;have
-R95;3;Dr Susan Poslusny and Dr Julie Donalek are the only people who shall have access to students\92 personal information.;SE;pv;are
-R725;32;Information should be tagged according to who is entering the data.;F;pv;is
-R13;1;The display shall have two regions:  left 2/3 of the display is graphical  right 1/3 of the display is a data table;F;pv;have
-R317;6;The product shall prevent the input of malicious data.  The product and/or adjacent hardware/software systems\92 data shall remain 100% uncorrupted each time malicious data is input into the product.;SE;pv;is
-R179;4;The Disputes System must prevent users from accessing any dispute cases that do not belong to their cardholder base.;F;pv;do
-R666;20;The system shall permit only cafeteria staff members who are on the list of authorized Menu Managers to create or edit menus.;F;pv;are
-R619;15;User access should be limited to the permissions granted to their role(s) Each level in the PCG hierarchy will be assigned a role and users will be assigned to these roles. Access to functionality within RFS system is dependent on the privileges/permission assigned to the role..;SE;pv;is
-R509;10;The product shall remove players who have been inactive for 24 hours from the list of players.;F;pv;have
-R540;10;When a game is ended  the product shall allow each player to identify himself or herself as an available player in the list of players.;F;pv;is
-R97;3;Fit Criterion: Dr Susan Poslusny and Karen Sysol are the only people who shall have access to the final class section scheduling for the system that interfaces with CampusConnect.;SE;pv;are
-R120;3;Classes for a given cohort shall not conflict with regards to the time and day that they are offered.;F;pv;are
-R166;4;The Disputes System shall generate a User Report that details any new users that have been added and any changes to an existing user\92s access level. The report will be reviewed for auditing purposes.;SE;pv;have
-R144;3;Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Program of Study within the Nursing Department including the Program of study name  and required classes for that Program of Study.;F;pv;have
-R188;4;The Disputes System must prevent external users from requesting original receipts. Requests for original receipts are restricted to internal users.;F;pv;are
-R162;4;The Disputes application shall ensure that only users with the appropriate access level are allowed to initiate dispute requests.;SE;pv;are
-R9;1;The system shall have a MDI form that allows for the viewing of the graph and the data table.;F;pv;have
-R243;5;The system shall resolve the zipcode for the street address  city  and state if zipcode is unknown.;F;pv;is
-R494;10;When a shot is marked as a hit  the product shall simulate the sound of a shot hitting its target.;LF;pv;is
-R189;4;"The Disputes System must provide a confirmation to the user upon the creation of ticket retrieval request that contains the following information; the dispute case number  the type of retrieval requested (copy  original or portfolio)  and the date that the merchant response is due.";F;pv;is
-R669;21;System security and access levels are provided in the online system. There are varying levels of system access and functional authority. Each student’s access is limited to his/her own registration records. Only authorized system administrator(s) has access to all student registration records.;SE;pv;is
-R778;36;Since the software must run on several popular hardware platforms and the goal is to achieve a reasonable level of platform independence.;PO;pv;is
-R639;17;The system shall validate the amount is a multiple of $20.;F;pv;is
-R54;2;The product is expected to run on Windows CE and Palm operating systems.;PO;pv;is
-R779;37;High level of performance requires high speed network and high level of connectivity.;PE;vague;High level
-R285;6;The product shall give users feedback when necessary. 80% of the users surveyed report that the product accurately confirms their actions.;US;vague;necessary
-R397;8;When purchasing a streaming movie or pre-paid card via credit card  the processing time should have a maximum response time of 15 seconds.;PE;vague;maximum
-R369;7;PME Subsystem shall allow for a product to exist in more than one submenu;F;vague;exist in
-R300;6;The product must be able to interface with various database management systems. The product shall communicate successfully with the database management system on 100% of all transactions.;O;vague;various
-R542;11;The system shall be easy to use by callers and supervisors. Callers and supervisors must be able to accomplish any system task within 2 minutes.;US;vague;easy
-R622;15;The users should be able to easily use the system to successfully complete their budgets  within the stipulated time for completion. With a week of training prior to product implementation  98% of the users shall complete their budgets within the stipulated time.;US;vague;able to
-R292;6;The response shall be fast enough to avoid interrupting the user\92s flow of thought.  90% of tasks shall complete within 5 seconds.  98% of tasks shall complete within 8 seconds.;PE;vague;fast
-R284;6;The product shall be easy to use. 90% of users will be able to successfully reserve a conference room within 5 minutes of product use.;US;vague;easy
-R878;46;The system shall enable user to add one or more component to the configuration.;F;vague;more
-R301;6;The product must be able to interface with various email servers. The product shall be able to send email.;O;vague;able to
-R247;5;The adjuster shall be able to override the preferred repair facitlity on the estimate assignment.;F;vague;able to
-R580;13;The interface must summarize the data in a fashion that\92s appealing to CCR management. Every report type must have at least one high level summary shown in the results dashboard/interface;LF;vague;high level
-R32;2;The product shall have a consistent color scheme and fonts.;LF;vague;consistent
-R958;48;The system should be able to scale up to 500 concurrent users (if there is a need in the future) by installing additional hardware components.;SC;vague;there is
-R315;6;Only managers are able to perform search queries for reservations by user.  100% of all search queries for reservations by user shall be from logons of only management logons.;SE;vague;only
-R222;5;The product shall be able to handle up to 1500 simultaneous users. The system shall perform with 1500 users as a time.;SC;vague;able to
-R837;45;The system shall allow the administrator to install additional distributed location templates.;F;vague;additional
-R234;5;One insurance company shall not be able to view another insurance companys claim data.;SE;vague;able to
-R281;6;The product\92s Look and Feel shall be able to incorporate aspects of the customer\92s organization such as logo  branding  and identity;LF;vague;able to
-R729;32;It must be able to change and update information on the server.;O;vague;able to
-R315;6;Only managers are able to perform search queries for reservations by user.  100% of all search queries for reservations by user shall be from logons of only management logons.;SE;vague;able to
-R967;49;The entire website must be user-friendly and easily navigable. The website must be provided with a site map for quick access to a particular link according to the requirement specification. The user must be able to find what he/she wants from the site without any difficulty. The website must adhere to branding schemes and the layout of the web pages must be uniform throughout  ;US;vague;easily
-R139;3;The system will notify affected parties when changes occur affecting clinicals  including but not limited to clinical section capacity changes  and clinical section cancellations.;F;vague;but not limited to
-R387;8;The product should be able to be used by 90% of novice users on the Internet.;US;vague;able to
-R615;15;The RFS system should be able to easily interface with the BDW environment  in order to load the data. \95	7 data files shall be received from the BDW and loaded into the RFS system within 3 hours one day prior to the start of budgeting process  every year. The data will be as of October month-end. 	Test files (7) shall be loaded up to 5 times throughout the year  from the BDW.;O;vague;able to
-R165;4;All authorized users  once authenticated must be able to logon to the Disputes System;SE;vague;able to
-R555;12;The product shall provide GUI based Monitoring Services.System Administrators shall monitor message exchanges will predict and determine problems and will also provide internal and external support.;LF;vague;also
-R583;13;Reports must be easy to generate. Reports must be generated within one button click and exported within one button click (after selecting the report);US;vague;easy
-R142;3;The system will notify affected parties when changes occur affecting specific students  including but not limited to changing a student\92s status from full time to part time and moving a student to a different clinical section.;F;vague;but not limited to
-R716;30;Be intuitive even to first time users;LF;verb;Be
-R184;4;The Disputes System must allow the users to select disputable transactions (based on the age of the transaction) from a user interface and initiate a dispute (ticket retrieval request or chargeback notification) on the selected transaction.;F;verb;initiate
-R434;8;The system shall notify customers of changes to its information policy.;SE;verb;notify
-R459;8;Movies can only be streamed if the customer has purchased a movie  and is within the 2-day time period to stream the movie.;F;verb;be
-R566;12;The product shall be robust.The product shall have fault avoidance based on standards adoption.;FT;verb;be
-R84;3;The system shall be expected to manage the nursing program curriculum and class/clinical scheduling for a minimum of 5 years.;SC;verb;be
-R64;2;The system shall be able to call the seller or buyer to schedule an appointment;F;verb;be
-R823;42;Return to List is available if the patient loaded is not correct.;F;verb;Return
-R789;38;Contact with the vendors and give permission to sell their product under the site after testing the product’s quality.;F;verb;give
-R463;8;Daily usage statistics should be logged  and accessible by the administrator.;F;verb;be
-R74;3;2 out of 3 Program Administrators/Nursing Staff Members shall successfully be able to use the system to manage the scheduling of classes and clinicals.;US;verb;be
-R858;45;The system shall allow the user to change the password.;F;verb;allow
-R552;11;The product shall ensure that only supervisors can view schedule of all callers.The product must ensure that supervisors are allowed to access advertise empty time slots.;SE;verb;ensure
-R896;46;The system shall display the most frequently searched items by the user in the profile.;F;verb;display
-R826;42;Icons will clearly illustrate the feature it represents.;F;verb;represents
-R878;46;The system shall enable user to add one or more component to the configuration.;F;verb;add
-R564;12;The product shall provide Dynamic Change Support and Transparent resource addition.The product shall support Transparent Resource addition and Dynamic Change support to provide scalability and avoid service interruptions of more than 1 day.;PE;verb;provide
-R221;5;The product shall achieve a 98% uptime. The product shall not fail more than 2% of the available online time.;A;verb;achieve
-R693;27;A waiter shall only be able to log into one tablet at any given instance of time.;SE;verb;be
-R292;6;The response shall be fast enough to avoid interrupting the user\92s flow of thought.  90% of tasks shall complete within 5 seconds.  98% of tasks shall complete within 8 seconds.;PE;verb;be
-R201;4;All letter requests must be formatted according to guidelines specified by the Print Letter Utility system.;F;verb;be
-R107;3;For each class within a sequence for a cohort  Program Administrators and Nursing Staff Members shall be able to specify which quarter that class will be offered.;F;verb;specify
-R186;4;The Disputes System will provide the user the ability to create or initiate a ticket retrieval request.   As part of ticket retrieval creation process the system must prompt the user to enter all the required information to create the ticket retrieval request.  The ticket retrieval request is a document that is sent to merchant inquiring the validity of a transaction.;F;verb;prompt
-R401;8;The website shall be available for use 24 hours per day  365 days per year.;A;verb;be
-R9;1;The system shall have a MDI form that allows for the viewing of the graph and the data table.;F;verb;allows
-R549;11;The product shall be internet browser independent.The product must run using Internet Explorer and Netscape Navigator.;MN;verb;run
-R321;6;The product shall be able to display calendar dates and times according to the user\92s locale.  90% of survey respondents from each target market country will find that the date and time formatting of the product is correct.;US;verb;formatting
-R469;9;The lead washing process will operate within the established physical web service structure.;O;verb;operate
-R935;46;The system shall provide use of icons and toolbars.;US;verb;provide
-R266;5;The audit report shall be displayed to the user.;F;verb;be
-R188;4;The Disputes System must prevent external users from requesting original receipts. Requests for original receipts are restricted to internal users.;F;vpastp;restricted
-R250;5;The estimator shall search for available recycled parts using damaged vehicle parts information.;F;vpastp;recycled
-R118;3;The system shall be able to display a report of needed classes for a given quarter for all cohorts of all programs for Program Administrators/Nursing Staff Members\92 planning purposes.;F;vpastp;given
-R260;5;The recycled parts search results provided to the estimator shall be retrieved by the system.;F;vpastp;provided
-R535;10;The product shall continue to assign turns until the game is ended.;F;vpastp;ended
-R187;4;The Disputes System must allow the user to create three unique types of ticket retrieval requests.  The three types of ticket retrieval requests are (1) Request for original receipt (2) Request for a copy of the receipt or (3) Request for a portfolio. A portfolio consists of documentation that would provide proof of a purchase such as the documentation that is received from a car rental agency that is more than a sales receipt.;F;vpastp;received
-R572;12;The product shall be updated on a regular basis.The product will have a new major feature introduced every six months and quarterly maintenance releases every six months.;MN;vpastp;updated
-R968;49;The system shall support up to 10000 simultaneous users against the central database at any given time and up to 5000 simultaneous users against the local servers at any one time. The performance of the website must be optimal incase of huge loads and hence appropriate load balancing must be done to achieve this. There can be any number of mirror servers readily available in case of huge loads without the user getting any delay.;PE;vpastp;done
-R870;45;User authentication and privileges are defined outside the scope of the sytem by the Microsoft Active Directroy Server.;SE;vpastp;defined
-R280;6;A database management system such as Oracle  DB2  MySql or HSQL will need to be integrated with the product.;O;vpastp;integrated
-R475;9;If a lead is scored to the high range the system will supply the lead data and score to the enterprise system.;F;vpastp;scored
-R693;27;A waiter shall only be able to log into one tablet at any given instance of time.;SE;vpastp;given
-R305;6;A new user must be able to be added to the system within 10 minutes. 90% of new users are able to log into the system within 10 minutes.;US;vpastp;added
-R273;5;The ratings shall include categories for attempted use of recycled parts and actual use of recycled parts;F;vpastp;attempted
-R297;6;The product shall be expected to operate for at least 5 years for each customer installation.;SC;vpastp;expected
-R829;42;Each entry is shown in full.;F;vpastp;shown
-R867;45;The system shall allow users to view information concerning the available distributed location templates(if any).;F;vpastp;distributed
-R462;8;All registered customer information shall be stored and maintained in the database  even after the customer cancels their account.;F;vpastp;registered
-R509;10;The product shall remove players who have been inactive for 24 hours from the list of players.;F;vpastp;been
-R261;5;The system shall generate an audit report based on the available recycled parts and the collision estimate.;F;vpastp;recycled
-R119;3;The report of needed classes shall include (but not be limited to) classes to be offered  number of sections needed  number of labs needed  and room types needed.;F;vpastp;limited
-R458;8;Pre-paid cards shall be distributed via email or via a printed paper card.;F;vpastp;paid
-R122;3;Clinical site information shall include (but not be limited to) the name of the site  contact person  and contact information.;F;vpastp;limited
-R948;46;The customer’s web browser shall never display a customer’s password.  It shall always be echoed with special characters representing typed characters.;SE;vpastp;echoed
-R200;4;For any systematic (non-user initiated) action that occurs on a case such as the disputes aging process  a case activity will be generated.  Upon the next logon the user that initiated the dispute case must be notified that a systematic action has occurred on the dispute case.;F;vpastp;notified
-R651;18;A meeting scheduler system will temporarily reserve the “time slots” for the proposed meeting.;F;vpastp;proposed
-R615;15;The RFS system should be able to easily interface with the BDW environment  in order to load the data. \95	7 data files shall be received from the BDW and loaded into the RFS system within 3 hours one day prior to the start of budgeting process  every year. The data will be as of October month-end. 	Test files (7) shall be loaded up to 5 times throughout the year  from the BDW.;O;vpastp;received
-R819;42;A list of available patients is displayed after login.;F;vpastp;displayed
-R781;37;Every user of the software is provided a unique login ID and a password which is stored in the database hashed by SHA2 algorithm.;SE;vpastp;hashed
-R270;5;The system will display a blank set of ratings if there are not ratings yet defined.;F;vpastp;defined
-R447;8;viewing a movie details the website will display the movies description actor and director entered in by the administrator.;F;vpastt;entered
-R533;10;If the shot was marked as a miss  the product shall change the status of the offensive player to defensive;F;vpastt;was
-R632;16;The system shall display and embed in each message a date/timestamp of when the message was sent.;F;vpastt;was
-R254;5;The system shall retain the available recycled parts and suppliers returned from the search.;F;vpastt;returned
-R13;1;The display shall have two regions:  left 2/3 of the display is graphical  right 1/3 of the display is a data table;F;vpastt;left
-R893;46;The system shall display both the active and completed order history in the customer profile.;F;vpastt;completed
-R671;22;All data entry forms for the application should match their Microsoft Excel hardcopy counterparts as closely as possible. Hardcopies of these forms were provided to the design team during the second requirements interview.;O;vpastt;were
-R191;4;"The Disputes System must provide a confirmation to the user upon the creation of a chargeback request. The confirmation must contain the following information; the dispute case number  the type of chargeback requested (pending or immediate)  and the date that the merchant response is due.";F;vpastt;requested
-R368;7;PME Subsystem shall allow keeping submenus within menus and products within submenus in a managed and persisted order.;F;vpastt;persisted
-R524;10;For each shot  the product shall examine the defensive grid of the defensive player to determine whether the shot was a hit or miss.;F;vpastt;was
-R528;10;When the hit results in sinking a ship  the product shall notify the players that the ship was sunk.;F;vpastt;was
-R416;8;Movies shall be encoded and streamed via Windows Media Player 9.0.;O;vpastt;streamed
-R105;3;Students added to a cohort shall be eligible for the cohort\92s Program of Study.;F;vpastt;added
-R969;49;The website must provide highest degree of security to the registered users. All the transactions that are made must be secured. The sensitive information passed to and from the website must be secured. Identity theft and other security related issues must be solved. Unauthorized transmission of sensitive information of the user to third party websites for reference must be avoided. On the basis of user agreement the information must be processed. All the information about the registered user must be securely stored in the central database.;SE;vpastt;passed
-R525;10;For each shot  the product shall notify the players whether the shot was a hit or miss.;F;vpastt;was
-R600;14;The message board shall contain the 5 most recently posted messages on the league page. The messages will contain up to the first 150 characters of the message.;LF;vpastt;posted
-R299;6;The product must be able to interface with any HTML browser.  The product shall transmit data between the user and the product without problems. The product shall display HTML properly in 80% of all HTML browsers tested (minimum is to test 8 browsers).;O;vpastt;tested
-R426;8;A customer can only stream a movie if they purchased it  and are within the 2 day viewing period.;SE;vpastt;purchased
-R532;10;If the shot was marked as a hit  the product shall allow the offensive player to define a shot.;F;vpastt;was
-R199;4;The Disputes System shall record the name of the user and the date for any activity that creates or modifies the disputes case in the system.  A detailed history of the actions taken on the case  including the date and the user that performed the action must be maintained for auditing purposes.;F;vpastt;performed
-R896;46;The system shall display the most frequently searched items by the user in the profile.;F;vpastt;searched
-R846;45;The system shall allow the initiator to view the information of any meetings which they initiated.;F;vpastt;initiated
-R536;10;The product shall end a game when a hit by the offensive player results in sinking the last of the defensive player\92s ships  which had not been previously marked as sunk.;F;vpastt;had
-R316;6;The product shall ensure that the database\92s data corresponds to the data entered by the user.  Each conference room reservation in the system will contain the same information as was entered by the user.;SE;vpastt;was
-R133;3;The system shall be able to display a printable summary for individual clinical labs  which will include (but not be limited to) class name  class number  lab section  listing of students enrolled  instructor  day(s)  time  and location.;F;vpastt;enrolled
-R572;12;The product shall be updated on a regular basis.The product will have a new major feature introduced every six months and quarterly maintenance releases every six months.;MN;vpastt;introduced
-R847;45;The system shall allow the initiator to cancel any meetings which they initiated.;F;vpastt;initiated
-R534;10;If the shot was marked as a miss  the product shall change the status of the defensive player to offensive;F;vpastt;was
-R673;23;Changes made to the Manage My ID website can be adopted without altering the iOS application.;MN;vpastt;made
-R119;3;The report of needed classes shall include (but not be limited to) classes to be offered  number of sections needed  number of labs needed  and room types needed.;F;vpastt;needed
-R306;6;The product must be designed using Design Patterns and coding best practices.  90% of maintenance software developers are able to integrate new functionality into the product with 2 working days.;MN;vpresentp;working
-R647;18;The meeting scheduler system may provide the “meeting initiator” a summary of the scan of “potential meeting participants” showing available “time slots” and schedule conflicts as a means of informing the “meeting initiator” of the overall results of the system.;F;vpresentp;informing
-R5;1;If projected  the data must be understandable. On a 10x10 projection screen  90% of viewers must be able to determine that Events or Activities are occuring in current time from a viewing distance of 100;US;vpresentp;viewing
-R18;1;The system shall color code events according to their variance from current time.;F;vpresentp;according
-R579;13;The system interface will use CCR nomenclature. The system must use the same nomenclature used in the existing WCS system and reports;LF;vpresentp;existing
-R554;11;The interface shall be appealing to callers and supervisors. In the interface and usability survey  80% of beta testers must report that the interface is appealing.;LF;vpresentp;appealing
-R942;46;The performance shall depend upon hardware components of the client/customer.;PE;vpresentp;depend upon
-R83;3;The system shall be capable of processing 100% of nursing students and their classes for the next 10 years.;SC;vpresentp;processing
-R138;3;The system will notify affected parties for routine communication purposes  including but not limited to informing students of upcoming offered classes (timeline) and what their schedule will be/shall be.;F;vpresentp;informing
-R200;4;For any systematic (non-user initiated) action that occurs on a case such as the disputes aging process  a case activity will be generated.  Upon the next logon the user that initiated the dispute case must be notified that a systematic action has occurred on the dispute case.;F;vpresentp;aging
-R147;3;Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Nursing Student  including student ID  student name phone number e-mail status (full time or part time) and program of study.;F;vpresentp;including
-R198;4;The Dispute System shall provide the users with the ability to follow up on a dispute case via follow-up actions.  The list of available follow up actions for a given dispute case must be filtered by the status of the case and the access level of the user.;F;vpresentp;follow up
-R370;7;The RMS System shall have Windows XP look and feel and use GUI futures making its use intuitive.;F;vpresentp;making
-R758;34;The system should not leave any cookies on the customer’s computer containing the user’s password.;SE;vpresentp;containing
-R658;19;The calculations performed by the system must comply according to the norms set by the user and should not vary unless explicitly changed by the user.;L;vpresentp;according
-R638;17;The system shall validate the amount is available in the user’s account before releasing funds to the user.;F;vpresentp;releasing
-R166;4;The Disputes System shall generate a User Report that details any new users that have been added and any changes to an existing user\92s access level. The report will be reviewed for auditing purposes.;SE;vpresentp;existing
-R882;46;The system shall provide browsing options to see product details.;F;vpresentp;browsing
-R160;4;The Disputes application shall interface with the Letters application.  This will allow the Disputes application to request letters as part of the dispute initiation and dispute follow up process. All letter requests must be sent to the Print Letter Utility application.;O;vpresentp;follow up
-R390;8;An anonymous survey will show that 70% of customers are comfortable purchasing streaming movies after 2 weeks using the website.;US;vpresentp;purchasing
-R295;6;The product shall be capable of handling up to 1 000 concurrent requests.  This number will increase to 2 000 by Release 2.  The concurrency capacity must be able to handle peak scheduling times such as early morning and late afternoon hours.;SC;vpresentp;handling
-R967;49;The entire website must be user-friendly and easily navigable. The website must be provided with a site map for quick access to a particular link according to the requirement specification. The user must be able to find what he/she wants from the site without any difficulty. The website must adhere to branding schemes and the layout of the web pages must be uniform throughout  ;US;vpresentp;branding
-R789;38;Contact with the vendors and give permission to sell their product under the site after testing the product’s quality.;F;vpresentp;testing
-R188;4;The Disputes System must prevent external users from requesting original receipts. Requests for original receipts are restricted to internal users.;F;vpresentp;requesting
-R764;35;The logo and the current basic design of registration system should be displayed. The system should be attractive according to the clients. The design and the color should make users feel comfortable when using the system instead of flashing useless colors on the screen. The design should also reflect the seriousness of the environment.;LF;vpresentp;using
-R206;5;The product shall run on the existing hardware for all environments.;O;vpresentp;run on
-R801;38;Responsible for properly allocating the selected product according to the customer’s choice and delivering product to the customer.;F;vpresentp;allocating
-R329;6;The product shall update existing conference rooms.;F;vpresentp;existing
-R385;8;The website should have an African feel  but should not alienate non-Africans.  The website should use animation on pages which are describing the services  to grab the users attention and encourage them to sign up.;LF;vpresentp;describing
-R142;3;The system will notify affected parties when changes occur affecting specific students  including but not limited to changing a student\92s status from full time to part time and moving a student to a different clinical section.;F;vpresentp;moving
+R762;34;The reliability of the overall program depends on the reliability of the separate components. The main pillar of reliability of the system is the backup of the database which is continuously maintained and updated to reflect the most recent changes.;FT;pronoun;most
+R166;4;The Disputes System shall generate a User Report that details any new users that have been added and any changes to an existing user\92s access level. The report will be reviewed for auditing purposes.;SE;pronoun;that
+R967;49;The entire website must be user-friendly and easily navigable. The website must be provided with a site map for quick access to a particular link according to the requirement specification. The user must be able to find what he/she wants from the site without any difficulty. The website must adhere to branding schemes and the layout of the web pages must be uniform throughout  ;US;pronoun;what
+R541;10;When a game is ended  the product shall allow each player to remove himself or herself from the list of players.;F;pronoun;herself
+R97;3;Fit Criterion: Dr Susan Poslusny and Karen Sysol are the only people who shall have access to the final class section scheduling for the system that interfaces with CampusConnect.;SE;pronoun;that
+R847;45;The system shall allow the initiator to cancel any meetings which they initiated.;F;pronoun;they
+R966;49;Registered User must be able to maintain his/her session information for at least 60 minutes of inactive session before the system prompts him to log out of the system. The registered user must be provided with all the options of the E-store regardless of the time when he/she logs in.;F;pronoun;she
+R733;32;The user must be able to set an option to hide information based on who has tagged it.;F;pronoun;it
+R966;49;Registered User must be able to maintain his/her session information for at least 60 minutes of inactive session before the system prompts him to log out of the system. The registered user must be provided with all the options of the E-store regardless of the time when he/she logs in.;F;pronoun;her
+R743;32;Each account must securely store all of its data.;SE;pronoun;its
+R199;4;The Disputes System shall record the name of the user and the date for any activity that creates or modifies the disputes case in the system.  A detailed history of the actions taken on the case  including the date and the user that performed the action must be maintained for auditing purposes.;F;pronoun;that
+R138;3;The system will notify affected parties for routine communication purposes  including but not limited to informing students of upcoming offered classes (timeline) and what their schedule will be/shall be.;F;pronoun;what
+R962;48;It should not take more than 120 seconds for a new user to register for an account.;US;pronoun;It
+R528;10;When the hit results in sinking a ship  the product shall notify the players that the ship was sunk.;F;pronoun;that
+R762;34;The reliability of the overall program depends on the reliability of the separate components. The main pillar of reliability of the system is the backup of the database which is continuously maintained and updated to reflect the most recent changes.;FT;pronoun;which
+R687;27;The system shall be capable of restoring itself to its previous state in the event of failure (e.g. a system crash or power loss).;FT;pronoun;itself
+R426;8;A customer can only stream a movie if they purchased it  and are within the 2 day viewing period.;SE;pronoun;they
+R553;11;The interface shall have a simple look. In the interface and usability survey  90% of beta testers must report that the interface is adequately simple.;LF;pronoun;that
+R426;8;A customer can only stream a movie if they purchased it  and are within the 2 day viewing period.;SE;pronoun;it
+R200;4;For any systematic (non-user initiated) action that occurs on a case such as the disputes aging process  a case activity will be generated.  Upon the next logon the user that initiated the dispute case must be notified that a systematic action has occurred on the dispute case.;F;pronoun;that
+R745;33;The system shall allow user to choose filling that they want.;F;pronoun;that
+R75;3;The system shall use symbols and words that are naturally understandable by the user community.;US;pronoun;that
+R91;3;We must be able to interface with any HTML browser.;O;qualifier;any
+R315;6;Only managers are able to perform search queries for reservations by user.  100% of all search queries for reservations by user shall be from logons of only management logons.;SE;qualifier;all
+R783;38;The system shall accommodate high number of items and users without any fault.;FT;qualifier;any
+R964;48;The system should be easy enough to maintain that someone else could do it with a manual and a few hours training.;MN;qualifier;few
+R149;4;All screens created as part of the Disputes application must comply with corporate standards for interface creation.;LF;qualifier;All
+R196;4;A list of all disputes cases that meet the entered search criteria must be provided to the user.  The list of cases must differentiate the type and/or status of the case by color -coding the line item in the list.  For example all open cases will be yellow and all closed cases will be gray.;F;qualifier;all
+R299;6;The product must be able to interface with any HTML browser.  The product shall transmit data between the user and the product without problems. The product shall display HTML properly in 80% of all HTML browsers tested (minimum is to test 8 browsers).;O;qualifier;any
+R118;3;The system shall be able to display a report of needed classes for a given quarter for all cohorts of all programs for Program Administrators/Nursing Staff Members\92 planning purposes.;F;qualifier;all
+R486;9;The leads washing functionality will store any potential lead duplicates returned by the enterprise system.;F;qualifier;any
+R693;27;A waiter shall only be able to log into one tablet at any given instance of time.;SE;qualifier;any
+R660;20;All Web pages generated by the system shall be fully downloadable in no more than 10 seconds over a 40KBps modem connection.;PE;qualifier;All
+R313;6;The product shall be able to be installed in any operating environment within 2 days.;O;qualifier;any
+R356;7;The System shall meet all applicable accounting standards.  The final version of the System must successfully pass independent audit performed by a certified auditor.;L;qualifier;all
+R743;32;Each account must securely store all of its data.;SE;qualifier;all
+R943;46;The system shall use secure sockets in all transactions that include any confidential customer information.;SE;qualifier;any
+R803;38;Responsible for informing administrator when any product item’s stock goes under the minimum level.;F;qualifier;any
+R879;46;The system shall notify the user about any conflict in the current configuration.;F;qualifier;any
+R866;45;The system shall allow users to search  for available distributed location templates(if any).;F;qualifier;any
+R547;11;The system shall have high availability every day of the year.The system must be available for use between 12:00AM and 6:00PM all days of the year.;A;qualifier;all
+R310;6;The customer shall be able to easily integrate new building maps with the product throughout the product\92s lifecycle.  Integration of new maps with the product shall be possible with little to no support from product support staff.;MN;qualifier;little
+R868;45;The web application shall add no more than 5 seconds of perceivable overhead time to any necessary web and database transaction time.;PE;qualifier;any
+R763;34;"An end-user may use this system on any OS; either it is Windows or Linux.";PO;qualifier;any
+R671;22;All data entry forms for the application should match their Microsoft Excel hardcopy counterparts as closely as possible. Hardcopies of these forms were provided to the design team during the second requirements interview.;O;qualifier;All
+R664;20;Users shall be required to log in to the Cafeteria Ordering System for all operations except viewing a menu.;F;qualifier;all
+R621;15;The intranet pages should display appropriately in all resolutions  from 800x600 and higher. The display of all the pages will be correct in 95% of the resolutions  prior to implementation. The remaining 5% will be corrected within a week of notification of the incorrect display.;LF;qualifier;all
+R300;6;The product must be able to interface with various database management systems. The product shall communicate successfully with the database management system on 100% of all transactions.;O;qualifier;all
+R766;35;The product is Web based therefore it will be used in any environment that allows Web access.;PO;qualifier;any
+R867;45;The system shall allow users to view information concerning the available distributed location templates(if any).;F;qualifier;any
+R6;1;The product shall ensure that it can only be accessed by authorized users.  The product will be able to distinguish between authorized and unauthorized users in all access attempts;SE;qualifier;all
+R160;4;The Disputes application shall interface with the Letters application.  This will allow the Disputes application to request letters as part of the dispute initiation and dispute follow up process. All letter requests must be sent to the Print Letter Utility application.;O;qualifier;All
+R703;29;Unauthorised users can only read data without modifying anything.;SE;vague;only
+R544;11;The system shall be responsive. At the DePaul TeleServices Center  when a supervisor uses the system to view a callers schedule  the system response time must be no more than 2 seconds 90% of the time and no more than 5 seconds the rest of the time.;PE;vague;and
+R615;15;The RFS system should be able to easily interface with the BDW environment  in order to load the data. \95	7 data files shall be received from the BDW and loaded into the RFS system within 3 hours one day prior to the start of budgeting process  every year. The data will be as of October month-end. 	Test files (7) shall be loaded up to 5 times throughout the year  from the BDW.;O;vague;and
+R436;8;All customer information will be stored on a secure database  accessible only to authorized personnel.;SE;vague;only
+R733;32;The user must be able to set an option to hide information based on who has tagged it.;F;vague;able to
+R762;34;The reliability of the overall program depends on the reliability of the separate components. The main pillar of reliability of the system is the backup of the database which is continuously maintained and updated to reflect the most recent changes.;FT;vague;recent
+R131;3;The system shall be able to display a printable summary for individual cohorts  which will include the students enlisted  the Program of study  sequence of classes  cohort progress through the program  and timeline of completion.;F;vague;able to
+R382;8;System shall let Izogn Manager access sales and usage statistics in under 2 minutes.;PE;vague;and
+R71;3;The system shall help the user avoid making mistakes while scheduling classes and clinicals for the nursing students.;US;vague;and
+R969;49;The website must provide highest degree of security to the registered users. All the transactions that are made must be secured. The sensitive information passed to and from the website must be secured. Identity theft and other security related issues must be solved. Unauthorized transmission of sensitive information of the user to third party websites for reference must be avoided. On the basis of user agreement the information must be processed. All the information about the registered user must be securely stored in the central database.;SE;vague;secured
+R562;12;The product shall process messages within 2 seconds.The product shall have a maximum message processing time of 2 seconds;PE;vague;maximum
+R500;10;The product shall be intuitive and self-explanatory.  Nine out ten users shall be able to successfully complete a game with no training.;US;vague;and
+R215;5;The user shall easily locate instructions while using the product.  User help can be found within 90% of the system.;US;vague;easily
+R335;6; Each time a conference room is reserved  the conference room schedule shall be updated to reflect the time and date of the reservation.;F;vague;and
+R110;3;Program Administrators and Nursing Staff Members shall be able to add a new cohort to the system  identified by start month and year.;F;vague;and
+R654;19;The system must be quickly accessible by both managers and chefs.;US;vague;both
+R14;1;The data displayed in both the nodes within the graph and the rows in the table are MSEL Summary data;F;vague;both
+R119;3;The report of needed classes shall include (but not be limited to) classes to be offered  number of sections needed  number of labs needed  and room types needed.;F;vague;but
+R503;10;The response time shall be fast enough to maintain the flow of the game. The response time shall be no more than 2 seconds for 95% of responses and no more than 4% for the remaining responses.;PE;vague;more
+R470;9;The washing process must use a non binding  neutral data format  such as xml  when receiving and processing lead data.;O;vague;and
+R771;35;The system will develop a security system that will reduce to the minimum the possibility of corruption from systems and/or humans.;SE;vague;minimum
+R134;3;The system shall be able to display a printable summary for individual nursing students  which will include (but not be limited to) student name  student ID  admission date  classes  credits  GPA  and the cohort that the student is enrolled in.;F;vague;(
+R77;3;Staff members shall be able to complete a set of tasks in a timely manner.;PE;vague;timely
+R49;2;The product shall be able to support multiple remote users;SC;vague;able to
+R243;5;The system shall resolve the zipcode for the street address  city  and state if zipcode is unknown.;F;vague;and
+R108;3;Program Administrators and Nursing Staff Members shall be able to add new classes to a sequence of classes;F;vague;able to
+R330;6;The product will be able to delete conference rooms.;F;vague;able to
+R459;8;Movies can only be streamed if the customer has purchased a movie  and is within the 2-day time period to stream the movie.;F;vague;only
+R300;6;The product must be able to interface with various database management systems. The product shall communicate successfully with the database management system on 100% of all transactions.;O;vague;able to
+R132;3;The system shall be able to display a printable summary for individual clinical sites  which will include information on labs being held at that site for the given quarter (Clinical site  general information on labs held at that location  dates and times of all labs held there).;F;vague;able to
+R295;6;The product shall be capable of handling up to 1 000 concurrent requests.  This number will increase to 2 000 by Release 2.  The concurrency capacity must be able to handle peak scheduling times such as early morning and late afternoon hours.;SC;weak;must
+R15;1;The table side of the display shall be split into 2 regions: sequential and temporal.;F;weak;shall
+R616;15;Changes to revenue and expense formulae must be applied to the RFS system  every year  prior to the budgeting process start. Revenue and expense formulae will be updated within one week of their receipt  after which 2 weeks will be allotted to testing of the budget calculations  to be conducted jointly by the project development team and PCG Finance.;MN;weak;must
+R758;34;The system should not leave any cookies on the customer’s computer containing the user’s password.;SE;weak;should
+R288;6;An employee will be able to successfully use the product within a few minutes.  After informally navigating the product for less than 15 minutes  users shall be able to successfully setup meetings and reserve conference rooms.;US;weak;will
+R290;6;The product shall allow for intuitive searching of available conference rooms.;US;weak;shall
+R87;3;The system shall operate within the Windows XP Professional operating system.;O;weak;shall
+R674;24;The application should be connected to the Internet.;A;weak;should
+R98;3;The system shall have basic data integrity checking to reduce the possibility of incorrect or invalid data being introduced.;SE;weak;shall
+R217;5;The search for the preferred repair facility shall take no longer than 8 seconds.  The preferred repair facility is returned within 8 seconds;PE;weak;preferred
+R536;10;The product shall end a game when a hit by the offensive player results in sinking the last of the defensive player\92s ships  which had not been previously marked as sunk.;F;weak;shall
+R938;46;The system shall provide a contractual agreement with an internet service provider for T3 access with 99.9999% availability.;A;weak;shall
+R240;5;The user shall search for the preferred repair facility using vehicle  vehicle location  and radius in miles;F;weak;preferred
+R347;6;The product shall have a customizable Look and Feel.;F;weak;shall
+R300;6;The product must be able to interface with various database management systems. The product shall communicate successfully with the database management system on 100% of all transactions.;O;weak;must
+R317;6;The product shall prevent the input of malicious data.  The product and/or adjacent hardware/software systems\92 data shall remain 100% uncorrupted each time malicious data is input into the product.;SE;weak;shall
+R877;46;The system shall display all the available components of the product to configure.;F;weak;shall
+R869;45;The system shall utilize HTTPS communication to ensure data confidentiality.;SE;weak;shall
+R252;5;The system shall search for available recycled parts for the supplied vehicle parts and suppliers.;F;weak;shall
+R951;46;The system’s back-end databases shall be encrypted.;SE;weak;shall
+R682;25;The campus map shall have a pause/resume button. The pause and resume button will allow the user to scroll and select other buildings without being interrupted by the automatic search and announce feature.;LF;weak;shall
+R461;8;All streaming movie sales will be logged in the database  and accessible by the administrator.;F;weak;will
+R485;9;The leads washing functionality will verify the users authentication and rights to make parameter updates.;F;weak;will
+R753;33;The system should require the user to state time when should the doughnut be delivered.;F;weak;should
+R569;12;The product shall be platform independent.The product shall enable access to any type of development environment and platform.;O;weak;shall
+R389;8;Users should be able to access their streaming movies in under 2 clicks after logging into the website.;US;weak;should
+R251;5;The estimator shall search for available recycled parts using a list of preferred parts suppliers.;F;weak;shall
+R939;46;The system shall provide a contractual agreement with an internet service provider who can provide 99.999% availability through their network facilities onto the internet.;A;weak;shall
+R323;6;The product shall record meeting entries.;F;weak;shall
+R838;45;The system shall allow the administrator to remove physical locations.;F;weak;shall

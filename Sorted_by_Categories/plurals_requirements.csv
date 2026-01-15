@@ -1,12 +1,16 @@
 ID;ID progetto;REQUISITO (testo);Classe dei requisiti;CATEGORIA;PAROLA
 R3;1;If projected  the data must be readable.  On a 10x10 projection screen  90% of viewers must be able to read Event / Activity data from a viewing distance of 30;US;plurals;viewers
 R5;1;If projected  the data must be understandable. On a 10x10 projection screen  90% of viewers must be able to determine that Events or Activities are occuring in current time from a viewing distance of 100;US;plurals;viewers
+R5;1;If projected  the data must be understandable. On a 10x10 projection screen  90% of viewers must be able to determine that Events or Activities are occuring in current time from a viewing distance of 100;US;plurals;Events
+R5;1;If projected  the data must be understandable. On a 10x10 projection screen  90% of viewers must be able to determine that Events or Activities are occuring in current time from a viewing distance of 100;US;plurals;Activities
 R6;1;The product shall ensure that it can only be accessed by authorized users.  The product will be able to distinguish between authorized and unauthorized users in all access attempts;SE;plurals;users
 R7;1;The product shall be intuitive and self-explanatory. 90% of new users shall be able to start the display of Events or Activities within 90 minutes of using the product.;US;plurals;users
 R7;1;The product shall be intuitive and self-explanatory. 90% of new users shall be able to start the display of Events or Activities within 90 minutes of using the product.;US;plurals;Events
+R7;1;The product shall be intuitive and self-explanatory. 90% of new users shall be able to start the display of Events or Activities within 90 minutes of using the product.;US;plurals;Activities
 R10;1;The system shall display Events in a vertical table by time.;F;plurals;Events
 R11;1;The system shall display the Events in a graph by time.;F;plurals;Events
 R12;1;The system shall display Events or Activities.;F;plurals;Events
+R12;1;The system shall display Events or Activities.;F;plurals;Activities
 R13;1;The display shall have two regions:  left 2/3 of the display is graphical  right 1/3 of the display is a data table;F;plurals;regions
 R14;1;The data displayed in both the nodes within the graph and the rows in the table are MSEL Summary data;F;plurals;nodes
 R14;1;The data displayed in both the nodes within the graph and the rows in the table are MSEL Summary data;F;plurals;rows
@@ -39,6 +43,7 @@ R40;2;The CMA report shall be returned no later 60 seconds after the user has en
 R41;2;The product shall synchronize contacts and appointments in an acceptable time.;PE;plurals;contacts
 R41;2;The product shall synchronize contacts and appointments in an acceptable time.;PE;plurals;appointments
 R46;2;The product shall allow the user to view previously downloaded search results CMA reports  and appointments.;FT;plurals;results
+R46;2;The product shall allow the user to view previously downloaded search results CMA reports  and appointments.;FT;plurals;reports
 R46;2;The product shall allow the user to view previously downloaded search results CMA reports  and appointments.;FT;plurals;appointments
 R47;2;The product shall retain user preferences in the event of a failure.;FT;plurals;preferences
 R48;2;100% of saved user preferences shall be restored when system comes back online.;FT;plurals;preferences
@@ -48,6 +53,7 @@ R51;2;The product shall be capable of handling the existing 1000 users. This num
 R52;2;The product shall be installed by an untrained realtor without recourse to separately-printed instructions.;US;plurals;instructions
 R53;2;90% of untrained realtors shall be able to install the product on their device without printed instructions;US;plurals;realtors
 R53;2;90% of untrained realtors shall be able to install the product on their device without printed instructions;US;plurals;instructions
+R54;2;The product is expected to run on Windows CE and Palm operating systems.;PO;plurals;Windows
 R54;2;The product is expected to run on Windows CE and Palm operating systems.;PO;plurals;systems
 R55;2;Only registered realtors shall be able to access the system.;SE;plurals;realtors
 R59;2;The user shall be able to get driving directions to a selected property;F;plurals;directions
@@ -60,12 +66,18 @@ R63;2;Realtor shall be able to generate a CMA report based on property criteria;
 R65;2;The realtor shall be notified of new client appointments after automatic synchronization with office system;F;plurals;appointments
 R66;2;The realtor shall be able to retrieve a map showing property locations for a specified area;F;plurals;locations
 R68;2;The product shall allow the user to save the property search results.;F;plurals;results
+R69;3;The system shall be easy to use by the Program Administrators/Nursing Staff Members.;US;plurals;Administrators
+R69;3;The system shall be easy to use by the Program Administrators/Nursing Staff Members.;US;plurals;Members
 R70;3;All of the users shall be able to use the system after one day of training.;US;plurals;users
 R71;3;The system shall help the user avoid making mistakes while scheduling classes and clinicals for the nursing students.;US;plurals;mistakes
 R71;3;The system shall help the user avoid making mistakes while scheduling classes and clinicals for the nursing students.;US;plurals;classes
 R71;3;The system shall help the user avoid making mistakes while scheduling classes and clinicals for the nursing students.;US;plurals;students
 R72;3;The number of mistakes noted by the students shall be decreased by 50% in the first year.;US;plurals;mistakes
 R72;3;The number of mistakes noted by the students shall be decreased by 50% in the first year.;US;plurals;students
+R73;3;The system shall be intuitive to the Program Administrators/Nursing Staff Members.;US;plurals;Administrators
+R73;3;The system shall be intuitive to the Program Administrators/Nursing Staff Members.;US;plurals;Members
+R74;3;2 out of 3 Program Administrators/Nursing Staff Members shall successfully be able to use the system to manage the scheduling of classes and clinicals.;US;plurals;Administrators
+R74;3;2 out of 3 Program Administrators/Nursing Staff Members shall successfully be able to use the system to manage the scheduling of classes and clinicals.;US;plurals;Members
 R74;3;2 out of 3 Program Administrators/Nursing Staff Members shall successfully be able to use the system to manage the scheduling of classes and clinicals.;US;plurals;classes
 R75;3;The system shall use symbols and words that are naturally understandable by the user community.;US;plurals;symbols
 R75;3;The system shall use symbols and words that are naturally understandable by the user community.;US;plurals;words
@@ -78,28 +90,55 @@ R83;3;The system shall be capable of processing 100% of nursing students and the
 R83;3;The system shall be capable of processing 100% of nursing students and their classes for the next 10 years.;SC;plurals;classes
 R86;3;The system shall be used within the specifications defined by the computers used by the Program Administrators/Nursing Staff Members.;O;plurals;specifications
 R86;3;The system shall be used within the specifications defined by the computers used by the Program Administrators/Nursing Staff Members.;O;plurals;computers
+R86;3;The system shall be used within the specifications defined by the computers used by the Program Administrators/Nursing Staff Members.;O;plurals;Administrators
+R86;3;The system shall be used within the specifications defined by the computers used by the Program Administrators/Nursing Staff Members.;O;plurals;Members
+R87;3;The system shall operate within the Windows XP Professional operating system.;O;plurals;Windows
 R92;3;Only authorized users shall have access to clinical site information.;SE;plurals;users
+R93;3;Program Administrators/Nursing Staff Members are the only people who shall have access to clinical site details.;SE;plurals;Administrators
 R93;3;Program Administrators/Nursing Staff Members are the only people who shall have access to clinical site details.;SE;plurals;Members
 R93;3;Program Administrators/Nursing Staff Members are the only people who shall have access to clinical site details.;SE;plurals;people
 R93;3;Program Administrators/Nursing Staff Members are the only people who shall have access to clinical site details.;SE;plurals;details
 R94;3;Only authorized users shall have access to students\92 personal information.;SE;plurals;users
 R95;3;Dr Susan Poslusny and Dr Julie Donalek are the only people who shall have access to students\92 personal information.;SE;plurals;people
 R96;3;Only authorized users shall have access to the portion of the system that interfaces with CampusConnect.;SE;plurals;users
+R96;3;Only authorized users shall have access to the portion of the system that interfaces with CampusConnect.;SE;plurals;interfaces
 R97;3;Fit Criterion: Dr Susan Poslusny and Karen Sysol are the only people who shall have access to the final class section scheduling for the system that interfaces with CampusConnect.;SE;plurals;people
+R97;3;Fit Criterion: Dr Susan Poslusny and Karen Sysol are the only people who shall have access to the final class section scheduling for the system that interfaces with CampusConnect.;SE;plurals;interfaces
+R103;3;Program Administrators and Nursing Staff Members shall be able to add a listing of students to a cohort.;F;plurals;Administrators
+R103;3;Program Administrators and Nursing Staff Members shall be able to add a listing of students to a cohort.;F;plurals;Members
 R103;3;Program Administrators and Nursing Staff Members shall be able to add a listing of students to a cohort.;F;plurals;students
+R104;3;Program Administrators and Nursing Staff Members shall be able to add a single student to a cohort;F;plurals;Administrators
+R104;3;Program Administrators and Nursing Staff Members shall be able to add a single student to a cohort;F;plurals;Members
 R105;3;Students added to a cohort shall be eligible for the cohort\92s Program of Study.;F;plurals;Students
+R106;3;Program Administrators and Nursing Staff Members shall be able to specify the preferred sequence of classes for a given cohort.;F;plurals;Administrators
+R106;3;Program Administrators and Nursing Staff Members shall be able to specify the preferred sequence of classes for a given cohort.;F;plurals;Members
 R106;3;Program Administrators and Nursing Staff Members shall be able to specify the preferred sequence of classes for a given cohort.;F;plurals;classes
+R107;3;For each class within a sequence for a cohort  Program Administrators and Nursing Staff Members shall be able to specify which quarter that class will be offered.;F;plurals;Administrators
+R107;3;For each class within a sequence for a cohort  Program Administrators and Nursing Staff Members shall be able to specify which quarter that class will be offered.;F;plurals;Members
+R108;3;Program Administrators and Nursing Staff Members shall be able to add new classes to a sequence of classes;F;plurals;Administrators
+R108;3;Program Administrators and Nursing Staff Members shall be able to add new classes to a sequence of classes;F;plurals;Members
 R108;3;Program Administrators and Nursing Staff Members shall be able to add new classes to a sequence of classes;F;plurals;classes
+R109;3;Program Administrators and Nursing Staff Members shall be able to add clinical classes or sections to a sequence of classes;F;plurals;Administrators
+R109;3;Program Administrators and Nursing Staff Members shall be able to add clinical classes or sections to a sequence of classes;F;plurals;Members
 R109;3;Program Administrators and Nursing Staff Members shall be able to add clinical classes or sections to a sequence of classes;F;plurals;classes
 R109;3;Program Administrators and Nursing Staff Members shall be able to add clinical classes or sections to a sequence of classes;F;plurals;sections
+R110;3;Program Administrators and Nursing Staff Members shall be able to add a new cohort to the system  identified by start month and year.;F;plurals;Administrators
+R110;3;Program Administrators and Nursing Staff Members shall be able to add a new cohort to the system  identified by start month and year.;F;plurals;Members
+R111;3;Program Administrators and Nursing Staff Members shall be able to add new classes for the nursing department into the system.;F;plurals;Administrators
+R111;3;Program Administrators and Nursing Staff Members shall be able to add new classes for the nursing department into the system.;F;plurals;Members
 R111;3;Program Administrators and Nursing Staff Members shall be able to add new classes for the nursing department into the system.;F;plurals;classes
 R113;3;A non-clinical class shall specify the course name  lecture room requirements  and instructor needs.;F;plurals;requirements
 R114;3;A clinical class shall specify the course name  lecture room requirements  clinical site needs  lecture instructor needs  and clinical lab instructor needs.;F;plurals;requirements
+R115;3;Program Administrators/Nursing Staff Members shall be able to create a new Program of Study.;F;plurals;Administrators
+R115;3;Program Administrators/Nursing Staff Members shall be able to create a new Program of Study.;F;plurals;Members
 R116;3;A Program of Study shall consist of a program name and listing of required classes (both clinical and non-clinical) that must be completed.;F;plurals;classes
+R117;3;Program Administrators and Nursing Staff Members shall have the ability to specify which classes are required for a Program of Study;F;plurals;Administrators
+R117;3;Program Administrators and Nursing Staff Members shall have the ability to specify which classes are required for a Program of Study;F;plurals;Members
 R117;3;Program Administrators and Nursing Staff Members shall have the ability to specify which classes are required for a Program of Study;F;plurals;classes
 R118;3;The system shall be able to display a report of needed classes for a given quarter for all cohorts of all programs for Program Administrators/Nursing Staff Members\92 planning purposes.;F;plurals;classes
 R118;3;The system shall be able to display a report of needed classes for a given quarter for all cohorts of all programs for Program Administrators/Nursing Staff Members\92 planning purposes.;F;plurals;cohorts
 R118;3;The system shall be able to display a report of needed classes for a given quarter for all cohorts of all programs for Program Administrators/Nursing Staff Members\92 planning purposes.;F;plurals;programs
+R118;3;The system shall be able to display a report of needed classes for a given quarter for all cohorts of all programs for Program Administrators/Nursing Staff Members\92 planning purposes.;F;plurals;Administrators
 R118;3;The system shall be able to display a report of needed classes for a given quarter for all cohorts of all programs for Program Administrators/Nursing Staff Members\92 planning purposes.;F;plurals;purposes
 R119;3;The report of needed classes shall include (but not be limited to) classes to be offered  number of sections needed  number of labs needed  and room types needed.;F;plurals;classes
 R119;3;The report of needed classes shall include (but not be limited to) classes to be offered  number of sections needed  number of labs needed  and room types needed.;F;plurals;sections
@@ -107,6 +146,14 @@ R119;3;The report of needed classes shall include (but not be limited to) classe
 R119;3;The report of needed classes shall include (but not be limited to) classes to be offered  number of sections needed  number of labs needed  and room types needed.;F;plurals;types
 R120;3;Classes for a given cohort shall not conflict with regards to the time and day that they are offered.;F;plurals;Classes
 R120;3;Classes for a given cohort shall not conflict with regards to the time and day that they are offered.;F;plurals;regards
+R121;3;Program Administrators and Nursing Staff Members shall be able to add a new clinical site into the system.;F;plurals;Administrators
+R121;3;Program Administrators and Nursing Staff Members shall be able to add a new clinical site into the system.;F;plurals;Members
+R123;3;Program Administrators and Nursing Staff Members shall be able to add a new clinical lab section for an existing clinical class into the System.;F;plurals;Administrators
+R123;3;Program Administrators and Nursing Staff Members shall be able to add a new clinical lab section for an existing clinical class into the System.;F;plurals;Members
+R125;3;Program Administrators and Nursing Staff Members shall be able to add a student who has registered for a clinical class to a clinical lab section for that class.;F;plurals;Administrators
+R125;3;Program Administrators and Nursing Staff Members shall be able to add a student who has registered for a clinical class to a clinical lab section for that class.;F;plurals;Members
+R128;3;Program Administrators/Nursing Staff Members shall be able to cancel a clinical lab section only if there are no students registered for that clinical lab section.;F;plurals;Administrators
+R128;3;Program Administrators/Nursing Staff Members shall be able to cancel a clinical lab section only if there are no students registered for that clinical lab section.;F;plurals;Members
 R128;3;Program Administrators/Nursing Staff Members shall be able to cancel a clinical lab section only if there are no students registered for that clinical lab section.;F;plurals;students
 R130;3;A staff member shall have the ability to manage the progress of a part time student  which includes modifying their sequence of classes and timeline of classes.;F;plurals;classes
 R131;3;The system shall be able to display a printable summary for individual cohorts  which will include the students enlisted  the Program of study  sequence of classes  cohort progress through the program  and timeline of completion.;F;plurals;cohorts
@@ -146,82 +193,140 @@ R141;3;The system will notify affected parties when changes occur affecting coho
 R142;3;The system will notify affected parties when changes occur affecting specific students  including but not limited to changing a student\92s status from full time to part time and moving a student to a different clinical section.;F;plurals;parties
 R142;3;The system will notify affected parties when changes occur affecting specific students  including but not limited to changing a student\92s status from full time to part time and moving a student to a different clinical section.;F;plurals;changes
 R142;3;The system will notify affected parties when changes occur affecting specific students  including but not limited to changing a student\92s status from full time to part time and moving a student to a different clinical section.;F;plurals;students
+R143;3;Program Administrators/Nursing Staff Members shall have the ability to modify information relating to cohorts including cohort identifier  program of study  preferred sequence of classes and quarters that a cohort will be taking specific classes.;F;plurals;Administrators
+R143;3;Program Administrators/Nursing Staff Members shall have the ability to modify information relating to cohorts including cohort identifier  program of study  preferred sequence of classes and quarters that a cohort will be taking specific classes.;F;plurals;Members
 R143;3;Program Administrators/Nursing Staff Members shall have the ability to modify information relating to cohorts including cohort identifier  program of study  preferred sequence of classes and quarters that a cohort will be taking specific classes.;F;plurals;cohorts
 R143;3;Program Administrators/Nursing Staff Members shall have the ability to modify information relating to cohorts including cohort identifier  program of study  preferred sequence of classes and quarters that a cohort will be taking specific classes.;F;plurals;classes
 R143;3;Program Administrators/Nursing Staff Members shall have the ability to modify information relating to cohorts including cohort identifier  program of study  preferred sequence of classes and quarters that a cohort will be taking specific classes.;F;plurals;quarters
+R144;3;Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Program of Study within the Nursing Department including the Program of study name  and required classes for that Program of Study.;F;plurals;Administrators
+R144;3;Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Program of Study within the Nursing Department including the Program of study name  and required classes for that Program of Study.;F;plurals;Members
 R144;3;Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Program of Study within the Nursing Department including the Program of study name  and required classes for that Program of Study.;F;plurals;classes
+R145;3;Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Clinical Site  including the clinical site name  site contact person  contact information  and address.;F;plurals;Administrators
+R145;3;Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Clinical Site  including the clinical site name  site contact person  contact information  and address.;F;plurals;Members
+R146;3;Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Clinical Lab Section  including the clinical site name the department/section for the lab  the class instructor day and time of lab and contact information.;F;plurals;Administrators
+R146;3;Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Clinical Lab Section  including the clinical site name the department/section for the lab  the class instructor day and time of lab and contact information.;F;plurals;Members
+R147;3;Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Nursing Student  including student ID  student name phone number e-mail status (full time or part time) and program of study.;F;plurals;Administrators
+R147;3;Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Nursing Student  including student ID  student name phone number e-mail status (full time or part time) and program of study.;F;plurals;Members
+R148;4;The Disputes application shall comply with the corporate standards for user interface creation for internally and externally used applications.;LF;plurals;Disputes
 R148;4;The Disputes application shall comply with the corporate standards for user interface creation for internally and externally used applications.;LF;plurals;standards
 R148;4;The Disputes application shall comply with the corporate standards for user interface creation for internally and externally used applications.;LF;plurals;applications
 R149;4;All screens created as part of the Disputes application must comply with corporate standards for interface creation.;LF;plurals;screens
+R149;4;All screens created as part of the Disputes application must comply with corporate standards for interface creation.;LF;plurals;Disputes
 R149;4;All screens created as part of the Disputes application must comply with corporate standards for interface creation.;LF;plurals;standards
 R150;4;The list of dispute cases that are displayed after a search is performed must be color coded for easy identification of dispute cases based upon the dispute case status.;US;plurals;cases
 R151;4;100% of the cardmember and merchant services representatives shall use the Disputes application regularly after a 2-day training course.;US;plurals;services
 R151;4;100% of the cardmember and merchant services representatives shall use the Disputes application regularly after a 2-day training course.;US;plurals;representatives
+R151;4;100% of the cardmember and merchant services representatives shall use the Disputes application regularly after a 2-day training course.;US;plurals;Disputes
 R152;4;100% of cardmember services representatives shall be able to successfully create a dispute case on the first encounter after completing the training course.;US;plurals;services
 R152;4;100% of cardmember services representatives shall be able to successfully create a dispute case on the first encounter after completing the training course.;US;plurals;representatives
 R153;4;100% of merchant services representatives shall be able to successfully perform a follow up action on a dispute case on the first encounter after completing the training course.;US;plurals;services
 R153;4;100% of merchant services representatives shall be able to successfully perform a follow up action on a dispute case on the first encounter after completing the training course.;US;plurals;representatives
+R154;4;The maximum wait time for a user navigating from one screen to another within the Disputes application shall be no more than 5 seconds.;PE;plurals;Disputes
+R155;4;The Disputes application shall support 350 concurrent users without any degradation of performance in the application.;PE;plurals;Disputes
 R155;4;The Disputes application shall support 350 concurrent users without any degradation of performance in the application.;PE;plurals;users
+R156;4; The Disputes application shall be available 24x7x365  with the exception of the following scheduled maintenance windows.  Monday \96 Saturday 3:00am to 4:00am EST Sunday 1:00amd to 5:00am EST;O;plurals;Disputes
 R156;4; The Disputes application shall be available 24x7x365  with the exception of the following scheduled maintenance windows.  Monday \96 Saturday 3:00am to 4:00am EST Sunday 1:00amd to 5:00am EST;O;plurals;windows
+R157;4;The Disputes application shall interface with the Statement Database. The Statement Database provides the transaction details to the Disputes System. All transaction details must be obtained from the Statement Database;O;plurals;Disputes
 R157;4;The Disputes application shall interface with the Statement Database. The Statement Database provides the transaction details to the Disputes System. All transaction details must be obtained from the Statement Database;O;plurals;details
+R158;4;The Disputes application shall interface with the Cardmember Information Database. The Cardmember Information Database provides detailed information with regard to a cardmember. All cardmember detail information must be obtained from the Cardmember Information Database.;O;plurals;Disputes
+R159;4;The Disputes applications shall interface with the Merchant Information Database. The Merchant Information Database provides detailed information with regard to the merchant. All merchant detail information shall be obtained from the Merchant Information Database.;O;plurals;Disputes
 R159;4;The Disputes applications shall interface with the Merchant Information Database. The Merchant Information Database provides detailed information with regard to the merchant. All merchant detail information shall be obtained from the Merchant Information Database.;O;plurals;applications
+R160;4;The Disputes application shall interface with the Letters application.  This will allow the Disputes application to request letters as part of the dispute initiation and dispute follow up process. All letter requests must be sent to the Print Letter Utility application.;O;plurals;Disputes
+R160;4;The Disputes application shall interface with the Letters application.  This will allow the Disputes application to request letters as part of the dispute initiation and dispute follow up process. All letter requests must be sent to the Print Letter Utility application.;O;plurals;Letters
 R160;4;The Disputes application shall interface with the Letters application.  This will allow the Disputes application to request letters as part of the dispute initiation and dispute follow up process. All letter requests must be sent to the Print Letter Utility application.;O;plurals;letters
 R160;4;The Disputes application shall interface with the Letters application.  This will allow the Disputes application to request letters as part of the dispute initiation and dispute follow up process. All letter requests must be sent to the Print Letter Utility application.;O;plurals;requests
+R161;4;The Disputes application shall interface with the Cardmember Posting and Billing System.  This will allow the Disputes application to request adjustments to cardmember and merchant\92s accounts. All adjustment requests must be sent to the Cardmember Posting and Billing System.;O;plurals;Disputes
 R161;4;The Disputes application shall interface with the Cardmember Posting and Billing System.  This will allow the Disputes application to request adjustments to cardmember and merchant\92s accounts. All adjustment requests must be sent to the Cardmember Posting and Billing System.;O;plurals;adjustments
 R161;4;The Disputes application shall interface with the Cardmember Posting and Billing System.  This will allow the Disputes application to request adjustments to cardmember and merchant\92s accounts. All adjustment requests must be sent to the Cardmember Posting and Billing System.;O;plurals;accounts
 R161;4;The Disputes application shall interface with the Cardmember Posting and Billing System.  This will allow the Disputes application to request adjustments to cardmember and merchant\92s accounts. All adjustment requests must be sent to the Cardmember Posting and Billing System.;O;plurals;requests
+R162;4;The Disputes application shall ensure that only users with the appropriate access level are allowed to initiate dispute requests.;SE;plurals;Disputes
 R162;4;The Disputes application shall ensure that only users with the appropriate access level are allowed to initiate dispute requests.;SE;plurals;users
 R162;4;The Disputes application shall ensure that only users with the appropriate access level are allowed to initiate dispute requests.;SE;plurals;requests
 R163;4;Only users with Update access must be able to initiate dispute requests.;SE;plurals;users
 R163;4;Only users with Update access must be able to initiate dispute requests.;SE;plurals;requests
+R164;4;The Disputes application shall ensure that only authorized users are allowed to logon to the application.;SE;plurals;Disputes
 R164;4;The Disputes application shall ensure that only authorized users are allowed to logon to the application.;SE;plurals;users
 R165;4;All authorized users  once authenticated must be able to logon to the Disputes System;SE;plurals;users
+R165;4;All authorized users  once authenticated must be able to logon to the Disputes System;SE;plurals;Disputes
+R166;4;The Disputes System shall generate a User Report that details any new users that have been added and any changes to an existing user\92s access level. The report will be reviewed for auditing purposes.;SE;plurals;Disputes
+R166;4;The Disputes System shall generate a User Report that details any new users that have been added and any changes to an existing user\92s access level. The report will be reviewed for auditing purposes.;SE;plurals;details
 R166;4;The Disputes System shall generate a User Report that details any new users that have been added and any changes to an existing user\92s access level. The report will be reviewed for auditing purposes.;SE;plurals;users
 R166;4;The Disputes System shall generate a User Report that details any new users that have been added and any changes to an existing user\92s access level. The report will be reviewed for auditing purposes.;SE;plurals;changes
 R166;4;The Disputes System shall generate a User Report that details any new users that have been added and any changes to an existing user\92s access level. The report will be reviewed for auditing purposes.;SE;plurals;purposes
 R167;4;All additions of new users and modifications to user\92s access shall be recorded on the User Report.;SE;plurals;additions
 R167;4;All additions of new users and modifications to user\92s access shall be recorded on the User Report.;SE;plurals;users
 R167;4;All additions of new users and modifications to user\92s access shall be recorded on the User Report.;SE;plurals;modifications
+R170;4;The Disputes application shall manipulate and view business data. Users will not have direct access to data files or databases.;SE;plurals;Disputes
 R170;4;The Disputes application shall manipulate and view business data. Users will not have direct access to data files or databases.;SE;plurals;Users
 R170;4;The Disputes application shall manipulate and view business data. Users will not have direct access to data files or databases.;SE;plurals;files
 R170;4;The Disputes application shall manipulate and view business data. Users will not have direct access to data files or databases.;SE;plurals;databases
 R171;4;All updates to data files or database must be initiated from the Disputes System.;SE;plurals;files
+R171;4;All updates to data files or database must be initiated from the Disputes System.;SE;plurals;Disputes
+R172;4;The Disputes application must conform to the legal requirements as specified by the Merchant Operating Regulations.;L;plurals;Disputes
 R172;4;The Disputes application must conform to the legal requirements as specified by the Merchant Operating Regulations.;L;plurals;requirements
+R172;4;The Disputes application must conform to the legal requirements as specified by the Merchant Operating Regulations.;L;plurals;Regulations
+R173;4;All business rules specified in the Disputes System shall be in compliance with the Merchant Operating Regulations.;L;plurals;Disputes
+R173;4;All business rules specified in the Disputes System shall be in compliance with the Merchant Operating Regulations.;L;plurals;Regulations
+R174;4;The Disputes application must conform to the legal requirements as specified by Regulation E and Regulation Z that govern credit card disputes processing.;L;plurals;Disputes
 R174;4;The Disputes application must conform to the legal requirements as specified by Regulation E and Regulation Z that govern credit card disputes processing.;L;plurals;requirements
 R174;4;The Disputes application must conform to the legal requirements as specified by Regulation E and Regulation Z that govern credit card disputes processing.;L;plurals;disputes
+R175;4;All business rules specified in the Disputes System shall be in compliance to the guidelines of Regulation E and Regulation Z.;L;plurals;Disputes
 R175;4;All business rules specified in the Disputes System shall be in compliance to the guidelines of Regulation E and Regulation Z.;L;plurals;guidelines
+R176;4;The Disputes application must maintain a detailed history of every action that a user takes on a dispute case.  This ensures a complete audit trail if questions arise later on with regard to a particular dispute case.;L;plurals;Disputes
 R177;4;All actions that modify an existing dispute case must be recorded in the case history.;L;plurals;actions
+R178;4;The Disputes System must be accessible by both internal and external users.;F;plurals;Disputes
 R178;4;The Disputes System must be accessible by both internal and external users.;F;plurals;users
+R179;4;The Disputes System must prevent users from accessing any dispute cases that do not belong to their cardholder base.;F;plurals;Disputes
 R179;4;The Disputes System must prevent users from accessing any dispute cases that do not belong to their cardholder base.;F;plurals;users
 R179;4;The Disputes System must prevent users from accessing any dispute cases that do not belong to their cardholder base.;F;plurals;cases
+R180;4;The Disputes System will facilitate direct data entry of a dispute case via a user interface that supports real time responses to the users.;F;plurals;Disputes
+R180;4;The Disputes System will facilitate direct data entry of a dispute case via a user interface that supports real time responses to the users.;F;plurals;supports
 R180;4;The Disputes System will facilitate direct data entry of a dispute case via a user interface that supports real time responses to the users.;F;plurals;responses
 R180;4;The Disputes System will facilitate direct data entry of a dispute case via a user interface that supports real time responses to the users.;F;plurals;users
+R181;4;The Disputes System must provide different levels of access with regard to disputes case initiation and follow-up actions.;F;plurals;Disputes
 R181;4;The Disputes System must provide different levels of access with regard to disputes case initiation and follow-up actions.;F;plurals;levels
 R181;4;The Disputes System must provide different levels of access with regard to disputes case initiation and follow-up actions.;F;plurals;disputes
 R181;4;The Disputes System must provide different levels of access with regard to disputes case initiation and follow-up actions.;F;plurals;actions
+R182;4;The Disputes System shall provide view access capability for authorized users of the application.;F;plurals;Disputes
 R182;4;The Disputes System shall provide view access capability for authorized users of the application.;F;plurals;users
+R183;4;The Disputes System shall provide update access capability for authorized users of the application.;F;plurals;Disputes
 R183;4;The Disputes System shall provide update access capability for authorized users of the application.;F;plurals;users
+R184;4;The Disputes System must allow the users to select disputable transactions (based on the age of the transaction) from a user interface and initiate a dispute (ticket retrieval request or chargeback notification) on the selected transaction.;F;plurals;Disputes
 R184;4;The Disputes System must allow the users to select disputable transactions (based on the age of the transaction) from a user interface and initiate a dispute (ticket retrieval request or chargeback notification) on the selected transaction.;F;plurals;users
 R184;4;The Disputes System must allow the users to select disputable transactions (based on the age of the transaction) from a user interface and initiate a dispute (ticket retrieval request or chargeback notification) on the selected transaction.;F;plurals;transactions
+R185;4;The Disputes System must provide the user the ability to initiate a single dispute case on multiple transactions that belong to a single merchant.;F;plurals;Disputes
 R185;4;The Disputes System must provide the user the ability to initiate a single dispute case on multiple transactions that belong to a single merchant.;F;plurals;transactions
+R186;4;The Disputes System will provide the user the ability to create or initiate a ticket retrieval request.   As part of ticket retrieval creation process the system must prompt the user to enter all the required information to create the ticket retrieval request.  The ticket retrieval request is a document that is sent to merchant inquiring the validity of a transaction.;F;plurals;Disputes
+R187;4;The Disputes System must allow the user to create three unique types of ticket retrieval requests.  The three types of ticket retrieval requests are (1) Request for original receipt (2) Request for a copy of the receipt or (3) Request for a portfolio. A portfolio consists of documentation that would provide proof of a purchase such as the documentation that is received from a car rental agency that is more than a sales receipt.;F;plurals;Disputes
 R187;4;The Disputes System must allow the user to create three unique types of ticket retrieval requests.  The three types of ticket retrieval requests are (1) Request for original receipt (2) Request for a copy of the receipt or (3) Request for a portfolio. A portfolio consists of documentation that would provide proof of a purchase such as the documentation that is received from a car rental agency that is more than a sales receipt.;F;plurals;types
 R187;4;The Disputes System must allow the user to create three unique types of ticket retrieval requests.  The three types of ticket retrieval requests are (1) Request for original receipt (2) Request for a copy of the receipt or (3) Request for a portfolio. A portfolio consists of documentation that would provide proof of a purchase such as the documentation that is received from a car rental agency that is more than a sales receipt.;F;plurals;requests
 R187;4;The Disputes System must allow the user to create three unique types of ticket retrieval requests.  The three types of ticket retrieval requests are (1) Request for original receipt (2) Request for a copy of the receipt or (3) Request for a portfolio. A portfolio consists of documentation that would provide proof of a purchase such as the documentation that is received from a car rental agency that is more than a sales receipt.;F;plurals;sales
+R188;4;The Disputes System must prevent external users from requesting original receipts. Requests for original receipts are restricted to internal users.;F;plurals;Disputes
 R188;4;The Disputes System must prevent external users from requesting original receipts. Requests for original receipts are restricted to internal users.;F;plurals;users
 R188;4;The Disputes System must prevent external users from requesting original receipts. Requests for original receipts are restricted to internal users.;F;plurals;receipts
 R188;4;The Disputes System must prevent external users from requesting original receipts. Requests for original receipts are restricted to internal users.;F;plurals;Requests
+R189;4;"The Disputes System must provide a confirmation to the user upon the creation of ticket retrieval request that contains the following information; the dispute case number  the type of retrieval requested (copy  original or portfolio)  and the date that the merchant response is due.";F;plurals;Disputes
+R190;4;The Disputes System shall allow the user to create or initiate a chargeback request.  The system must prompt the user to enter the required information to initiate a chargeback request. The chargeback request results in a printed chargeback notification that is sent to merchant indicating that their account will be charged back if no proof is provided that the disputed transaction is valid.;F;plurals;Disputes
+R190;4;The Disputes System shall allow the user to create or initiate a chargeback request.  The system must prompt the user to enter the required information to initiate a chargeback request. The chargeback request results in a printed chargeback notification that is sent to merchant indicating that their account will be charged back if no proof is provided that the disputed transaction is valid.;F;plurals;results
+R191;4;"The Disputes System must provide a confirmation to the user upon the creation of a chargeback request. The confirmation must contain the following information; the dispute case number  the type of chargeback requested (pending or immediate)  and the date that the merchant response is due.";F;plurals;Disputes
+R192;4;The Disputes System shall prevent the creation of duplicate dispute requests 100% of the time.;F;plurals;Disputes
 R192;4;The Disputes System shall prevent the creation of duplicate dispute requests 100% of the time.;F;plurals;requests
+R193;4;The Disputes System shall accurately provide a list of possible reason codes for a given transaction.  The list of possible reason codes must be derived based on the type of transaction and the industry that the merchant belongs to  according to the business rules defined for the Disputes System.;F;plurals;Disputes
 R193;4;The Disputes System shall accurately provide a list of possible reason codes for a given transaction.  The list of possible reason codes must be derived based on the type of transaction and the industry that the merchant belongs to  according to the business rules defined for the Disputes System.;F;plurals;codes
+R194;4;The Disputes System must provide the ability to view existing dispute cases.;F;plurals;Disputes
 R194;4;The Disputes System must provide the ability to view existing dispute cases.;F;plurals;cases
+R195;4;The Disputes System must provide Search functionality.  The search method must include the ability to search by (1) the dispute case number  (2) the merchant account number  (3) the cardmember account number and (4) the issuer number.  In addition to the above criteria  the search functionality must further allow the user to limit the results of the search by a date range  the type of dispute (ticket retrieval request or chargeback notification)  the case status (open  closed or all) and the dispute reason code.;F;plurals;Disputes
 R195;4;The Disputes System must provide Search functionality.  The search method must include the ability to search by (1) the dispute case number  (2) the merchant account number  (3) the cardmember account number and (4) the issuer number.  In addition to the above criteria  the search functionality must further allow the user to limit the results of the search by a date range  the type of dispute (ticket retrieval request or chargeback notification)  the case status (open  closed or all) and the dispute reason code.;F;plurals;criteria
 R195;4;The Disputes System must provide Search functionality.  The search method must include the ability to search by (1) the dispute case number  (2) the merchant account number  (3) the cardmember account number and (4) the issuer number.  In addition to the above criteria  the search functionality must further allow the user to limit the results of the search by a date range  the type of dispute (ticket retrieval request or chargeback notification)  the case status (open  closed or all) and the dispute reason code.;F;plurals;results
 R196;4;A list of all disputes cases that meet the entered search criteria must be provided to the user.  The list of cases must differentiate the type and/or status of the case by color -coding the line item in the list.  For example all open cases will be yellow and all closed cases will be gray.;F;plurals;disputes
 R196;4;A list of all disputes cases that meet the entered search criteria must be provided to the user.  The list of cases must differentiate the type and/or status of the case by color -coding the line item in the list.  For example all open cases will be yellow and all closed cases will be gray.;F;plurals;cases
 R196;4;A list of all disputes cases that meet the entered search criteria must be provided to the user.  The list of cases must differentiate the type and/or status of the case by color -coding the line item in the list.  For example all open cases will be yellow and all closed cases will be gray.;F;plurals;criteria
+R197;4;The Disputes System shall provide the users the ability to view the history of all activities that have occurred on the dispute case.;F;plurals;Disputes
 R197;4;The Disputes System shall provide the users the ability to view the history of all activities that have occurred on the dispute case.;F;plurals;users
 R197;4;The Disputes System shall provide the users the ability to view the history of all activities that have occurred on the dispute case.;F;plurals;activities
 R198;4;The Dispute System shall provide the users with the ability to follow up on a dispute case via follow-up actions.  The list of available follow up actions for a given dispute case must be filtered by the status of the case and the access level of the user.;F;plurals;users
 R198;4;The Dispute System shall provide the users with the ability to follow up on a dispute case via follow-up actions.  The list of available follow up actions for a given dispute case must be filtered by the status of the case and the access level of the user.;F;plurals;actions
+R199;4;The Disputes System shall record the name of the user and the date for any activity that creates or modifies the disputes case in the system.  A detailed history of the actions taken on the case  including the date and the user that performed the action must be maintained for auditing purposes.;F;plurals;Disputes
 R199;4;The Disputes System shall record the name of the user and the date for any activity that creates or modifies the disputes case in the system.  A detailed history of the actions taken on the case  including the date and the user that performed the action must be maintained for auditing purposes.;F;plurals;disputes
 R199;4;The Disputes System shall record the name of the user and the date for any activity that creates or modifies the disputes case in the system.  A detailed history of the actions taken on the case  including the date and the user that performed the action must be maintained for auditing purposes.;F;plurals;actions
 R199;4;The Disputes System shall record the name of the user and the date for any activity that creates or modifies the disputes case in the system.  A detailed history of the actions taken on the case  including the date and the user that performed the action must be maintained for auditing purposes.;F;plurals;purposes
@@ -230,11 +335,15 @@ R201;4;All letter requests must be formatted according to guidelines specified b
 R201;4;All letter requests must be formatted according to guidelines specified by the Print Letter Utility system.;F;plurals;guidelines
 R202;4;Any disputes cases that have been closed for over 6 months must be purged from the online disputes database.;F;plurals;disputes
 R202;4;Any disputes cases that have been closed for over 6 months must be purged from the online disputes database.;F;plurals;cases
+R205;5;The product shall interface with the Choice Parts System.  This provides the feed of recycled parts data.;O;plurals;Parts
 R205;5;The product shall interface with the Choice Parts System.  This provides the feed of recycled parts data.;O;plurals;parts
 R206;5;The product shall run on the existing hardware for all environments.;O;plurals;environments
 R207;5;The product shall adhere to the corporate Architecture guidelines;O;plurals;guidelines
+R208;5;The product shall comply with corporate User Interface Guidelines;LF;plurals;Guidelines
+R211;5;The product shall be easy to use by Adjusters and Collision Estimators.  95% of Adjusters and Collision Estimators shall find the product easy to use.;US;plurals;Adjusters
 R213;5;Users shall feel satisfied using the product.  85% of all users will be satisfied with the product.;US;plurals;Users
 R213;5;Users shall feel satisfied using the product.  85% of all users will be satisfied with the product.;US;plurals;users
+R214;5;The product shall be easy to learn by Adjusters and Collision Estimators.  The product shall be learned with two days onsite training;US;plurals;Adjusters
 R215;5;The user shall easily locate instructions while using the product.  User help can be found within 90% of the system.;US;plurals;instructions
 R216;5;The search for recycled parts shall take no longer than 15 seconds.  The search results shall be returned in under 15 seconds.;PE;plurals;parts
 R216;5;The search for recycled parts shall take no longer than 15 seconds.  The search results shall be returned in under 15 seconds.;PE;plurals;results
@@ -290,6 +399,7 @@ R262;5;The audit report shall include the total number of recycled parts used in
 R263;5;The audit report shall include the number of available recycled parts from the original search results.;F;plurals;parts
 R263;5;The audit report shall include the number of available recycled parts from the original search results.;F;plurals;results
 R264;5;The audit report shall include the percentage of available recycled parts used in the estimate ;F;plurals;parts
+R265;5;The audit report shall include the total score of the audit which sums the indivual line items.;F;plurals;sums
 R265;5;The audit report shall include the total score of the audit which sums the indivual line items.;F;plurals;items
 R267;5;The audit report shall be available to other adjusters at later points in time.;F;plurals;adjusters
 R267;5;The audit report shall be available to other adjusters at later points in time.;F;plurals;points
@@ -317,6 +427,8 @@ R288;6;An employee will be able to successfully use the product within a few min
 R288;6;An employee will be able to successfully use the product within a few minutes.  After informally navigating the product for less than 15 minutes  users shall be able to successfully setup meetings and reserve conference rooms.;US;plurals;rooms
 R289;6;The product shall use a standard navigation menu familiar to most web users.;US;plurals;users
 R290;6;The product shall allow for intuitive searching of available conference rooms.;US;plurals;rooms
+R291;6;The product shall conform to the Americans with Disabilities Act.;US;plurals;Americans
+R291;6;The product shall conform to the Americans with Disabilities Act.;US;plurals;Disabilities
 R292;6;The response shall be fast enough to avoid interrupting the user\92s flow of thought.  90% of tasks shall complete within 5 seconds.  98% of tasks shall complete within 8 seconds.;PE;plurals;tasks
 R294;6;The product shall create an exception log of problems encountered within the product for transmission to our company for analysis and resolution.;FT;plurals;problems
 R295;6;The product shall be capable of handling up to 1 000 concurrent requests.  This number will increase to 2 000 by Release 2.  The concurrency capacity must be able to handle peak scheduling times such as early morning and late afternoon hours.;SC;plurals;requests
@@ -328,6 +440,7 @@ R300;6;The product must be able to interface with various database management sy
 R301;6;The product must be able to interface with various email servers. The product shall be able to send email.;O;plurals;servers
 R304;6;The product will be available for licensing as a one-server  two-five servers  or five-or-more servers license.;O;plurals;servers
 R305;6;A new user must be able to be added to the system within 10 minutes. 90% of new users are able to log into the system within 10 minutes.;US;plurals;users
+R306;6;The product must be designed using Design Patterns and coding best practices.  90% of maintenance software developers are able to integrate new functionality into the product with 2 working days.;MN;plurals;Patterns
 R306;6;The product must be designed using Design Patterns and coding best practices.  90% of maintenance software developers are able to integrate new functionality into the product with 2 working days.;MN;plurals;practices
 R306;6;The product must be designed using Design Patterns and coding best practices.  90% of maintenance software developers are able to integrate new functionality into the product with 2 working days.;MN;plurals;developers
 R307;6;The product must be highly configurable for use with various database management systems for the end users.  80% of end users are able to integrate new database management systems with the product without changing the product\92s software code.;MN;plurals;systems
@@ -398,6 +511,7 @@ R367;7;PME Subsystem shall allow building product menus based on the list of pro
 R367;7;PME Subsystem shall allow building product menus based on the list of products kept in the accounting system.;F;plurals;products
 R368;7;PME Subsystem shall allow keeping submenus within menus and products within submenus in a managed and persisted order.;F;plurals;menus
 R368;7;PME Subsystem shall allow keeping submenus within menus and products within submenus in a managed and persisted order.;F;plurals;products
+R370;7;The RMS System shall have Windows XP look and feel and use GUI futures making its use intuitive.;F;plurals;Windows
 R370;7;The RMS System shall have Windows XP look and feel and use GUI futures making its use intuitive.;F;plurals;futures
 R371;7;The System shall generate Inventory Quantity Adjustment document based on product daily sales data and product formulas.;F;plurals;sales
 R371;7;The System shall generate Inventory Quantity Adjustment document based on product daily sales data and product formulas.;F;plurals;formulas
@@ -415,6 +529,7 @@ R383;8;System shall let administrators generate unique pre-paid pins in under 2 
 R383;8;System shall let administrators generate unique pre-paid pins in under 2 minutes and generate an Excel file with the generated PINs.;PE;plurals;PINs
 R384;8;The website shall be attractive to all audiences.  The website shall appear to be fun and the colors should be bright and vibrant.;LF;plurals;audiences
 R384;8;The website shall be attractive to all audiences.  The website shall appear to be fun and the colors should be bright and vibrant.;LF;plurals;colors
+R385;8;The website should have an African feel  but should not alienate non-Africans.  The website should use animation on pages which are describing the services  to grab the users attention and encourage them to sign up.;LF;plurals;Africans
 R385;8;The website should have an African feel  but should not alienate non-Africans.  The website should use animation on pages which are describing the services  to grab the users attention and encourage them to sign up.;LF;plurals;pages
 R385;8;The website should have an African feel  but should not alienate non-Africans.  The website should use animation on pages which are describing the services  to grab the users attention and encourage them to sign up.;LF;plurals;services
 R385;8;The website should have an African feel  but should not alienate non-Africans.  The website should use animation on pages which are describing the services  to grab the users attention and encourage them to sign up.;LF;plurals;users
@@ -448,6 +563,8 @@ R409;8;The website shall be capable of supporting 100 000 customers.;SC;plurals;
 R411;8;All aspects of the website shall be accessed by a web browser over the Internet.;O;plurals;aspects
 R414;8;Website must interface with the CyberSource API to process credit card transactions.;O;plurals;transactions
 R416;8;Movies shall be encoded and streamed via Windows Media Player 9.0.;O;plurals;Movies
+R416;8;Movies shall be encoded and streamed via Windows Media Player 9.0.;O;plurals;Windows
+R416;8;Movies shall be encoded and streamed via Windows Media Player 9.0.;O;plurals;Media
 R417;8;Movies shall be encoded for 56k and 256k streams.;O;plurals;Movies
 R417;8;Movies shall be encoded for 56k and 256k streams.;O;plurals;streams
 R419;8;Izogn Administrator must be able to update the category listings on the website within 2 minutes.;PE;plurals;listings
@@ -473,6 +590,8 @@ R436;8;All customer information will be stored on a secure database  accessible 
 R438;8;The streaming server will have anti-virus software to prevent infection of malicious viruses.;SE;plurals;viruses
 R439;8;The website should cater to all tribes in Nigeria.;LF;plurals;tribes
 R440;8;The website shall not be offensive to religious or ethnic groups.;LF;plurals;groups
+R441;8;The website should appeal to all Africans  not only Nigerians.;LF;plurals;Africans
+R441;8;The website should appeal to all Africans  not only Nigerians.;LF;plurals;Nigerians
 R443;8;IzognMovies shall meet the licensing requirements set forth by the appropriate organizations in order to stream African movies.;L;plurals;requirements
 R443;8;IzognMovies shall meet the licensing requirements set forth by the appropriate organizations in order to stream African movies.;L;plurals;organizations
 R443;8;IzognMovies shall meet the licensing requirements set forth by the appropriate organizations in order to stream African movies.;L;plurals;movies
@@ -482,6 +601,8 @@ R446;8;The website will allow customers to search for movies by title  actor  or
 R446;8;The website will allow customers to search for movies by title  actor  or director.;F;plurals;movies
 R447;8;viewing a movie details the website will display the movies description actor and director entered in by the administrator.;F;plurals;details
 R447;8;viewing a movie details the website will display the movies description actor and director entered in by the administrator.;F;plurals;movies
+R449;8;shall be able to stream purchased movie via Windows Media Player  for up to 2 days aftere purchase date.;F;plurals;Windows
+R449;8;shall be able to stream purchased movie via Windows Media Player  for up to 2 days aftere purchase date.;F;plurals;Media
 R450;8;Website shall allow customers to browse movies by categories entered in by izogn administrator.;F;plurals;customers
 R450;8;Website shall allow customers to browse movies by categories entered in by izogn administrator.;F;plurals;movies
 R450;8;Website shall allow customers to browse movies by categories entered in by izogn administrator.;F;plurals;categories
@@ -510,12 +631,20 @@ R477;9;The leads washing functionality will insert all leads captured by the web
 R478;9;If the leads score falls within the high average score then it will be process by the ARA functionality.;F;plurals;leads
 R479;9;If the leads score falls within the medium average then it will be set for manual verification by an Enrollment Coordinator through the eleads system.;F;plurals;leads
 R480;9;If the leads score falls within the low average then it will be returned to the supplying vendor;F;plurals;leads
+R481;9;The leads washing functionality will compile both contact and academic scoring information for a total score.;F;plurals;leads
+R482;9;The leads washing functionality will use the parameters supplied by corporate and schools to score part of the lead.;F;plurals;leads
 R482;9;The leads washing functionality will use the parameters supplied by corporate and schools to score part of the lead.;F;plurals;parameters
 R482;9;The leads washing functionality will use the parameters supplied by corporate and schools to score part of the lead.;F;plurals;schools
+R483;9;The leads washing functionality will return the lead data supplied to the vendor along with the reason of rejection.;F;plurals;leads
+R484;9;The leads washing functionality will have an interface in which lead data parameters can be maintained.;F;plurals;leads
 R484;9;The leads washing functionality will have an interface in which lead data parameters can be maintained.;F;plurals;parameters
+R485;9;The leads washing functionality will verify the users authentication and rights to make parameter updates.;F;plurals;leads
 R485;9;The leads washing functionality will verify the users authentication and rights to make parameter updates.;F;plurals;users
+R486;9;The leads washing functionality will store any potential lead duplicates returned by the enterprise system.;F;plurals;leads
 R486;9;The leads washing functionality will store any potential lead duplicates returned by the enterprise system.;F;plurals;duplicates
+R487;9;Prior to submitting the lead to the enterprise system the leads washing functionality will assign the lead to an admissions rep.;F;plurals;leads
 R487;9;Prior to submitting the lead to the enterprise system the leads washing functionality will assign the lead to an admissions rep.;F;plurals;admissions
+R488;9;The leads washing functionality shall receive a period list of available reps from the enterprise system.;F;plurals;leads
 R489;10;The product shall simulate the look of ships at sea.;LF;plurals;ships
 R490;10;The product shall display the grids within a circle as a view from a periscope.;LF;plurals;grids
 R497;10;The product shall able to handle a large number of games simultaneously.;PE;plurals;games
@@ -559,6 +688,7 @@ R542;11;The system shall be easy to use by callers and supervisors. Callers and 
 R543;11;The system shall be easy to learn by callers and supervisors. Callers and supervisors shall learn how to use the system within 10 minutes.;US;plurals;callers
 R543;11;The system shall be easy to learn by callers and supervisors. Callers and supervisors shall learn how to use the system within 10 minutes.;US;plurals;supervisors
 R543;11;The system shall be easy to learn by callers and supervisors. Callers and supervisors shall learn how to use the system within 10 minutes.;US;plurals;Callers
+R544;11;The system shall be responsive. At the DePaul TeleServices Center  when a supervisor uses the system to view a callers schedule  the system response time must be no more than 2 seconds 90% of the time and no more than 5 seconds the rest of the time.;PE;plurals;uses
 R544;11;The system shall be responsive. At the DePaul TeleServices Center  when a supervisor uses the system to view a callers schedule  the system response time must be no more than 2 seconds 90% of the time and no more than 5 seconds the rest of the time.;PE;plurals;callers
 R545;11;On a 56k connection  the system response time for all operations must be no more than 6 seconds 90% of the time.;PE;plurals;operations
 R546;11;On a 112k connection or faster  the system response time for all operations must be no more than 3 seconds 90% of the time.;PE;plurals;operations
@@ -571,10 +701,19 @@ R552;11;The product shall ensure that only supervisors can view schedule of all 
 R552;11;The product shall ensure that only supervisors can view schedule of all callers.The product must ensure that supervisors are allowed to access advertise empty time slots.;SE;plurals;slots
 R554;11;The interface shall be appealing to callers and supervisors. In the interface and usability survey  80% of beta testers must report that the interface is appealing.;LF;plurals;callers
 R554;11;The interface shall be appealing to callers and supervisors. In the interface and usability survey  80% of beta testers must report that the interface is appealing.;LF;plurals;supervisors
+R555;12;The product shall provide GUI based Monitoring Services.System Administrators shall monitor message exchanges will predict and determine problems and will also provide internal and external support.;LF;plurals;Services
+R555;12;The product shall provide GUI based Monitoring Services.System Administrators shall monitor message exchanges will predict and determine problems and will also provide internal and external support.;LF;plurals;Administrators
 R555;12;The product shall provide GUI based Monitoring Services.System Administrators shall monitor message exchanges will predict and determine problems and will also provide internal and external support.;LF;plurals;exchanges
 R555;12;The product shall provide GUI based Monitoring Services.System Administrators shall monitor message exchanges will predict and determine problems and will also provide internal and external support.;LF;plurals;problems
+R557;12;The product shall provide Monitoring Services.The product shall be easy for System Administrators and DBAs to use after two weeks of usage.;US;plurals;Services
+R557;12;The product shall provide Monitoring Services.The product shall be easy for System Administrators and DBAs to use after two weeks of usage.;US;plurals;Administrators
+R558;12;The product shall provide Error Tracking Services.The product shall help the System Administrators and DBAs to resolve transaction errors 99% of the time.;US;plurals;Services
+R558;12;The product shall provide Error Tracking Services.The product shall help the System Administrators and DBAs to resolve transaction errors 99% of the time.;US;plurals;Administrators
 R558;12;The product shall provide Error Tracking Services.The product shall help the System Administrators and DBAs to resolve transaction errors 99% of the time.;US;plurals;errors
+R559;12;The product shall provide Portals.The product shall help System Administrators to analyze the transactions with ad-hoc reporting and KPIs (Key Performance Indicators);US;plurals;Portals
+R559;12;The product shall provide Portals.The product shall help System Administrators to analyze the transactions with ad-hoc reporting and KPIs (Key Performance Indicators);US;plurals;Administrators
 R559;12;The product shall provide Portals.The product shall help System Administrators to analyze the transactions with ad-hoc reporting and KPIs (Key Performance Indicators);US;plurals;transactions
+R559;12;The product shall provide Portals.The product shall help System Administrators to analyze the transactions with ad-hoc reporting and KPIs (Key Performance Indicators);US;plurals;Indicators
 R560;12;The product shall provide Asynchronous Messaging.The product shall provide asynchronous messaging to enable parallel processing and reduce the overhead in communications;PE;plurals;communications
 R561;12;The product shall provide Multi-threading and Load Balancing.The product shall provide multi-threading technology as well as load balancing to overcome data load spikes and traffic.;PE;plurals;spikes
 R562;12;The product shall process messages within 2 seconds.The product shall have a maximum message processing time of 2 seconds;PE;plurals;messages
@@ -597,13 +736,16 @@ R582;13;The interface shall be easy to use. 90% of users should be able to succe
 R582;13;The interface shall be easy to use. 90% of users should be able to successfully use the system to generate a report on their first use. The interface should adhere to IBM usability standards.;US;plurals;standards
 R583;13;Reports must be easy to generate. Reports must be generated within one button click and exported within one button click (after selecting the report);US;plurals;Reports
 R585;13;All CCR users shall receive training before the WCS system is deployed. One training session will be held for 100% of CCR users before system deployment (based on a CCR user being available);US;plurals;users
+R586;13;The WCS system shall use appropriate nomenclature and terminology as defined by the Corporate Community Grants organization. All interfaces and reports will undergo usability tests by CCR users.;US;plurals;Grants
 R586;13;The WCS system shall use appropriate nomenclature and terminology as defined by the Corporate Community Grants organization. All interfaces and reports will undergo usability tests by CCR users.;US;plurals;interfaces
 R586;13;The WCS system shall use appropriate nomenclature and terminology as defined by the Corporate Community Grants organization. All interfaces and reports will undergo usability tests by CCR users.;US;plurals;reports
 R586;13;The WCS system shall use appropriate nomenclature and terminology as defined by the Corporate Community Grants organization. All interfaces and reports will undergo usability tests by CCR users.;US;plurals;tests
 R586;13;The WCS system shall use appropriate nomenclature and terminology as defined by the Corporate Community Grants organization. All interfaces and reports will undergo usability tests by CCR users.;US;plurals;users
 R588;13;The WCS system shall have the ability to connect other designated WCS databases currently not included in the system.;SC;plurals;databases
 R589;13;The WCS system shall have the ability to include data for regions outside the United States and be accessed by users outside of the United States if approved by CCR management.;SC;plurals;regions
+R589;13;The WCS system shall have the ability to include data for regions outside the United States and be accessed by users outside of the United States if approved by CCR management.;SC;plurals;States
 R589;13;The WCS system shall have the ability to include data for regions outside the United States and be accessed by users outside of the United States if approved by CCR management.;SC;plurals;users
+R590;13;The WCS system shall be run in a Windows environment. The WCS shall be accessed by users through the Internet on an IBM computer running a Windows 2000 or above operating system.;O;plurals;Windows
 R590;13;The WCS system shall be run in a Windows environment. The WCS shall be accessed by users through the Internet on an IBM computer running a Windows 2000 or above operating system.;O;plurals;users
 R591;13;The Brio portion of the WCS system must be able to export files in spreadsheet form (Microsoft Excel and Lotus 1-2-3 formats).  Brio will provide buttons in the user interface that produce/export reports in .xls or .123 file formats.;O;plurals;files
 R591;13;The Brio portion of the WCS system must be able to export files in spreadsheet form (Microsoft Excel and Lotus 1-2-3 formats).  Brio will provide buttons in the user interface that produce/export reports in .xls or .123 file formats.;O;plurals;formats
@@ -615,16 +757,20 @@ R592;13;The WCS system must run queries to the WCS databases once again (on a sp
 R592;13;The WCS system must run queries to the WCS databases once again (on a specified day) to update the available data available to CCR users. Queries must be made to external databases for data refresh once a week.;MN;plurals;Queries
 R593;13;All changes  updates  and additions to the WCS system shall be updated in the WCS Developer and WCS User Guides. Every change must be reflected in WCS system documentation;MN;plurals;changes
 R593;13;All changes  updates  and additions to the WCS system shall be updated in the WCS Developer and WCS User Guides. Every change must be reflected in WCS system documentation;MN;plurals;additions
+R593;13;All changes  updates  and additions to the WCS system shall be updated in the WCS Developer and WCS User Guides. Every change must be reflected in WCS system documentation;MN;plurals;Guides
+R594;13;The system shall only be accessed by authorized Corporate Community Grants (CCR) employees. Users must be authenticated using their IBM intranet user name and password.;SE;plurals;Grants
 R594;13;The system shall only be accessed by authorized Corporate Community Grants (CCR) employees. Users must be authenticated using their IBM intranet user name and password.;SE;plurals;employees
 R594;13;The system shall only be accessed by authorized Corporate Community Grants (CCR) employees. Users must be authenticated using their IBM intranet user name and password.;SE;plurals;Users
 R595;13;The WCS system shall not allow automatic logins by any user. Cookies containing WCS login information about a user will not be stored on a user\92s computer.;SE;plurals;Cookies
 R597;14;The Commissioner will be the only authorized user per league to adjust league settings.;SE;plurals;settings
+R598;14;Each page shall contain a navigation menu which shows the index into which the current page is contained.;LF;plurals;shows
 R599;14;Each page shall contain a similar format with action items in one location and navigation buttons in a different location.;LF;plurals;items
 R599;14;Each page shall contain a similar format with action items in one location and navigation buttons in a different location.;LF;plurals;buttons
 R600;14;The message board shall contain the 5 most recently posted messages on the league page. The messages will contain up to the first 150 characters of the message.;LF;plurals;messages
 R600;14;The message board shall contain the 5 most recently posted messages on the league page. The messages will contain up to the first 150 characters of the message.;LF;plurals;characters
 R601;14;A new user shall be able to navigate through the league and team pages within 30 seconds of reaching the start-up page.;US;plurals;pages
 R602;14;Users shall be able to reach the \91add\92  \91drop\92  and \91trade player\92 pages with one click from the team owner\92s page.;US;plurals;Users
+R602;14;Users shall be able to reach the \91add\92  \91drop\92  and \91trade player\92 pages with one click from the team owner\92s page.;US;plurals;pages
 R603;14;Users shall be able to view at least 25 NFL player statistics and points on each page.;US;plurals;Users
 R603;14;Users shall be able to view at least 25 NFL player statistics and points on each page.;US;plurals;statistics
 R603;14;Users shall be able to view at least 25 NFL player statistics and points on each page.;US;plurals;points
@@ -649,10 +795,12 @@ R619;15;User access should be limited to the permissions granted to their role(s
 R619;15;User access should be limited to the permissions granted to their role(s) Each level in the PCG hierarchy will be assigned a role and users will be assigned to these roles. Access to functionality within RFS system is dependent on the privileges/permission assigned to the role..;SE;plurals;privileges
 R620;15;The product must comply with the intranet page standards and requirements of ENET Securities. 95% of the product look & feel will be approved by the Architecture group  prior to implementation. The remaining 5% will be corrected and approved within one month of product release.;LF;plurals;standards
 R620;15;The product must comply with the intranet page standards and requirements of ENET Securities. 95% of the product look & feel will be approved by the Architecture group  prior to implementation. The remaining 5% will be corrected and approved within one month of product release.;LF;plurals;requirements
+R620;15;The product must comply with the intranet page standards and requirements of ENET Securities. 95% of the product look & feel will be approved by the Architecture group  prior to implementation. The remaining 5% will be corrected and approved within one month of product release.;LF;plurals;Securities
 R621;15;The intranet pages should display appropriately in all resolutions  from 800x600 and higher. The display of all the pages will be correct in 95% of the resolutions  prior to implementation. The remaining 5% will be corrected within a week of notification of the incorrect display.;LF;plurals;pages
 R621;15;The intranet pages should display appropriately in all resolutions  from 800x600 and higher. The display of all the pages will be correct in 95% of the resolutions  prior to implementation. The remaining 5% will be corrected within a week of notification of the incorrect display.;LF;plurals;resolutions
 R622;15;The users should be able to easily use the system to successfully complete their budgets  within the stipulated time for completion. With a week of training prior to product implementation  98% of the users shall complete their budgets within the stipulated time.;US;plurals;users
 R622;15;The users should be able to easily use the system to successfully complete their budgets  within the stipulated time for completion. With a week of training prior to product implementation  98% of the users shall complete their budgets within the stipulated time.;US;plurals;budgets
+R624;16;The system shall operate on Unix and Windows operating systems.;PO;plurals;Windows
 R624;16;The system shall operate on Unix and Windows operating systems.;PO;plurals;systems
 R631;16;The system shall have a help system that offers tips and explanation for each screen and each item on the screens upon demand.;US;plurals;tips
 R631;16;The system shall have a help system that offers tips and explanation for each screen and each item on the screens upon demand.;US;plurals;screens
@@ -674,6 +822,7 @@ R653;19;The system must be easy to use by both managers and chefs such that they
 R653;19;The system must be easy to use by both managers and chefs such that they do not need to read an extensive amount of manuals.;US;plurals;manuals
 R654;19;The system must be quickly accessible by both managers and chefs.;US;plurals;managers
 R654;19;The system must be quickly accessible by both managers and chefs.;US;plurals;chefs
+R655;19;The system must be intuitive and simple in the way it displays all relevant data and relationships.;US;plurals;displays
 R655;19;The system must be intuitive and simple in the way it displays all relevant data and relationships.;US;plurals;relationships
 R656;19;The menus of the system must be easily navigable by the users with buttons that are easy to understand.;US;plurals;menus
 R656;19;The menus of the system must be easily navigable by the users with buttons that are easy to understand.;US;plurals;users
@@ -691,6 +840,7 @@ R664;20;Users shall be required to log in to the Cafeteria Ordering System for a
 R664;20;Users shall be required to log in to the Cafeteria Ordering System for all operations except viewing a menu.;F;plurals;operations
 R665;20;Patrons shall log in according to the restricted computer system access policy.;SE;plurals;Patrons
 R666;20;The system shall permit only cafeteria staff members who are on the list of authorized Menu Managers to create or edit menus.;F;plurals;members
+R666;20;The system shall permit only cafeteria staff members who are on the list of authorized Menu Managers to create or edit menus.;F;plurals;Managers
 R666;20;The system shall permit only cafeteria staff members who are on the list of authorized Menu Managers to create or edit menus.;F;plurals;menus
 R667;20;Only users who have been authorized for home access to the corporate Intranet may use the COS from non-company locations.;SE;plurals;users
 R667;20;Only users who have been authorized for home access to the corporate Intranet may use the COS from non-company locations.;SE;plurals;locations
@@ -704,6 +854,7 @@ R671;22;All data entry forms for the application should match their Microsoft Ex
 R671;22;All data entry forms for the application should match their Microsoft Excel hardcopy counterparts as closely as possible. Hardcopies of these forms were provided to the design team during the second requirements interview.;O;plurals;requirements
 R672;23;95% of users will not need to read the user manual to be able to use the application.;US;plurals;users
 R673;23;Changes made to the Manage My ID website can be adopted without altering the iOS application.;MN;plurals;Changes
+R676;24;The application should be easy to extend. The code should be written in a way that it favors implementation of new functions.;MN;plurals;favors
 R676;24;The application should be easy to extend. The code should be written in a way that it favors implementation of new functions.;MN;plurals;functions
 R677;24;Test environments should be built for the application to allow testing of the applications different functions.;MN;plurals;environments
 R677;24;Test environments should be built for the application to allow testing of the applications different functions.;MN;plurals;applications
@@ -735,6 +886,7 @@ R714;30;Enable the admin to generate reports which contains all the posts and th
 R715;30;Information transmission should be securely transmitted to server without any changes in information.;SE;plurals;changes
 R716;30;Be intuitive even to first time users;LF;plurals;users
 R718;31;All transactions at the Flea Market require a valid user ID and password.;SE;plurals;transactions
+R720;31;The IP addresses where the transaction was made from will be logged.;SE;plurals;addresses
 R721;31;User passwords will be stored in the database in an encrypted format.;SE;plurals;passwords
 R722;31;Most of the system functions will be controlled using the administrative interface.;F;plurals;functions
 R728;32;It must only update the parts that have changed when connecting to the server.;O;plurals;parts
@@ -751,6 +903,7 @@ R761;34;The system provides storage of all databases on redundant computers with
 R761;34;The system provides storage of all databases on redundant computers with automatic switchover.;O;plurals;computers
 R762;34;The reliability of the overall program depends on the reliability of the separate components. The main pillar of reliability of the system is the backup of the database which is continuously maintained and updated to reflect the most recent changes.;FT;plurals;components
 R762;34;The reliability of the overall program depends on the reliability of the separate components. The main pillar of reliability of the system is the backup of the database which is continuously maintained and updated to reflect the most recent changes.;FT;plurals;changes
+R763;34;"An end-user may use this system on any OS; either it is Windows or Linux.";PO;plurals;Windows
 R764;35;The logo and the current basic design of registration system should be displayed. The system should be attractive according to the clients. The design and the color should make users feel comfortable when using the system instead of flashing useless colors on the screen. The design should also reflect the seriousness of the environment.;LF;plurals;clients
 R764;35;The logo and the current basic design of registration system should be displayed. The system should be attractive according to the clients. The design and the color should make users feel comfortable when using the system instead of flashing useless colors on the screen. The design should also reflect the seriousness of the environment.;LF;plurals;users
 R764;35;The logo and the current basic design of registration system should be displayed. The system should be attractive according to the clients. The design and the color should make users feel comfortable when using the system instead of flashing useless colors on the screen. The design should also reflect the seriousness of the environment.;LF;plurals;colors
@@ -811,6 +964,7 @@ R821;42;Backspace/reset capability is implemented for typing errors.;F;plurals;e
 R826;42;Icons will clearly illustrate the feature it represents.;F;plurals;Icons
 R831;42;New and Delete buttons will allow the physician/pharmacist to add a notation to the patient’s file.;F;plurals;buttons
 R833;43;All users of the system shall login using some form of unique identification.;SE;plurals;users
+R835;43;The system shall be compatible with the Microsoft Windows Operating System.;O;plurals;Windows
 R837;45;The system shall allow the administrator to install additional distributed location templates.;F;plurals;templates
 R838;45;The system shall allow the administrator to remove physical locations.;F;plurals;locations
 R839;45;The system shall allow administrators to define negotiation rules for the organization.;F;plurals;administrators
@@ -839,6 +993,7 @@ R867;45;The system shall allow users to view information concerning the availabl
 R870;45;User authentication and privileges are defined outside the scope of the sytem by the Microsoft Active Directroy Server.;SE;plurals;privileges
 R872;45;Users shall be required to log into the system for all operations except the operations on the login page.;SE;plurals;Users
 R872;45;Users shall be required to log into the system for all operations except the operations on the login page.;SE;plurals;operations
+R873;45;The system shall run on Windows Server 2003.;PO;plurals;Windows
 R875;46;The system shall display all the products that can be configured.;F;plurals;products
 R877;46;The system shall display all the available components of the product to configure.;F;plurals;components
 R881;46;The system shall display detailed information of the selected products.;F;plurals;products
@@ -879,6 +1034,8 @@ R958;48;The system should be able to scale up to 500 concurrent users (if there 
 R958;48;The system should be able to scale up to 500 concurrent users (if there is a need in the future) by installing additional hardware components.;SC;plurals;components
 R960;48;A secure server will be required to ensure confidentiality of customer’s credit card and other details.;SE;plurals;details
 R965;48;The system should be portable to various operating environments.;PO;plurals;environments
+R966;49;Registered User must be able to maintain his/her session information for at least 60 minutes of inactive session before the system prompts him to log out of the system. The registered user must be provided with all the options of the E-store regardless of the time when he/she logs in.;F;plurals;prompts
+R966;49;Registered User must be able to maintain his/her session information for at least 60 minutes of inactive session before the system prompts him to log out of the system. The registered user must be provided with all the options of the E-store regardless of the time when he/she logs in.;F;plurals;logs
 R967;49;The entire website must be user-friendly and easily navigable. The website must be provided with a site map for quick access to a particular link according to the requirement specification. The user must be able to find what he/she wants from the site without any difficulty. The website must adhere to branding schemes and the layout of the web pages must be uniform throughout  ;US;plurals;schemes
 R967;49;The entire website must be user-friendly and easily navigable. The website must be provided with a site map for quick access to a particular link according to the requirement specification. The user must be able to find what he/she wants from the site without any difficulty. The website must adhere to branding schemes and the layout of the web pages must be uniform throughout  ;US;plurals;pages
 R968;49;The system shall support up to 10000 simultaneous users against the central database at any given time and up to 5000 simultaneous users against the local servers at any one time. The performance of the website must be optimal incase of huge loads and hence appropriate load balancing must be done to achieve this. There can be any number of mirror servers readily available in case of huge loads without the user getting any delay.;PE;plurals;users

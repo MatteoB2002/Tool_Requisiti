@@ -1,0 +1,21 @@
+--- Statistiche di Confronto File ---
+
+File 1: 'Continuance_1.txt'
+File 2: 'Continuance_2.txt'
+-------------------------------------
+
+Numero di parole in comune: 8
+Percentuale parole comuni sul totale delle parole uniche: 61.54%
+
+Numero di parole presenti SOLO nel primo file: 3
+Numero di parole presenti SOLO nel secondo file: 2
+
+Elenco parole in comune:
+- as_follows
+- below
+- following
+- in_particular
+- listed
+- meanwhile
+- on_one_hand
+- on_the_other_hand

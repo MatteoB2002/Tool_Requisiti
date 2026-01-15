@@ -4,5 +4,4 @@ figure
 for_example
 i.e.
 note
-table
 table.

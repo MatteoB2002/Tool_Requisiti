@@ -1,12 +1,9 @@
 :
-and_whereas
 as_follows
 below
 following
-in_addition
 in_particular
 listed
-meantime
 meanwhile
 on_one_hand
 on_the_other_hand

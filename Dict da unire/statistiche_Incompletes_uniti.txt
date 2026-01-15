@@ -1,0 +1,25 @@
+--- Statistiche di Confronto File ---
+
+File 1: 'Incompletes_1.txt'
+File 2: 'Incompletes_2.txt'
+-------------------------------------
+
+Numero di parole in comune: 12
+Percentuale parole comuni sul totale delle parole uniche: 57.14%
+
+Numero di parole presenti SOLO nel primo file: 9
+Numero di parole presenti SOLO nel secondo file: 0
+
+Elenco parole in comune:
+- as_defined
+- as_specified
+- but_not_limited_to
+- in_addition
+- is_defined
+- not_defined
+- not_determined
+- to_be_advised
+- to_be_defined
+- to_be_determined
+- to_be_resolved
+- to_be_specified

@@ -1,0 +1,18 @@
+--- Statistiche di Confronto File ---
+
+File 1: 'Directive_1.txt'
+File 2: 'Directive_2.txt'
+-------------------------------------
+
+Numero di parole in comune: 5
+Percentuale parole comuni sul totale delle parole uniche: 62.50%
+
+Numero di parole presenti SOLO nel primo file: 2
+Numero di parole presenti SOLO nel secondo file: 1
+
+Elenco parole in comune:
+- e.g.
+- figure
+- for_example
+- i.e.
+- note

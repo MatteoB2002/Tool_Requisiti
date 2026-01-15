@@ -1,0 +1,71 @@
+--- Statistiche di Confronto File ---
+
+File 1: 'Pronoun_1.txt'
+File 2: 'Pronoun_2.txt'
+-------------------------------------
+
+Numero di parole in comune: 58
+Percentuale parole comuni sul totale delle parole uniche: 89.23%
+
+Numero di parole presenti SOLO nel primo file: 1
+Numero di parole presenti SOLO nel secondo file: 6
+
+Elenco parole in comune:
+- anybody
+- anyone
+- anything
+- everybody
+- everyone
+- everything
+- he
+- her
+- hers
+- herself
+- him
+- himself
+- his
+- i
+- it
+- its
+- itself
+- me
+- mine
+- most
+- my
+- myself
+- nobody
+- none
+- nothing
+- our
+- ours
+- ourselves
+- she
+- somebody
+- someone
+- something
+- that
+- their
+- theirs
+- them
+- themselves
+- these
+- they
+- this
+- those
+- us
+- we
+- what
+- whatever
+- which
+- whichever
+- who
+- whoever
+- whom
+- whomever
+- whose
+- whosever
+- you
+- your
+- yours
+- yourself
+- yourselves

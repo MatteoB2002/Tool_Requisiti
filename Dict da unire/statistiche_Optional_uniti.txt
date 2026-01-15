@@ -1,0 +1,25 @@
+--- Statistiche di Confronto File ---
+
+File 1: 'Optional_1.txt'
+File 2: 'Optional_2.txt'
+-------------------------------------
+
+Numero di parole in comune: 12
+Percentuale parole comuni sul totale delle parole uniche: 70.59%
+
+Numero di parole presenti SOLO nel primo file: 4
+Numero di parole presenti SOLO nel secondo file: 1
+
+Elenco parole in comune:
+- at_last
+- either
+- eventually
+- if_appropriate
+- if_needed
+- in_case_of
+- neither
+- nor
+- optionally
+- otherwise
+- possibly
+- whether
