@@ -4,15 +4,17 @@ from pathlib import Path
 
 # --- Configurazione ---
 INPUT_DIR = Path("Sorted_by_Categories")
-OUTPUT_FILE = "Requisiti_Selezionati.csv"
-SAMPLE_SIZE = 30
+OUTPUT_FILE = "Requisiti_Selezionati_Percentuale.csv"
+
+# Percentuale di righe da selezionare 
+SAMPLE_PERCENTAGE = 0.20 
 
 def create_final_sample_set():
     """
-    Scansiona la directory di input, campiona casualmente un numero fisso di requisiti
+    Scansiona la directory di input, campiona una percentuale (20%) di requisiti
     da ogni file di categoria e li consolida in un unico file CSV di output.
     """
-    print("--- Inizio Script di Campionamento Casuale ---")
+    print(f"--- Inizio Script di Campionamento Casuale ({int(SAMPLE_PERCENTAGE*100)}%) ---")
 
     # --- 1. Controlli Preliminari ---
     if not INPUT_DIR.is_dir():
@@ -58,17 +60,21 @@ def create_final_sample_set():
                             print("  -> File vuoto (solo intestazione). Saltato.")
                             continue
 
-                        # --- Logica di Campionamento ---
+                        # --- Logica di Campionamento Percentuale ---
                         num_rows_in_file = len(all_rows)
                         
-                        if num_rows_in_file <= SAMPLE_SIZE:
-                            # Se ci sono 27 o meno requisiti, li prendiamo tutti
-                            print(f"  -> Trovati {num_rows_in_file} requisiti (meno di {SAMPLE_SIZE}). Selezionati tutti.")
-                            sampled_rows = all_rows
-                        else:
-                            # Se ce ne sono più di 27, ne selezioniamo 27 a caso
-                            print(f"  -> Trovati {num_rows_in_file} requisiti. Selezionando {SAMPLE_SIZE} a caso.")
-                            sampled_rows = random.sample(all_rows, SAMPLE_SIZE)
+                        # Calcolo quante righe prendere (arrotondamento all'intero più vicino)
+                        rows_to_sample_count = int(round(num_rows_in_file * SAMPLE_PERCENTAGE))
+                        
+                        # Sicurezza: Se il file non è vuoto ma il 20% è < 1 (es. file da 2 righe),
+                        # ne prendiamo comunque almeno 1 per rappresentanza.
+                        if rows_to_sample_count < 1 and num_rows_in_file > 0:
+                            rows_to_sample_count = 1
+
+                        print(f"  -> Totale righe: {num_rows_in_file}. Seleziono {rows_to_sample_count} righe (circa {int(SAMPLE_PERCENTAGE*100)}%).")
+                        
+                        # Eseguiamo il campionamento
+                        sampled_rows = random.sample(all_rows, rows_to_sample_count)
 
                         # Scriviamo le righe campionate nel file di output
                         csv_writer.writerows(sampled_rows)
@@ -85,9 +91,8 @@ def create_final_sample_set():
 
     print("\n--- Elaborazione Completata ---")
     print(f"Creato il file '{OUTPUT_FILE}' con un totale di {total_selected_rows} requisiti campionati.")
-    print(f"Il file contiene un campione di (fino a) {SAMPLE_SIZE} requisiti da ognuna delle {len(category_files)} categorie.")
 
 
-# Esegui la funzione principale quando lo script viene lanciato
+
 if __name__ == "__main__":
     create_final_sample_set()
