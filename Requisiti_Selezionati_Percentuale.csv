@@ -473,213 +473,59 @@ R163;4;Only users with Update access must be able to initiate dispute requests.;
 R457;8;System shall allow users to update their billing and contact information via the \93My Account\94 section of the website.;F;vague;and
 R134;3;The system shall be able to display a printable summary for individual nursing students  which will include (but not be limited to) student name  student ID  admission date  classes  credits  GPA  and the cohort that the student is enrolled in.;F;vague;(
 R51;2;The product shall be capable of handling the existing 1000 users. This number is expected to grow 5 times within the next year.;SC;vague;capable of
-R118;3;The system shall be able to display a report of needed classes for a given quarter for all cohorts of all programs for Program Administrators/Nursing Staff Members\92 planning purposes.;F;weak;shall
-R636;17;The system shall query the user for the amount of money.;F;weak;shall
-R352;7;The System shall utilize currently owned computer equipment.;O;weak;shall
-R542;11;The system shall be easy to use by callers and supervisors. Callers and supervisors must be able to accomplish any system task within 2 minutes.;US;weak;shall
-R720;31;The IP addresses where the transaction was made from will be logged.;SE;weak;will
-R43;2;The product shall be available for use 24 hours per day 365 days  per year;A;weak;shall
-R101;3;The system shall use the organization\92s standard virus protection software to help monitor threats to itself.;SE;weak;shall
-R136;3;The system shall contain contact information (e-mail and phone number) for all people relevant to the system  including (but not limited to) staff members  students  lecture instructors  clinical lab instructors  and clinical site administrators.;F;weak;shall
-R663;20;All network transactions that involve financial information or personally identifiable information shall be encrypted.;SE;weak;shall
-R298;6;The product shall be used in office environments.;O;weak;shall
-R722;31;Most of the system functions will be controlled using the administrative interface.;F;weak;will
-R588;13;The WCS system shall have the ability to connect other designated WCS databases currently not included in the system.;SC;weak;shall
-R572;12;The product shall be updated on a regular basis.The product will have a new major feature introduced every six months and quarterly maintenance releases every six months.;MN;weak;will
-R493;10;When a shot is marked as a miss  the product shall simulate the sound of a shot missing its target.;LF;weak;shall
-R555;12;The product shall provide GUI based Monitoring Services.System Administrators shall monitor message exchanges will predict and determine problems and will also provide internal and external support.;LF;weak;shall
-R97;3;Fit Criterion: Dr Susan Poslusny and Karen Sysol are the only people who shall have access to the final class section scheduling for the system that interfaces with CampusConnect.;SE;weak;shall
-R355;7;The System shall granularly control access rights to all major subsystems.  It should be possible to assign access rights to all subsystems independently.;SE;weak;should
-R794;38;Can purchase any product through valid credit card.;F;weak;Can
-R91;3;We must be able to interface with any HTML browser.;O;weak;must
-R551;11;The product shall ensure that only supervisors can enter a caller\92s schedule.The product must ensure that supervisors are allowed to access advertise empty time slots.;SE;weak;shall
-R312;6;The product is expected to integrate with multiple database management systems. The product will operate with Oracle  SQL Server  DB2  MySQL  HSQL  and MS Access.;O;weak;will
-R451;8;Website shall allow customers to view reviews of selected movies by other customers.;F;weak;shall
-R648;18;The meeting scheduler system may be able to include an agenda for a meeting proposal.;F;weak;may
-R542;11;The system shall be easy to use by callers and supervisors. Callers and supervisors must be able to accomplish any system task within 2 minutes.;US;weak;must
-R780;37;The available server must be reliable and the network connectivity in the supermarket should be proper for smooth flow of all operations and data.;O;weak;should
-R850;45;The system shall allow the user to view their schedule.;F;weak;shall
-R562;12;The product shall process messages within 2 seconds.The product shall have a maximum message processing time of 2 seconds;PE;weak;shall
-R190;4;The Disputes System shall allow the user to create or initiate a chargeback request.  The system must prompt the user to enter the required information to initiate a chargeback request. The chargeback request results in a printed chargeback notification that is sent to merchant indicating that their account will be charged back if no proof is provided that the disputed transaction is valid.;F;weak;must
-R405;8;The website shall continue to operate if the payment gateway goes down.;FT;weak;shall
-R296;6;The product shall be able to process 10 000 transactions per hour within two years of its launch.  This number will increase to 20 000 by Release 2.;SC;weak;shall
-R914;46;The system shall allow user to enter the order information for tracking.;F;weak;shall
-R318;6;The product and/or dependent databases/filesystems shall remain operational as a result of the input of malicious data.  The product and/or dependent databases/filesystems shall not crash 100% of the time that malicious data is input into the product.;FT;weak;shall
-R279;6;The product must make use of web/application server technology.  Open source examples include Apache web server  Tomcat  and the JBoss application server.;O;weak;must
-R178;4;The Disputes System must be accessible by both internal and external users.;F;weak;must
-R472;9;Washing parameters will be updated during scheduled maintenance hours.;MN;weak;will
-R793;38;Can view all available products and can compare them and make a choice for purchasing products.;F;weak;Can
-R148;4;The Disputes application shall comply with the corporate standards for user interface creation for internally and externally used applications.;LF;weak;shall
-R387;8;The product should be able to be used by 90% of novice users on the Internet.;US;weak;should
-R754;33;The system should have to keep the location where the doughnut will be send.;O;weak;will
-R590;13;The WCS system shall be run in a Windows environment. The WCS shall be accessed by users through the Internet on an IBM computer running a Windows 2000 or above operating system.;O;weak;shall
-R509;10;The product shall remove players who have been inactive for 24 hours from the list of players.;F;weak;shall
-R246;5;The adjuster shall enter the preferred repair facility on the estimate assignment.;F;weak;preferred
-R213;5;Users shall feel satisfied using the product.  85% of all users will be satisfied with the product.;US;weak;shall
-R324;6;The product will notify employees of meeting invitations.;F;weak;will
-R150;4;The list of dispute cases that are displayed after a search is performed must be color coded for easy identification of dispute cases based upon the dispute case status.;US;weak;must
-R359;7;The System shall allow on demand generation of all Inventory Quantity Adjustment documents since certain point of time.;F;weak;shall
-R688;27;The system shall be able to display a menu at all times to facilitate manual order taking should the need arise.;LF;weak;should
-R274;5;The user shall select to save the preferred repair facility ratings.;F;weak;shall
-R841;45;The system shall allow the mediator to negotiate a meeting date.;F;weak;shall
-R208;5;The product shall comply with corporate User Interface Guidelines;LF;weak;shall
-R129;3;A Program Administrator/Nursing Staff Member shall be able to add a new nursing student to the system.;F;weak;shall
-R138;3;The system will notify affected parties for routine communication purposes  including but not limited to informing students of upcoming offered classes (timeline) and what their schedule will be/shall be.;F;weak;will
-R322;6;The product must be developed with the J2SE/J2EE programming language libraries;O;weak;must
-R933;46;The system shall provide a uniform look and feel between all the web pages.;LF;weak;shall
-R612;15;The RFS system should be available 24/7  especially during the budgeting period. The RFS system shall be available 90% of the time all year  and 98% during the budgeting period. 2% of the time  the system will become available within 1 hour of the time that the situation is reported.;A;weak;shall
-R929;46;The system shall display all the available promotions to the user.;F;weak;shall
-R305;6;A new user must be able to be added to the system within 10 minutes. 90% of new users are able to log into the system within 10 minutes.;US;weak;must
-R288;6;An employee will be able to successfully use the product within a few minutes.  After informally navigating the product for less than 15 minutes  users shall be able to successfully setup meetings and reserve conference rooms.;US;weak;will
-R900;46;The system shall display the customer support contact numbers on the screen.;F;weak;shall
-R550;11;The product shall ensure that only supervisors can advertise empty time slots.The product must ensure that supervisors are allowed to access advertise empty time slots.;SE;weak;can
-R956;48;The system may be throttled or slowed down on heavy loads to ensure service for everybody. By throttling is meant that certain functionality may be unavailable during heavy server load.;PE;weak;may
-R185;4;The Disputes System must provide the user the ability to initiate a single dispute case on multiple transactions that belong to a single merchant.;F;weak;must
-R402;8;The website shall achieve 99.5% up time.;A;weak;shall
-R643;18;The meeting scheduler system shall cancel a meeting due to canceling of an important participant.;F;weak;shall
-R295;6;The product shall be capable of handling up to 1 000 concurrent requests.  This number will increase to 2 000 by Release 2.  The concurrency capacity must be able to handle peak scheduling times such as early morning and late afternoon hours.;SC;weak;will
-R47;2;The product shall retain user preferences in the event of a failure.;FT;weak;shall
-R751;33;The system should keep the customer email.;F;weak;should
-R6;1;The product shall ensure that it can only be accessed by authorized users.  The product will be able to distinguish between authorized and unauthorized users in all access attempts;SE;weak;shall
-R690;27;The system shall flag tablets that fail to send timely keep-alive messages as non-operational and disassociate the assigned waiter from the tablet.;FT;weak;shall
-R255;5;The available recycled parts information and their suppliers shall be returned to the user.;F;weak;shall
-R89;3;The system shall interface with the faculty central server.;O;weak;shall
-R607;14;The application shall run on a web application server.;O;weak;shall
-R642;18;The meeting scheduler system shall be able to select a participant as an important participant.;F;weak;shall
-R693;27;A waiter shall only be able to log into one tablet at any given instance of time.;SE;weak;shall
-R680;25;The system shall allow the user to scroll the campus map from the campus map tab.;US;weak;shall
-R741;32;Full data backups must be created daily.;SE;weak;must
-R181;4;The Disputes System must provide different levels of access with regard to disputes case initiation and follow-up actions.;F;weak;must
-R567;12;The product shall be robust with fault tolerance.The product shall have fault tolerance by using recovery technique compensatory transaction and routing around failures.;FT;weak;shall
-R277;6;The product will function alongside server software on any operating system where the Java runtime can be installed.;O;weak;can
-R99;3;The system shall protect private information in accordance with the organization\92s information policy.;SE;weak;shall
-R569;12;The product shall be platform independent.The product shall enable access to any type of development environment and platform.;O;weak;shall
-R317;6;The product shall prevent the input of malicious data.  The product and/or adjacent hardware/software systems\92 data shall remain 100% uncorrupted each time malicious data is input into the product.;SE;weak;shall
-R336;6;The product shall record the transportation status of equipment reserved.;F;weak;shall
-R435;8;The system shall reveal private information only in compliance with the organization\92s information policy.;SE;weak;shall
-R212;5;The product shall increase productivity of Collision Estimators. 80% of the Collision Estimators shall agree their productivity has increase within 1 month of using the product.;US;weak;shall
-R568;12;The product shall be able to process all transactions.The product shall process minimum of 1 million transactions per year.;SC;weak;shall
-R968;49;The system shall support up to 10000 simultaneous users against the central database at any given time and up to 5000 simultaneous users against the local servers at any one time. The performance of the website must be optimal incase of huge loads and hence appropriate load balancing must be done to achieve this. There can be any number of mirror servers readily available in case of huge loads without the user getting any delay.;PE;weak;can
-R342;6;The product shall record different meeting types.;F;weak;shall
-R575;12;The product shall information Security. The product shall enable privacy by encryption WS-Security and Integrity Checking.;SE;weak;shall
-R363;7;Product formula ingredients shall allow defining substitutionary ingredients.;F;weak;shall
-R552;11;The product shall ensure that only supervisors can view schedule of all callers.The product must ensure that supervisors are allowed to access advertise empty time slots.;SE;weak;shall
-R585;13;All CCR users shall receive training before the WCS system is deployed. One training session will be held for 100% of CCR users before system deployment (based on a CCR user being available);US;weak;will
-R189;4;"The Disputes System must provide a confirmation to the user upon the creation of ticket retrieval request that contains the following information; the dispute case number  the type of retrieval requested (copy  original or portfolio)  and the date that the merchant response is due.";F;weak;must
-R699;28;The system will support mobile users in some way.;PO;weak;will
-R379;8;System shall let administrator de-activate a customer account in under 1 minute. Customer will no longer be able to access the website.;PE;weak;shall
-R479;9;If the leads score falls within the medium average then it will be set for manual verification by an Enrollment Coordinator through the eleads system.;F;weak;will
-R111;3;Program Administrators and Nursing Staff Members shall be able to add new classes for the nursing department into the system.;F;weak;shall
-R784;38;System use shall not cause any harm to human users.;SE;weak;shall
-R4;1;The product shall be available during normal business hours. As long as the user has access to the client PC  the system will be available 99% of the time during the first six months of operation.;A;weak;will
-R702;29;System will use secured database.;SE;weak;will
-R2;1;The application shall match the color of the schema set forth by Department of Homeland Security;LF;weak;shall
-R268;5;The user shall select to view the preferred repair facility ratings.;F;weak;preferred
-R869;45;The system shall utilize HTTPS communication to ensure data confidentiality.;SE;weak;shall
-R134;3;The system shall be able to display a printable summary for individual nursing students  which will include (but not be limited to) student name  student ID  admission date  classes  credits  GPA  and the cohort that the student is enrolled in.;F;weak;shall
-R922;46;The system shall allow user to cancel the order.;F;weak;shall
-R314;6;The product shall ensure that only company employees or external users with company-approved user IDs may have product access.  100% of all logons shall be by either company employees or external users with company-approved user IDs.;SE;weak;shall
-R63;2;Realtor shall be able to generate a CMA report based on property criteria;F;weak;shall
-R674;24;The application should be connected to the Internet.;A;weak;should
-R605;14;The application shall be able to complete every user transaction within one fourth of a second of receiving the request over the network.;PE;weak;shall
-R253;5;The estimator shall search by zipcode with a radius of 30 miles if no parts are found for the preferred parts suppliers;F;weak;shall
-R945;46;The system shall confirm all transactions with the customer’s web browser.;US;weak;shall
-R295;6;The product shall be capable of handling up to 1 000 concurrent requests.  This number will increase to 2 000 by Release 2.  The concurrency capacity must be able to handle peak scheduling times such as early morning and late afternoon hours.;SC;weak;must
-R964;48;The system should be easy enough to maintain that someone else could do it with a manual and a few hours training.;MN;weak;should
-R247;5;The adjuster shall be able to override the preferred repair facitlity on the estimate assignment.;F;weak;shall
-R586;13;The WCS system shall use appropriate nomenclature and terminology as defined by the Corporate Community Grants organization. All interfaces and reports will undergo usability tests by CCR users.;US;weak;shall
-R171;4;All updates to data files or database must be initiated from the Disputes System.;SE;weak;must
-R769;35;The Web interface should be compatible with standards in order to be usable via all major Web browsers in a wide variety of environments.;PO;weak;should
-R107;3;For each class within a sequence for a cohort  Program Administrators and Nursing Staff Members shall be able to specify which quarter that class will be offered.;F;weak;shall
-R142;3;The system will notify affected parties when changes occur affecting specific students  including but not limited to changing a student\92s status from full time to part time and moving a student to a different clinical section.;F;weak;will
-R173;4;All business rules specified in the Disputes System shall be in compliance with the Merchant Operating Regulations.;L;weak;shall
-R660;20;All Web pages generated by the system shall be fully downloadable in no more than 10 seconds over a 40KBps modem connection.;PE;weak;shall
-R321;6;The product shall be able to display calendar dates and times according to the user\92s locale.  90% of survey respondents from each target market country will find that the date and time formatting of the product is correct.;US;weak;will
-R378;8;System shall let customers cancel their account  process shall take no longer than 2 minutes.  Database will mark the account as inactive  and user will not be able to log into the website.;PE;weak;will
-R393;8;The product shall be easy for customers with novice skills on the  Internet to purchase and watch streaming movies.  Customers should be able to purchase and watch a pre-determined movie in under 3 minutes.;US;weak;should
-R182;4;The Disputes System shall provide view access capability for authorized users of the application.;F;weak;shall
-R864;45;The system shall allow user to specify custom meeting locations.;F;weak;shall
-R12;1;The system shall display Events or Activities.;F;weak;shall
-R278;6;The product will require collaboration with a database management system (DBMS).  The DBMS may be located on the same machine as the product or on a separate machine residing on the same computer network.;O;weak;may
-R475;9;If a lead is scored to the high range the system will supply the lead data and score to the enterprise system.;F;weak;will
-R856;45;The system shall allow the user to modify the equipment requirement set of an already submitted meeting response.;F;weak;shall
-R431;8;The website shall protect itself from intentional abuse  and notify the administrator at all occurrences.;SE;weak;shall
-R647;18;The meeting scheduler system may provide the “meeting initiator” a summary of the scan of “potential meeting participants” showing available “time slots” and schedule conflicts as a means of informing the “meeting initiator” of the overall results of the system.;F;weak;may
-R777;36;All source code shall adhere to an agreed upon and well-defined set of coding standards for each development language used.;MN;weak;shall
-R915;46;The system shall display the current tracking information about the order.;F;weak;shall
-R153;4;100% of merchant services representatives shall be able to successfully perform a follow up action on a dispute case on the first encounter after completing the training course.;US;weak;shall
-R534;10;If the shot was marked as a miss  the product shall change the status of the defensive player to offensive;F;weak;shall
-R717;31;Flea Market system will interface with the web server and RDBMS software using APIs provided by the implementation language;O;weak;will
-R408;8;The server will support a maximum of 1 000 simultaneous users.;SC;weak;will
-R529;10;When the hit results in sinking a ship  the product shall mark the ship as sunk on the defensive grid of the defensive player.;F;weak;shall
-R450;8;Website shall allow customers to browse movies by categories entered in by izogn administrator.;F;weak;shall
-R571;12;The product shall continue to operate during upgrade  change or new resource addition.The product shall be able to continue to operate with no interruption in service due to new resource additions.;MN;weak;shall
-R380;8;System shall let administrator add/remove movies on the website in under 5 minutes.  Entered movie information will be stored in the database and will now be available on the website.;PE;weak;will
-R942;46;The performance shall depend upon hardware components of the client/customer.;PE;weak;shall
-R174;4;The Disputes application must conform to the legal requirements as specified by Regulation E and Regulation Z that govern credit card disputes processing.;L;weak;must
-R855;45; The system shall allow the user to modify the location preference set of an already submitted meeting response.;F;weak;shall
-R583;13;Reports must be easy to generate. Reports must be generated within one button click and exported within one button click (after selecting the report);US;weak;must
-R420;8;Izogn Administrator must be able to add new products to the website within 2 minutes.;PE;weak;must
-R499;10;The product shall protect the identity of the players. The product shall provide players no access to information that might reveal the identity of another player.;PE;weak;shall
-R123;3;Program Administrators and Nursing Staff Members shall be able to add a new clinical lab section for an existing clinical class into the System.;F;weak;shall
-R738;32;All information must be updatable on the website.;F;weak;must
-R137;3;The system will use the stored e-mail addresses as a primary means of communicating information to affected parties.;F;weak;will
-R124;3;A clinical lab section shall include the clinical site name  the class  instructor  day and time of the lab.;F;weak;shall
-R290;6;The product shall allow for intuitive searching of available conference rooms.;US;weak;shall
-R281;6;The product\92s Look and Feel shall be able to incorporate aspects of the customer\92s organization such as logo  branding  and identity;LF;weak;shall
-R200;4;For any systematic (non-user initiated) action that occurs on a case such as the disputes aging process  a case activity will be generated.  Upon the next logon the user that initiated the dispute case must be notified that a systematic action has occurred on the dispute case.;F;weak;must
-R765;35;The system should be able to manage all the information incoming from the database and the catalogue.;O;weak;should
-R616;15;Changes to revenue and expense formulae must be applied to the RFS system  every year  prior to the budgeting process start. Revenue and expense formulae will be updated within one week of their receipt  after which 2 weeks will be allotted to testing of the budget calculations  to be conducted jointly by the project development team and PCG Finance.;MN;weak;must
-R330;6;The product will be able to delete conference rooms.;F;weak;will
-R572;12;The product shall be updated on a regular basis.The product will have a new major feature introduced every six months and quarterly maintenance releases every six months.;MN;weak;shall
-R491;10;The product shall display each type of ship in a grid using an image of the specific type of ship.;LF;weak;shall
-R791;38;Customers must have a valid login id to enter into the site.;SE;weak;must
-R785;38;System will use secured database;SE;weak;will
-R518;10;The product shall prevent the player from overlapping ships on their grid.;F;weak;shall
-R117;3;Program Administrators and Nursing Staff Members shall have the ability to specify which classes are required for a Program of Study;F;weak;shall
-R284;6;The product shall be easy to use. 90% of users will be able to successfully reserve a conference room within 5 minutes of product use.;US;weak;shall
-R94;3;Only authorized users shall have access to students\92 personal information.;SE;weak;shall
-R859;45;The system shall allow the user to view past attended meetings.;F;weak;shall
-R507;10;The product shall allow a user to remove himself or herself from the list of players at any time.;F;weak;shall
-R759;34;The system’s back-end servers shall only be accessible to authenticated administrators.;SE;weak;shall
-R679;25;The system shall show a tabbed display (or equivalent functionality) with the campus map on one tab and info on the most recently announced building on the other.;LF;weak;shall
-R400;8;All credit card information will be secured on the server  and only accessible by authorized Izogn administrators.  Information will be encrypted in the database.;SE;weak;will
-R311;6;The product shall be translated into foreign languages other than the target market countries\92 languages in future releases.  For each emerging target market  it shall take no more than 5 days to configure the product for that market\92s language.;US;weak;shall
-R260;5;The recycled parts search results provided to the estimator shall be retrieved by the system.;F;weak;shall
-R780;37;The available server must be reliable and the network connectivity in the supermarket should be proper for smooth flow of all operations and data.;O;weak;must
-R385;8;The website should have an African feel  but should not alienate non-Africans.  The website should use animation on pages which are describing the services  to grab the users attention and encourage them to sign up.;LF;weak;should
-R539;10;The notification of the game ending will include the reason the game is ended (i.e.  a player has won the game or a player has ended the game).;F;weak;will
-R220;5;The product shall adhere to the corporate online availability schedule.  The application is brought down only within 98% of the scheduled outages per the availability schedule.;A;weak;shall
-R248;5;The preferred repair facility shall be returned to the user.;F;weak;shall
-R158;4;The Disputes application shall interface with the Cardmember Information Database. The Cardmember Information Database provides detailed information with regard to a cardmember. All cardmember detail information must be obtained from the Cardmember Information Database.;O;weak;shall
-R215;5;The user shall easily locate instructions while using the product.  User help can be found within 90% of the system.;US;weak;shall
-R120;3;Classes for a given cohort shall not conflict with regards to the time and day that they are offered.;F;weak;shall
-R816;40;The system should be simple to use;LF;weak;should
-R610;14;Application updates shall occur between 3AM and 6 AM CST on Wednesday morning during the middle of the NFL season.;MN;weak;shall
-R119;3;The report of needed classes shall include (but not be limited to) classes to be offered  number of sections needed  number of labs needed  and room types needed.;F;weak;shall
-R149;4;All screens created as part of the Disputes application must comply with corporate standards for interface creation.;LF;weak;must
-R878;46;The system shall enable user to add one or more component to the configuration.;F;weak;shall
-R180;4;The Disputes System will facilitate direct data entry of a dispute case via a user interface that supports real time responses to the users.;F;weak;will
-R689;27;The system shall utilise periodic 30-second keep-alive messages between tablets and the server to monitor tablet operational status.;O;weak;shall
-R170;4;The Disputes application shall manipulate and view business data. Users will not have direct access to data files or databases.;SE;weak;will
-R726;32;It must be able to download the most recent medical record.;F;weak;must
-R853;45;The system shall request a user response to initiator or mediator messages.;F;weak;shall
-R799;38;Can consult with the Administrator regarding product’s quality and advertisements.;F;weak;Can
-R28;1;The system shall provide a history report of changes made to the Activity or Event data;F;weak;shall
-R222;5;The product shall be able to handle up to 1500 simultaneous users. The system shall perform with 1500 users as a time.;SC;weak;shall
-R190;4;The Disputes System shall allow the user to create or initiate a chargeback request.  The system must prompt the user to enter the required information to initiate a chargeback request. The chargeback request results in a printed chargeback notification that is sent to merchant indicating that their account will be charged back if no proof is provided that the disputed transaction is valid.;F;weak;shall
-R256;5;The estimator shall apply selected recycled parts to the collision estimate.;F;weak;shall
-R138;3;The system will notify affected parties for routine communication purposes  including but not limited to informing students of upcoming offered classes (timeline) and what their schedule will be/shall be.;F;weak;shall
-R396;8;Any interface between a user and the automated system shall have a maximum response time of 5 seconds  unless noted by an exception below.;PE;weak;shall
-R134;3;The system shall be able to display a printable summary for individual nursing students  which will include (but not be limited to) student name  student ID  admission date  classes  credits  GPA  and the cohort that the student is enrolled in.;F;weak;will
-R417;8;Movies shall be encoded for 56k and 256k streams.;O;weak;shall
-R604;14;The application shall ask the user to confirm dropping a player or trading a player before performing the action.;US;weak;shall
-R476;9;The leads washing functionality will validate all leads received by the web service for valid data;F;weak;will
-R941;46;The product shall take initial load time depending on internet connection strength which also depends on the media from which the product is run.;PE;weak;shall
-R865;45;The system shall allow users to view location information.;F;weak;shall
-R494;10;When a shot is marked as a hit  the product shall simulate the sound of a shot hitting its target.;LF;weak;shall
-R128;3;Program Administrators/Nursing Staff Members shall be able to cancel a clinical lab section only if there are no students registered for that clinical lab section.;F;weak;shall
-R481;9;The leads washing functionality will compile both contact and academic scoring information for a total score.;F;weak;will
-R225;5;For estimators  the product shall be able to be operated in a repair facility during dirty and noisy conditions.;O;weak;shall
-R548;11;The system must be available for use between 7:00AM and 11:59PM all days of the year.;A;weak;must
-R473;9;The vendor will verify the invalid lead.;F;weak;will
+R785;38;System will use secured database;SE;weak_1;will
+R408;8;The server will support a maximum of 1 000 simultaneous users.;SC;weak_1;will
+R595;13;The WCS system shall not allow automatic logins by any user. Cookies containing WCS login information about a user will not be stored on a user\92s computer.;SE;weak_1;will
+R612;15;The RFS system should be available 24/7  especially during the budgeting period. The RFS system shall be available 90% of the time all year  and 98% during the budgeting period. 2% of the time  the system will become available within 1 hour of the time that the situation is reported.;A;weak_1;will
+R608;14;A primary database will be used to store cached data for active users.;O;weak_1;will
+R200;4;For any systematic (non-user initiated) action that occurs on a case such as the disputes aging process  a case activity will be generated.  Upon the next logon the user that initiated the dispute case must be notified that a systematic action has occurred on the dispute case.;F;weak_1;will
+R659;19;The client should agree to EULA before using our software.;L;weak_1;should
+R646;18;The meeting scheduler system may (optionally) automatically propose another meeting if current meeting is canceled by an important participant.;F;weak_1;may
+R397;8;When purchasing a streaming movie or pre-paid card via credit card  the processing time should have a maximum response time of 15 seconds.;PE;weak_1;should
+R750;33;The system should keep the customer contact number.;F;weak_1;should
+R268;5;The user shall select to view the preferred repair facility ratings.;F;weak_1;preferred
+R956;48;The system may be throttled or slowed down on heavy loads to ensure service for everybody. By throttling is meant that certain functionality may be unavailable during heavy server load.;PE;weak_1;may
+R425;8;Only registered customers can purchase streaming movies.;SE;weak_1;can
+R667;20;Only users who have been authorized for home access to the corporate Intranet may use the COS from non-company locations.;SE;weak_1;may
+R472;9;Washing parameters will be updated during scheduled maintenance hours.;MN;weak_1;will
+R485;9;The leads washing functionality will verify the users authentication and rights to make parameter updates.;F;weak_1;will
+R771;35;The system will develop a security system that will reduce to the minimum the possibility of corruption from systems and/or humans.;SE;weak_1;will
+R277;6;The product will function alongside server software on any operating system where the Java runtime can be installed.;O;weak_1;can
+R422;8;The website will provide a help section with answers and solutions to common problems.;US;weak_1;will
+R395;8;The website will use standard Internet conventions when interacting with the user.;US;weak_1;will
+R499;10;The product shall protect the identity of the players. The product shall provide players no access to information that might reveal the identity of another player.;PE;weak_1;might
+R539;10;The notification of the game ending will include the reason the game is ended (i.e.  a player has won the game or a player has ended the game).;F;weak_1;will
+R754;33;The system should have to keep the location where the doughnut will be send.;O;weak_1;will
+R421;8;The system will provide a 24 hour 800 toll free number for support to its customers.;A;weak_1;will
+R764;35;The logo and the current basic design of registration system should be displayed. The system should be attractive according to the clients. The design and the color should make users feel comfortable when using the system instead of flashing useless colors on the screen. The design should also reflect the seriousness of the environment.;LF;weak_1;should
+R486;9;The leads washing functionality will store any potential lead duplicates returned by the enterprise system.;F;weak_1;will
+R477;9;The leads washing functionality will insert all leads captured by the web service.;F;weak_1;will
+R964;48;The system should be easy enough to maintain that someone else could do it with a manual and a few hours training.;MN;weak_1;could
+R438;8;The streaming server will have anti-virus software to prevent infection of malicious viruses.;SE;weak_1;will
+R324;6;The product will notify employees of meeting invitations.;F;weak_1;will
+R187;4;The Disputes System must allow the user to create three unique types of ticket retrieval requests.  The three types of ticket retrieval requests are (1) Request for original receipt (2) Request for a copy of the receipt or (3) Request for a portfolio. A portfolio consists of documentation that would provide proof of a purchase such as the documentation that is received from a car rental agency that is more than a sales receipt.;F;weak_1;would
+R682;25;The campus map shall have a pause/resume button. The pause and resume button will allow the user to scroll and select other buildings without being interrupted by the automatic search and announce feature.;LF;weak_1;will
+R319;6;The product shall have the ability to receive automatic software updates as new threats emerge. 100% of customers will be able to receive automatic software updates transmitted to the installed product.;SE;weak_1;will
+R487;9;Prior to submitting the lead to the enterprise system the leads washing functionality will assign the lead to an admissions rep.;F;weak_1;will
+R723;31;Detailed documentation of the code and SRS will enable easy maintenance of the Flea Market.;MN;weak_1;will
+R454;8;System will allow customers to pay for a streaming movie with a pre-paid card.;F;weak_1;will
+R387;8;The product should be able to be used by 90% of novice users on the Internet.;US;weak_1;should
+R106;3;Program Administrators and Nursing Staff Members shall be able to specify the preferred sequence of classes for a given cohort.;F;weak_1;preferred
+R758;34;The system should not leave any cookies on the customer’s computer containing the user’s password.;SE;weak_1;should
+R621;15;The intranet pages should display appropriately in all resolutions  from 800x600 and higher. The display of all the pages will be correct in 95% of the resolutions  prior to implementation. The remaining 5% will be corrected within a week of notification of the incorrect display.;LF;weak_1;will
+R274;5;The user shall select to save the preferred repair facility ratings.;F;weak_1;preferred
+R161;4;The Disputes application shall interface with the Cardmember Posting and Billing System.  This will allow the Disputes application to request adjustments to cardmember and merchant\92s accounts. All adjustment requests must be sent to the Cardmember Posting and Billing System.;O;weak_1;will
+R418;8;Promotional updates to the website should take a day to update.;MN;weak_1;should
+R143;3;Program Administrators/Nursing Staff Members shall have the ability to modify information relating to cohorts including cohort identifier  program of study  preferred sequence of classes and quarters that a cohort will be taking specific classes.;F;weak_1;preferred
+R277;6;The product will function alongside server software on any operating system where the Java runtime can be installed.;O;weak_1;will
+R379;8;System shall let administrator de-activate a customer account in under 1 minute. Customer will no longer be able to access the website.;PE;weak_1;will
+R170;4;The Disputes application shall manipulate and view business data. Users will not have direct access to data files or databases.;SE;weak_1;will
+R792;38;New users can sign up by creating new ID.;F;weak_1;can
+R390;8;An anonymous survey will show that 70% of customers are comfortable purchasing streaming movies after 2 weeks using the website.;US;weak_1;will
+R309;6;Every registered user will have access to the product\92s support site via the Internet.  70% of registered users shall find a solution to their problem within 5 minutes of using the support site.;US;weak_1;will
+R437;8;All credit card information will be encrypted in the database.;SE;weak_1;will
+R278;6;The product will require collaboration with a database management system (DBMS).  The DBMS may be located on the same machine as the product or on a separate machine residing on the same computer network.;O;weak_1;will
+R672;23;95% of users will not need to read the user manual to be able to use the application.;US;weak_1;will
+R674;24;The application should be connected to the Internet.;A;weak_1;should
+R753;33;The system should require the user to state time when should the doughnut be delivered.;F;weak_1;should
+R166;4;The Disputes System shall generate a User Report that details any new users that have been added and any changes to an existing user\92s access level. The report will be reviewed for auditing purposes.;SE;weak_1;will
